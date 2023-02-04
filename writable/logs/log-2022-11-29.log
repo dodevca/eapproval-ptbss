@@ -1,0 +1,1610 @@
+CRITICAL - 2022-11-29 00:00:34 --> Cannot use isset() on the result of an expression (you can use "null !== expression" instead)
+in APPPATH/Controllers/Submissions.php on line 22.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2022-11-29 00:01:33 --> Cannot use isset() on the result of an expression (you can use "null !== expression" instead)
+in APPPATH/Controllers/Submissions.php on line 27.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2022-11-29 00:01:49 --> Cannot use isset() on the result of an expression (you can use "null !== expression" instead)
+in APPPATH/Controllers/Submissions.php on line 27.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2022-11-29 00:01:51 --> Cannot use isset() on the result of an expression (you can use "null !== expression" instead)
+in APPPATH/Controllers/Submissions.php on line 27.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+ERROR - 2022-11-29 00:02:37 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'DESC LIMIT 20 OFFSET 1' at line 1 in /home/u1606672/public_html/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /home/u1606672/public_html/system/Database/MySQLi/Connection.php(292): mysqli->query('SELECT email, p...', 0)
+#1 /home/u1606672/public_html/system/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT email, p...')
+#2 /home/u1606672/public_html/system/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT email, p...')
+#3 /home/u1606672/public_html/app/Controllers/Submissions.php(51): CodeIgniter\Database\BaseConnection->query('SELECT email, p...')
+#4 /home/u1606672/public_html/system/CodeIgniter.php(927): App\Controllers\Submissions->pending()
+#5 /home/u1606672/public_html/system/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Submissions))
+#6 /home/u1606672/public_html/system/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /home/u1606672/public_html/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-11-29 00:02:37 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'DESC LIMIT 20 OFFSET 1' at line 1
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 292.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(292): mysqli->query('SELECT email, proofNumber, submission, dateSubmitted, projectCode FROM submissions WHERE Admin is NULL AND Supervisor_II is NULL AND disapproval = 0 ORDER BY DESC LIMIT 20 OFFSET 1', 0)
+ 2 SYSTEMPATH/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT email, proofNumber, submission, dateSubmitted, projectCode FROM submissions WHERE Admin is NULL AND Supervisor_II is NULL AND disapproval = 0 ORDER BY DESC LIMIT 20 OFFSET 1')
+ 3 SYSTEMPATH/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT email, proofNumber, submission, dateSubmitted, projectCode FROM submissions WHERE Admin is NULL AND Supervisor_II is NULL AND disapproval = 0 ORDER BY DESC LIMIT 20 OFFSET 1')
+ 4 APPPATH/Controllers/Submissions.php(51): CodeIgniter\Database\BaseConnection->query('SELECT email, proofNumber, submission, dateSubmitted, projectCode FROM submissions WHERE Admin is NULL AND Supervisor_II is NULL AND disapproval = 0 ORDER BY DESC LIMIT 20 OFFSET 1')
+ 5 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Submissions->pending()
+ 6 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Submissions))
+ 7 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-11-29 00:04:31 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'DESC LIMIT 20 OFFSET 0' at line 1 in /home/u1606672/public_html/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /home/u1606672/public_html/system/Database/MySQLi/Connection.php(292): mysqli->query('SELECT email, p...', 0)
+#1 /home/u1606672/public_html/system/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT email, p...')
+#2 /home/u1606672/public_html/system/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT email, p...')
+#3 /home/u1606672/public_html/app/Controllers/Submissions.php(51): CodeIgniter\Database\BaseConnection->query('SELECT email, p...')
+#4 /home/u1606672/public_html/system/CodeIgniter.php(927): App\Controllers\Submissions->pending()
+#5 /home/u1606672/public_html/system/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Submissions))
+#6 /home/u1606672/public_html/system/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /home/u1606672/public_html/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-11-29 00:04:31 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'DESC LIMIT 20 OFFSET 0' at line 1
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 292.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(292): mysqli->query('SELECT email, proofNumber, submission, dateSubmitted, projectCode FROM submissions WHERE Admin is NULL AND Supervisor_II is NULL AND disapproval = 0 ORDER BY DESC LIMIT 20 OFFSET 0', 0)
+ 2 SYSTEMPATH/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT email, proofNumber, submission, dateSubmitted, projectCode FROM submissions WHERE Admin is NULL AND Supervisor_II is NULL AND disapproval = 0 ORDER BY DESC LIMIT 20 OFFSET 0')
+ 3 SYSTEMPATH/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT email, proofNumber, submission, dateSubmitted, projectCode FROM submissions WHERE Admin is NULL AND Supervisor_II is NULL AND disapproval = 0 ORDER BY DESC LIMIT 20 OFFSET 0')
+ 4 APPPATH/Controllers/Submissions.php(51): CodeIgniter\Database\BaseConnection->query('SELECT email, proofNumber, submission, dateSubmitted, projectCode FROM submissions WHERE Admin is NULL AND Supervisor_II is NULL AND disapproval = 0 ORDER BY DESC LIMIT 20 OFFSET 0')
+ 5 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Submissions->pending()
+ 6 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Submissions))
+ 7 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-11-29 00:04:34 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'DESC LIMIT 20 OFFSET 0' at line 1 in /home/u1606672/public_html/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /home/u1606672/public_html/system/Database/MySQLi/Connection.php(292): mysqli->query('SELECT email, p...', 0)
+#1 /home/u1606672/public_html/system/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT email, p...')
+#2 /home/u1606672/public_html/system/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT email, p...')
+#3 /home/u1606672/public_html/app/Controllers/Submissions.php(51): CodeIgniter\Database\BaseConnection->query('SELECT email, p...')
+#4 /home/u1606672/public_html/system/CodeIgniter.php(927): App\Controllers\Submissions->pending()
+#5 /home/u1606672/public_html/system/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Submissions))
+#6 /home/u1606672/public_html/system/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /home/u1606672/public_html/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-11-29 00:04:34 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'DESC LIMIT 20 OFFSET 0' at line 1
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 292.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(292): mysqli->query('SELECT email, proofNumber, submission, dateSubmitted, projectCode FROM submissions WHERE Admin is NULL AND Supervisor_II is NULL AND disapproval = 0 ORDER BY DESC LIMIT 20 OFFSET 0', 0)
+ 2 SYSTEMPATH/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT email, proofNumber, submission, dateSubmitted, projectCode FROM submissions WHERE Admin is NULL AND Supervisor_II is NULL AND disapproval = 0 ORDER BY DESC LIMIT 20 OFFSET 0')
+ 3 SYSTEMPATH/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT email, proofNumber, submission, dateSubmitted, projectCode FROM submissions WHERE Admin is NULL AND Supervisor_II is NULL AND disapproval = 0 ORDER BY DESC LIMIT 20 OFFSET 0')
+ 4 APPPATH/Controllers/Submissions.php(51): CodeIgniter\Database\BaseConnection->query('SELECT email, proofNumber, submission, dateSubmitted, projectCode FROM submissions WHERE Admin is NULL AND Supervisor_II is NULL AND disapproval = 0 ORDER BY DESC LIMIT 20 OFFSET 0')
+ 5 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Submissions->pending()
+ 6 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Submissions))
+ 7 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-29 00:05:05 --> Undefined variable: needApproval
+in APPPATH/Controllers/Submissions.php on line 82.
+ 1 APPPATH/Controllers/Submissions.php(82): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: needApproval', 'APPPATH/Controllers/Submissions.php', 82, [...])
+ 2 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Submissions->pending()
+ 3 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Submissions))
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-29 00:13:37 --> Invalid file: submission.php
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 33.
+ 1 SYSTEMPATH/View/View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('submission.php')
+ 2 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render('submission', [], true)
+ 3 APPPATH/Controllers/Submissions.php(97): view('submission', [...])
+ 4 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Submissions->pending()
+ 5 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Submissions))
+ 6 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-29 00:13:39 --> Invalid file: submission.php
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 33.
+ 1 SYSTEMPATH/View/View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('submission.php')
+ 2 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render('submission', [], true)
+ 3 APPPATH/Controllers/Submissions.php(97): view('submission', [...])
+ 4 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Submissions->pending()
+ 5 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Submissions))
+ 6 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-29 00:13:42 --> Invalid file: submission.php
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 33.
+ 1 SYSTEMPATH/View/View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('submission.php')
+ 2 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render('submission', [], true)
+ 3 APPPATH/Controllers/Submissions.php(97): view('submission', [...])
+ 4 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Submissions->pending()
+ 5 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Submissions))
+ 6 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-29 00:13:53 --> Undefined variable: needApproval
+in APPPATH/Views/submission.php on line 26.
+ 1 APPPATH/Views/submission.php(26): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: needApproval', 'APPPATH/Views/submission.php', 26, [...])
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/submission.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render('submission', [], true)
+ 5 APPPATH/Controllers/Submissions.php(97): view('submission', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Submissions->pending()
+ 7 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Submissions))
+ 8 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-29 00:14:34 --> Undefined variable: needApproval
+in APPPATH/Views/submission.php on line 26.
+ 1 APPPATH/Views/submission.php(26): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: needApproval', 'APPPATH/Views/submission.php', 26, [...])
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/submission.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render('submission', [], true)
+ 5 APPPATH/Controllers/Submissions.php(97): view('submission', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Submissions->pending()
+ 7 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Submissions))
+ 8 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-29 00:14:36 --> Undefined variable: needApproval
+in APPPATH/Views/submission.php on line 26.
+ 1 APPPATH/Views/submission.php(26): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: needApproval', 'APPPATH/Views/submission.php', 26, [...])
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/submission.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render('submission', [], true)
+ 5 APPPATH/Controllers/Submissions.php(97): view('submission', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Submissions->pending()
+ 7 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Submissions))
+ 8 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-29 00:14:37 --> Undefined variable: needApproval
+in APPPATH/Views/submission.php on line 26.
+ 1 APPPATH/Views/submission.php(26): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: needApproval', 'APPPATH/Views/submission.php', 26, [...])
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/submission.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render('submission', [], true)
+ 5 APPPATH/Controllers/Submissions.php(97): view('submission', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Submissions->pending()
+ 7 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Submissions))
+ 8 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-29 00:14:38 --> Undefined variable: needApproval
+in APPPATH/Views/submission.php on line 26.
+ 1 APPPATH/Views/submission.php(26): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: needApproval', 'APPPATH/Views/submission.php', 26, [...])
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/submission.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render('submission', [], true)
+ 5 APPPATH/Controllers/Submissions.php(97): view('submission', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Submissions->pending()
+ 7 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Submissions))
+ 8 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-29 00:14:45 --> Undefined variable: needApproval
+in APPPATH/Views/submission.php on line 26.
+ 1 APPPATH/Views/submission.php(26): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: needApproval', 'APPPATH/Views/submission.php', 26, [...])
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/submission.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render('submission', [], true)
+ 5 APPPATH/Controllers/Submissions.php(97): view('submission', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Submissions->pending()
+ 7 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Submissions))
+ 8 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-29 00:14:46 --> Undefined variable: needApproval
+in APPPATH/Views/submission.php on line 26.
+ 1 APPPATH/Views/submission.php(26): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: needApproval', 'APPPATH/Views/submission.php', 26, [...])
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/submission.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render('submission', [], true)
+ 5 APPPATH/Controllers/Submissions.php(97): view('submission', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Submissions->pending()
+ 7 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Submissions))
+ 8 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-29 00:14:46 --> Undefined variable: needApproval
+in APPPATH/Views/submission.php on line 26.
+ 1 APPPATH/Views/submission.php(26): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: needApproval', 'APPPATH/Views/submission.php', 26, [...])
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/submission.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render('submission', [], true)
+ 5 APPPATH/Controllers/Submissions.php(97): view('submission', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Submissions->pending()
+ 7 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Submissions))
+ 8 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-29 00:14:47 --> Undefined variable: needApproval
+in APPPATH/Views/submission.php on line 26.
+ 1 APPPATH/Views/submission.php(26): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: needApproval', 'APPPATH/Views/submission.php', 26, [...])
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/submission.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render('submission', [], true)
+ 5 APPPATH/Controllers/Submissions.php(97): view('submission', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Submissions->pending()
+ 7 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Submissions))
+ 8 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-29 00:14:47 --> Undefined variable: needApproval
+in APPPATH/Views/submission.php on line 26.
+ 1 APPPATH/Views/submission.php(26): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: needApproval', 'APPPATH/Views/submission.php', 26, [...])
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/submission.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render('submission', [], true)
+ 5 APPPATH/Controllers/Submissions.php(97): view('submission', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Submissions->pending()
+ 7 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Submissions))
+ 8 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-29 00:14:47 --> Undefined variable: needApproval
+in APPPATH/Views/submission.php on line 26.
+ 1 APPPATH/Views/submission.php(26): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: needApproval', 'APPPATH/Views/submission.php', 26, [...])
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/submission.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render('submission', [], true)
+ 5 APPPATH/Controllers/Submissions.php(97): view('submission', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Submissions->pending()
+ 7 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Submissions))
+ 8 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-29 00:14:48 --> Undefined variable: needApproval
+in APPPATH/Views/submission.php on line 26.
+ 1 APPPATH/Views/submission.php(26): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: needApproval', 'APPPATH/Views/submission.php', 26, [...])
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/submission.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render('submission', [], true)
+ 5 APPPATH/Controllers/Submissions.php(97): view('submission', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Submissions->pending()
+ 7 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Submissions))
+ 8 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-29 00:14:49 --> Undefined variable: needApproval
+in APPPATH/Views/submission.php on line 26.
+ 1 APPPATH/Views/submission.php(26): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: needApproval', 'APPPATH/Views/submission.php', 26, [...])
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/submission.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render('submission', [], true)
+ 5 APPPATH/Controllers/Submissions.php(97): view('submission', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Submissions->pending()
+ 7 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Submissions))
+ 8 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-29 00:14:49 --> Undefined variable: needApproval
+in APPPATH/Views/submission.php on line 26.
+ 1 APPPATH/Views/submission.php(26): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: needApproval', 'APPPATH/Views/submission.php', 26, [...])
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/submission.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render('submission', [], true)
+ 5 APPPATH/Controllers/Submissions.php(97): view('submission', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Submissions->pending()
+ 7 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Submissions))
+ 8 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-29 00:14:50 --> Undefined variable: needApproval
+in APPPATH/Views/submission.php on line 26.
+ 1 APPPATH/Views/submission.php(26): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: needApproval', 'APPPATH/Views/submission.php', 26, [...])
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/submission.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render('submission', [], true)
+ 5 APPPATH/Controllers/Submissions.php(97): view('submission', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Submissions->pending()
+ 7 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Submissions))
+ 8 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-29 00:14:50 --> Undefined variable: needApproval
+in APPPATH/Views/submission.php on line 26.
+ 1 APPPATH/Views/submission.php(26): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: needApproval', 'APPPATH/Views/submission.php', 26, [...])
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/submission.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render('submission', [], true)
+ 5 APPPATH/Controllers/Submissions.php(97): view('submission', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Submissions->pending()
+ 7 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Submissions))
+ 8 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-29 00:14:50 --> Undefined variable: needApproval
+in APPPATH/Views/submission.php on line 26.
+ 1 APPPATH/Views/submission.php(26): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: needApproval', 'APPPATH/Views/submission.php', 26, [...])
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/submission.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render('submission', [], true)
+ 5 APPPATH/Controllers/Submissions.php(97): view('submission', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Submissions->pending()
+ 7 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Submissions))
+ 8 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-29 00:15:09 --> Undefined variable: needApproval
+in APPPATH/Views/submission.php on line 26.
+ 1 APPPATH/Views/submission.php(26): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: needApproval', 'APPPATH/Views/submission.php', 26, [...])
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/submission.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render('submission', [], true)
+ 5 APPPATH/Controllers/Submissions.php(97): view('submission', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Submissions->pending()
+ 7 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Submissions))
+ 8 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-29 00:15:12 --> Undefined variable: needApproval
+in APPPATH/Views/submission.php on line 26.
+ 1 APPPATH/Views/submission.php(26): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: needApproval', 'APPPATH/Views/submission.php', 26, [...])
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/submission.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render('submission', [], true)
+ 5 APPPATH/Controllers/Submissions.php(97): view('submission', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Submissions->pending()
+ 7 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Submissions))
+ 8 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-29 01:12:05 --> Call to undefined function form_open()
+in APPPATH/Views/login.php on line 33.
+ 1 SYSTEMPATH/View/View.php(213): include()
+ 2 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render('login', [], true)
+ 4 APPPATH/Controllers/Submissions.php(104): view('login')
+ 5 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Submissions->pending()
+ 6 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Submissions))
+ 7 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-29 01:38:53 --> Undefined variable: sort
+in APPPATH/Controllers/Home.php on line 43.
+ 1 APPPATH/Controllers/Home.php(43): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: sort', 'APPPATH/Controllers/Home.php', 43, [...])
+ 2 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Home->index()
+ 3 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-29 01:39:30 --> Undefined variable: name
+in APPPATH/Controllers/Home.php on line 45.
+ 1 APPPATH/Controllers/Home.php(45): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: name', 'APPPATH/Controllers/Home.php', 45, [...])
+ 2 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Home->index()
+ 3 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-29 01:39:33 --> Undefined variable: name
+in APPPATH/Controllers/Home.php on line 45.
+ 1 APPPATH/Controllers/Home.php(45): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: name', 'APPPATH/Controllers/Home.php', 45, [...])
+ 2 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Home->index()
+ 3 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-29 02:02:33 --> Undefined variable: db
+in APPPATH/Controllers/Home.php on line 169.
+ 1 APPPATH/Controllers/Home.php(169): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: db', 'APPPATH/Controllers/Home.php', 169, [...])
+ 2 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Home->setHierarchy()
+ 3 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-29 02:07:58 --> Undefined offset: 0
+in APPPATH/Controllers/Home.php on line 216.
+ 1 APPPATH/Controllers/Home.php(216): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offset: 0', 'APPPATH/Controllers/Home.php', 216, [...])
+ 2 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Home->auth()
+ 3 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-29 02:08:10 --> Undefined offset: 0
+in APPPATH/Controllers/Home.php on line 216.
+ 1 APPPATH/Controllers/Home.php(216): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offset: 0', 'APPPATH/Controllers/Home.php', 216, [...])
+ 2 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Home->auth()
+ 3 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-29 02:09:06 --> Undefined offset: 0
+in APPPATH/Controllers/Home.php on line 216.
+ 1 APPPATH/Controllers/Home.php(216): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offset: 0', 'APPPATH/Controllers/Home.php', 216, [...])
+ 2 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Home->auth()
+ 3 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-29 02:22:32 --> syntax error, unexpected '/'
+in APPPATH/Views/dashboard.php on line 84.
+ 1 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render('dashboard', [], true)
+ 3 APPPATH/Controllers/Home.php(142): view('dashboard', [...])
+ 4 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Home->index()
+ 5 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-29 02:30:59 --> Too few arguments to function App\Controllers\Views::index(), 0 passed in /home/u1606672/public_html/system/CodeIgniter.php on line 927 and exactly 1 expected
+in APPPATH/Controllers/Views.php on line 7.
+ 1 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Views->index()
+ 2 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Views))
+ 3 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-29 02:35:08 --> Undefined variable: page
+in APPPATH/Controllers/Views.php on line 26.
+ 1 APPPATH/Controllers/Views.php(26): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: page', 'APPPATH/Controllers/Views.php', 26, [...])
+ 2 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Views->index('GS-001-123-2022')
+ 3 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Views))
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-29 02:38:54 --> Undefined variable: message
+in APPPATH/Views/submission.php on line 35.
+ 1 APPPATH/Views/submission.php(35): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: message', 'APPPATH/Views/submission.php', 35, [...])
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/submission.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render('submission', [], true)
+ 5 APPPATH/Controllers/Views.php(66): view('submission', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Views->index('GS-001-123-2022')
+ 7 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Views))
+ 8 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-29 02:43:22 --> Undefined variable: needApproval
+in APPPATH/Views/submission.php on line 57.
+ 1 APPPATH/Views/submission.php(57): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: needApproval', 'APPPATH/Views/submission.php', 57, [...])
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/submission.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render('submission', [], true)
+ 5 APPPATH/Controllers/Submissions.php(104): view('submission', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Submissions->pending()
+ 7 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Submissions))
+ 8 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-29 02:43:24 --> Undefined variable: needApproval
+in APPPATH/Views/submission.php on line 57.
+ 1 APPPATH/Views/submission.php(57): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: needApproval', 'APPPATH/Views/submission.php', 57, [...])
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/submission.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render('submission', [], true)
+ 5 APPPATH/Controllers/Submissions.php(104): view('submission', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Submissions->pending()
+ 7 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Submissions))
+ 8 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-29 02:43:36 --> Undefined variable: needApproval
+in APPPATH/Views/submission.php on line 57.
+ 1 APPPATH/Views/submission.php(57): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: needApproval', 'APPPATH/Views/submission.php', 57, [...])
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/submission.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render('submission', [], true)
+ 5 APPPATH/Controllers/Submissions.php(104): view('submission', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Submissions->pending()
+ 7 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Submissions))
+ 8 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-29 02:43:37 --> Undefined variable: needApproval
+in APPPATH/Views/submission.php on line 57.
+ 1 APPPATH/Views/submission.php(57): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: needApproval', 'APPPATH/Views/submission.php', 57, [...])
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/submission.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render('submission', [], true)
+ 5 APPPATH/Controllers/Submissions.php(104): view('submission', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Submissions->pending()
+ 7 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Submissions))
+ 8 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-29 02:43:38 --> Undefined variable: needApproval
+in APPPATH/Views/submission.php on line 57.
+ 1 APPPATH/Views/submission.php(57): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: needApproval', 'APPPATH/Views/submission.php', 57, [...])
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/submission.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render('submission', [], true)
+ 5 APPPATH/Controllers/Submissions.php(104): view('submission', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Submissions->pending()
+ 7 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Submissions))
+ 8 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-29 02:43:51 --> Undefined variable: submission
+in APPPATH/Views/submission.php on line 57.
+ 1 APPPATH/Views/submission.php(57): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: submission', 'APPPATH/Views/submission.php', 57, [...])
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/submission.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render('submission', [], true)
+ 5 APPPATH/Controllers/Submissions.php(104): view('submission', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Submissions->pending()
+ 7 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Submissions))
+ 8 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-29 02:43:52 --> Undefined variable: submission
+in APPPATH/Views/submission.php on line 57.
+ 1 APPPATH/Views/submission.php(57): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: submission', 'APPPATH/Views/submission.php', 57, [...])
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/submission.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render('submission', [], true)
+ 5 APPPATH/Controllers/Submissions.php(104): view('submission', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Submissions->pending()
+ 7 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Submissions))
+ 8 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-29 02:43:53 --> Undefined variable: submission
+in APPPATH/Views/submission.php on line 57.
+ 1 APPPATH/Views/submission.php(57): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: submission', 'APPPATH/Views/submission.php', 57, [...])
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/submission.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render('submission', [], true)
+ 5 APPPATH/Controllers/Submissions.php(104): view('submission', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Submissions->pending()
+ 7 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Submissions))
+ 8 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-29 02:57:51 --> Undefined variable: items
+in APPPATH/Views/view.php on line 104.
+ 1 APPPATH/Views/view.php(104): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: items', 'APPPATH/Views/view.php', 104, [...])
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/view.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render('view', [], true)
+ 5 APPPATH/Controllers/Views.php(66): view('view', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Views->index('GS-001-123-2022')
+ 7 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Views))
+ 8 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-29 03:01:36 --> Undefined offset: 0
+in APPPATH/Views/dashboard.php on line 119.
+ 1 APPPATH/Views/dashboard.php(119): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offset: 0', 'APPPATH/Views/dashboard.php', 119, [...])
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/dashboard.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render('dashboard', [], true)
+ 5 APPPATH/Controllers/Home.php(142): view('dashboard', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Home->index()
+ 7 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-29 03:01:51 --> Undefined offset: 0
+in APPPATH/Views/dashboard.php on line 119.
+ 1 APPPATH/Views/dashboard.php(119): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offset: 0', 'APPPATH/Views/dashboard.php', 119, [...])
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/dashboard.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render('dashboard', [], true)
+ 5 APPPATH/Controllers/Home.php(142): view('dashboard', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Home->index()
+ 7 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-29 03:02:08 --> Undefined offset: 0
+in APPPATH/Views/dashboard.php on line 119.
+ 1 APPPATH/Views/dashboard.php(119): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offset: 0', 'APPPATH/Views/dashboard.php', 119, [...])
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/dashboard.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render('dashboard', [], true)
+ 5 APPPATH/Controllers/Home.php(142): view('dashboard', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Home->index()
+ 7 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-29 03:25:36 --> Undefined variable: approver
+in APPPATH/Views/view.php on line 174.
+ 1 APPPATH/Views/view.php(174): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: approver', 'APPPATH/Views/view.php', 174, [...])
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/view.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render('view', [], true)
+ 5 APPPATH/Controllers/Views.php(66): view('view', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Views->index('GS-031-10-2022')
+ 7 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Views))
+ 8 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-29 12:18:47 --> Invalid file: setting.php
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 33.
+ 1 SYSTEMPATH/View/View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('setting.php')
+ 2 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render('setting', [], true)
+ 3 APPPATH/Controllers/Settings.php(16): view('setting')
+ 4 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Settings->esign()
+ 5 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Settings))
+ 6 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-29 12:19:23 --> Invalid file: setting.php
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 33.
+ 1 SYSTEMPATH/View/View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('setting.php')
+ 2 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render('setting', [], true)
+ 3 APPPATH/Controllers/Settings.php(21): view('setting')
+ 4 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Settings->password()
+ 5 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Settings))
+ 6 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-29 12:19:43 --> Invalid file: setting.php
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 33.
+ 1 SYSTEMPATH/View/View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('setting.php')
+ 2 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render('setting', [], true)
+ 3 APPPATH/Controllers/Settings.php(16): view('setting')
+ 4 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Settings->esign()
+ 5 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Settings))
+ 6 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-29 12:21:11 --> Invalid file: setting.php
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 33.
+ 1 SYSTEMPATH/View/View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('setting.php')
+ 2 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render('setting', [], true)
+ 3 APPPATH/Controllers/Settings.php(16): view('setting')
+ 4 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Settings->esign()
+ 5 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Settings))
+ 6 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-29 13:09:33 --> Invalid file: setting.php
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 33.
+ 1 SYSTEMPATH/View/View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('setting.php')
+ 2 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render('setting', [], true)
+ 3 APPPATH/Controllers/Settings.php(16): view('setting')
+ 4 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Settings->esign()
+ 5 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Settings))
+ 6 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-29 13:12:41 --> Undefined variable: accounts
+in APPPATH/Views/password.php on line 7.
+ 1 APPPATH/Views/password.php(7): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: accounts', 'APPPATH/Views/password.php', 7, [])
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/password.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render('password', [], true)
+ 5 APPPATH/Controllers/Settings.php(21): view('password')
+ 6 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Settings->password()
+ 7 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Settings))
+ 8 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-29 13:13:23 --> Undefined variable: accounts
+in APPPATH/Views/partials/sidenav.php on line 28.
+ 1 APPPATH/Views/partials/sidenav.php(28): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: accounts', 'APPPATH/Views/partials/sidenav.php', 28, [])
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/partials/sidenav.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/View/View.php(431): CodeIgniter\View\View->render('partials/sidenav', null, true)
+ 5 APPPATH/Views/password.php(17): CodeIgniter\View\View->include('partials/sidenav')
+ 6 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/password.php')
+ 7 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render('password', [], true)
+ 9 APPPATH/Controllers/Settings.php(21): view('password')
+10 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Settings->password()
+11 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Settings))
+12 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-29 13:16:40 --> Undefined variable: accounts
+in APPPATH/Views/partials/sidenav.php on line 28.
+ 1 APPPATH/Views/partials/sidenav.php(28): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: accounts', 'APPPATH/Views/partials/sidenav.php', 28, [])
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/partials/sidenav.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/View/View.php(431): CodeIgniter\View\View->render('partials/sidenav', null, true)
+ 5 APPPATH/Views/password.php(17): CodeIgniter\View\View->include('partials/sidenav')
+ 6 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/password.php')
+ 7 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render('password', [], true)
+ 9 APPPATH/Controllers/Settings.php(21): view('password')
+10 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Settings->password()
+11 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Settings))
+12 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-29 13:41:53 --> Invalid file: setting.php
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 33.
+ 1 SYSTEMPATH/View/View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('setting.php')
+ 2 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render('setting', [], true)
+ 3 APPPATH/Controllers/Settings.php(95): view('setting')
+ 4 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Settings->hierarchies()
+ 5 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Settings))
+ 6 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-29 16:52:56 --> Call to undefined function form_open()
+in APPPATH/Views/login.php on line 33.
+ 1 SYSTEMPATH/View/View.php(213): include()
+ 2 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render('login', [], true)
+ 4 APPPATH/Controllers/Submissions.php(22): view('login')
+ 5 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Submissions->pending()
+ 6 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Submissions))
+ 7 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-29 20:22:10 --> Not Found
+in APPPATH/Controllers/Views.php on line 91.
+ 1 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Views->index('GS-001-123-2022')
+ 2 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Views))
+ 3 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-29 20:58:13 --> Undefined property: App\Controllers\Settings::$form_validation
+in APPPATH/Controllers/Settings.php on line 180.
+ 1 APPPATH/Controllers/Settings.php(180): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined property: App\\Controllers\\Settings::$form_validation', 'APPPATH/Controllers/Settings.php', 180, [...])
+ 2 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Settings->setpassword()
+ 3 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Settings))
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-29 20:58:59 --> Call to undefined method CodeIgniter\Validation\Validation::set_message()
+in APPPATH/Controllers/Settings.php on line 180.
+ 1 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Settings->setpassword()
+ 2 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Settings))
+ 3 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-29 20:59:02 --> Call to undefined method CodeIgniter\Validation\Validation::set_message()
+in APPPATH/Controllers/Settings.php on line 180.
+ 1 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Settings->setpassword()
+ 2 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Settings))
+ 3 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-29 21:01:31 --> Call to undefined function validation_errors()
+in APPPATH/Views/password.php on line 35.
+ 1 SYSTEMPATH/View/View.php(213): include()
+ 2 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render('password', [], true)
+ 4 APPPATH/Controllers/Settings.php(151): view('password', [...])
+ 5 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Settings->password()
+ 6 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Settings))
+ 7 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-29 21:03:05 --> Undefined variable: email
+in APPPATH/Controllers/Settings.php on line 185.
+ 1 APPPATH/Controllers/Settings.php(185): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: email', 'APPPATH/Controllers/Settings.php', 185, [...])
+ 2 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Settings->setpassword()
+ 3 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Settings))
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-29 21:03:58 --> Undefined variable: gerQuery
+in APPPATH/Controllers/Settings.php on line 190.
+ 1 APPPATH/Controllers/Settings.php(190): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: gerQuery', 'APPPATH/Controllers/Settings.php', 190, [...])
+ 2 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Settings->setpassword()
+ 3 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Settings))
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-29 21:04:17 --> Undefined variable: validation
+in APPPATH/Views/password.php on line 35.
+ 1 APPPATH/Views/password.php(35): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: validation', 'APPPATH/Views/password.php', 35, [...])
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/password.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render('password', [], true)
+ 5 APPPATH/Controllers/Settings.php(151): view('password', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Settings->password()
+ 7 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Settings))
+ 8 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-29 21:12:46 --> Array to string conversion
+in APPPATH/Views/password.php on line 35.
+ 1 APPPATH/Views/password.php(35): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Array to string conversion', 'APPPATH/Views/password.php', 35, [...])
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/password.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render('password', [], true)
+ 5 APPPATH/Controllers/Settings.php(151): view('password', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Settings->password()
+ 7 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Settings))
+ 8 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-29 21:45:46 --> Undefined variable: data
+in APPPATH/Views/esign.php on line 40.
+ 1 APPPATH/Views/esign.php(40): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: data', 'APPPATH/Views/esign.php', 40, [...])
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/esign.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render('esign', [], true)
+ 5 APPPATH/Controllers/Settings.php(77): view('esign', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Settings->esign()
+ 7 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Settings))
+ 8 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-29 22:55:13 --> Undefined offset: 1
+in APPPATH/Controllers/Settings.php on line 96.
+ 1 APPPATH/Controllers/Settings.php(96): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offset: 1', 'APPPATH/Controllers/Settings.php', 96, [...])
+ 2 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Settings->setesign()
+ 3 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Settings))
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-29 22:56:57 --> Undefined offset: 1
+in APPPATH/Controllers/Settings.php on line 96.
+ 1 APPPATH/Controllers/Settings.php(96): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offset: 1', 'APPPATH/Controllers/Settings.php', 96, [...])
+ 2 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Settings->setesign()
+ 3 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Settings))
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-29 23:05:52 --> Call to a member function move() on string
+in APPPATH/Controllers/Settings.php on line 102.
+ 1 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Settings->setesign()
+ 2 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Settings))
+ 3 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-29 23:13:45 --> Uncaught ErrorException: realpath() expects parameter 1 to be a valid path, string given in /home/u1606672/public_html/system/Common.php:90
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'realpath() expe...', '/home/u1606672/...', 90, Array)
+#1 /home/u1606672/public_html/system/Common.php(90): realpath('\x89PNG\r\n\x1A\n\x00\x00\x00\rIHD...')
+#2 /home/u1606672/public_html/system/Debug/Exceptions.php(516): clean_path('\x89PNG\r\n\x1A\n\x00\x00\x00\rIHD...')
+#3 [internal function]: CodeIgniter\Debug\Exceptions::CodeIgniter\Debug\{closure}('\x89PNG\r\n\x1A\n\x00\x00\x00\rIHD...')
+#4 /home/u1606672/public_html/system/Debug/Exceptions.php(521): array_map(Object(Closure), Array)
+#5 /home/u1606672/public_html/system/Debug/Exceptions.php(115): CodeIgniter\Debug\Exceptions::renderBacktrace(Array)
+#6 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#7 {main}
+  thrown
+in SYSTEMPATH/Common.php on line 90.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2022-11-29 23:13:46 --> Uncaught ErrorException: realpath() expects parameter 1 to be a valid path, string given in /home/u1606672/public_html/system/Common.php:90
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'realpath() expe...', '/home/u1606672/...', 90, Array)
+#1 /home/u1606672/public_html/system/Common.php(90): realpath('\x89PNG\r\n\x1A\n\x00\x00\x00\rIHD...')
+#2 /home/u1606672/public_html/system/Debug/Exceptions.php(516): clean_path('\x89PNG\r\n\x1A\n\x00\x00\x00\rIHD...')
+#3 [internal function]: CodeIgniter\Debug\Exceptions::CodeIgniter\Debug\{closure}('\x89PNG\r\n\x1A\n\x00\x00\x00\rIHD...')
+#4 /home/u1606672/public_html/system/Debug/Exceptions.php(521): array_map(Object(Closure), Array)
+#5 /home/u1606672/public_html/system/Debug/Exceptions.php(115): CodeIgniter\Debug\Exceptions::renderBacktrace(Array)
+#6 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#7 {main}
+  thrown
+in SYSTEMPATH/Common.php on line 90.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2022-11-29 23:13:54 --> Uncaught ErrorException: realpath() expects parameter 1 to be a valid path, string given in /home/u1606672/public_html/system/Common.php:90
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'realpath() expe...', '/home/u1606672/...', 90, Array)
+#1 /home/u1606672/public_html/system/Common.php(90): realpath('\x89PNG\r\n\x1A\n\x00\x00\x00\rIHD...')
+#2 /home/u1606672/public_html/system/Debug/Exceptions.php(516): clean_path('\x89PNG\r\n\x1A\n\x00\x00\x00\rIHD...')
+#3 [internal function]: CodeIgniter\Debug\Exceptions::CodeIgniter\Debug\{closure}('\x89PNG\r\n\x1A\n\x00\x00\x00\rIHD...')
+#4 /home/u1606672/public_html/system/Debug/Exceptions.php(521): array_map(Object(Closure), Array)
+#5 /home/u1606672/public_html/system/Debug/Exceptions.php(115): CodeIgniter\Debug\Exceptions::renderBacktrace(Array)
+#6 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#7 {main}
+  thrown
+in SYSTEMPATH/Common.php on line 90.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2022-11-29 23:15:53 --> Call to undefined function App\Controllers\delete_files()
+in APPPATH/Controllers/Settings.php on line 105.
+ 1 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Settings->setesign()
+ 2 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Settings))
+ 3 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-29 23:16:05 --> Call to undefined function App\Controllers\delete_files()
+in APPPATH/Controllers/Settings.php on line 105.
+ 1 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Settings->setesign()
+ 2 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Settings))
+ 3 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-29 23:16:10 --> Call to undefined function App\Controllers\delete_files()
+in APPPATH/Controllers/Settings.php on line 105.
+ 1 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Settings->setesign()
+ 2 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Settings))
+ 3 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-29 23:16:14 --> Call to undefined function App\Controllers\delete_files()
+in APPPATH/Controllers/Settings.php on line 105.
+ 1 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Settings->setesign()
+ 2 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Settings))
+ 3 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-29 23:17:39 --> Uncaught ErrorException: realpath() expects parameter 1 to be a valid path, string given in /home/u1606672/public_html/system/Common.php:90
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'realpath() expe...', '/home/u1606672/...', 90, Array)
+#1 /home/u1606672/public_html/system/Common.php(90): realpath('\x89PNG\r\n\x1A\n\x00\x00\x00\rIHD...')
+#2 /home/u1606672/public_html/system/Debug/Exceptions.php(516): clean_path('\x89PNG\r\n\x1A\n\x00\x00\x00\rIHD...')
+#3 [internal function]: CodeIgniter\Debug\Exceptions::CodeIgniter\Debug\{closure}('\x89PNG\r\n\x1A\n\x00\x00\x00\rIHD...')
+#4 /home/u1606672/public_html/system/Debug/Exceptions.php(521): array_map(Object(Closure), Array)
+#5 /home/u1606672/public_html/system/Debug/Exceptions.php(115): CodeIgniter\Debug\Exceptions::renderBacktrace(Array)
+#6 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#7 {main}
+  thrown
+in SYSTEMPATH/Common.php on line 90.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2022-11-29 23:17:40 --> Uncaught ErrorException: realpath() expects parameter 1 to be a valid path, string given in /home/u1606672/public_html/system/Common.php:90
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'realpath() expe...', '/home/u1606672/...', 90, Array)
+#1 /home/u1606672/public_html/system/Common.php(90): realpath('\x89PNG\r\n\x1A\n\x00\x00\x00\rIHD...')
+#2 /home/u1606672/public_html/system/Debug/Exceptions.php(516): clean_path('\x89PNG\r\n\x1A\n\x00\x00\x00\rIHD...')
+#3 [internal function]: CodeIgniter\Debug\Exceptions::CodeIgniter\Debug\{closure}('\x89PNG\r\n\x1A\n\x00\x00\x00\rIHD...')
+#4 /home/u1606672/public_html/system/Debug/Exceptions.php(521): array_map(Object(Closure), Array)
+#5 /home/u1606672/public_html/system/Debug/Exceptions.php(115): CodeIgniter\Debug\Exceptions::renderBacktrace(Array)
+#6 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#7 {main}
+  thrown
+in SYSTEMPATH/Common.php on line 90.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2022-11-29 23:17:41 --> Uncaught ErrorException: realpath() expects parameter 1 to be a valid path, string given in /home/u1606672/public_html/system/Common.php:90
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'realpath() expe...', '/home/u1606672/...', 90, Array)
+#1 /home/u1606672/public_html/system/Common.php(90): realpath('\x89PNG\r\n\x1A\n\x00\x00\x00\rIHD...')
+#2 /home/u1606672/public_html/system/Debug/Exceptions.php(516): clean_path('\x89PNG\r\n\x1A\n\x00\x00\x00\rIHD...')
+#3 [internal function]: CodeIgniter\Debug\Exceptions::CodeIgniter\Debug\{closure}('\x89PNG\r\n\x1A\n\x00\x00\x00\rIHD...')
+#4 /home/u1606672/public_html/system/Debug/Exceptions.php(521): array_map(Object(Closure), Array)
+#5 /home/u1606672/public_html/system/Debug/Exceptions.php(115): CodeIgniter\Debug\Exceptions::renderBacktrace(Array)
+#6 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#7 {main}
+  thrown
+in SYSTEMPATH/Common.php on line 90.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2022-11-29 23:17:54 --> Uncaught ErrorException: realpath() expects parameter 1 to be a valid path, string given in /home/u1606672/public_html/system/Common.php:90
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'realpath() expe...', '/home/u1606672/...', 90, Array)
+#1 /home/u1606672/public_html/system/Common.php(90): realpath('\x89PNG\r\n\x1A\n\x00\x00\x00\rIHD...')
+#2 /home/u1606672/public_html/system/Debug/Exceptions.php(516): clean_path('\x89PNG\r\n\x1A\n\x00\x00\x00\rIHD...')
+#3 [internal function]: CodeIgniter\Debug\Exceptions::CodeIgniter\Debug\{closure}('\x89PNG\r\n\x1A\n\x00\x00\x00\rIHD...')
+#4 /home/u1606672/public_html/system/Debug/Exceptions.php(521): array_map(Object(Closure), Array)
+#5 /home/u1606672/public_html/system/Debug/Exceptions.php(115): CodeIgniter\Debug\Exceptions::renderBacktrace(Array)
+#6 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#7 {main}
+  thrown
+in SYSTEMPATH/Common.php on line 90.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2022-11-29 23:17:57 --> Uncaught ErrorException: realpath() expects parameter 1 to be a valid path, string given in /home/u1606672/public_html/system/Common.php:90
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'realpath() expe...', '/home/u1606672/...', 90, Array)
+#1 /home/u1606672/public_html/system/Common.php(90): realpath('\x89PNG\r\n\x1A\n\x00\x00\x00\rIHD...')
+#2 /home/u1606672/public_html/system/Debug/Exceptions.php(516): clean_path('\x89PNG\r\n\x1A\n\x00\x00\x00\rIHD...')
+#3 [internal function]: CodeIgniter\Debug\Exceptions::CodeIgniter\Debug\{closure}('\x89PNG\r\n\x1A\n\x00\x00\x00\rIHD...')
+#4 /home/u1606672/public_html/system/Debug/Exceptions.php(521): array_map(Object(Closure), Array)
+#5 /home/u1606672/public_html/system/Debug/Exceptions.php(115): CodeIgniter\Debug\Exceptions::renderBacktrace(Array)
+#6 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#7 {main}
+  thrown
+in SYSTEMPATH/Common.php on line 90.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2022-11-29 23:21:11 --> Undefined offset: 1
+in APPPATH/Controllers/Settings.php on line 98.
+ 1 APPPATH/Controllers/Settings.php(98): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offset: 1', 'APPPATH/Controllers/Settings.php', 98, [...])
+ 2 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Settings->setesign()
+ 3 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Settings))
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-29 23:30:25 --> Undefined variable: signEncode
+in APPPATH/Controllers/Settings.php on line 108.
+ 1 APPPATH/Controllers/Settings.php(108): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: signEncode', 'APPPATH/Controllers/Settings.php', 108, [...])
+ 2 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Settings->setesign()
+ 3 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Settings))
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-29 23:31:31 --> Uncaught ErrorException: realpath() expects parameter 1 to be a valid path, string given in /home/u1606672/public_html/system/Common.php:90
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'realpath() expe...', '/home/u1606672/...', 90, Array)
+#1 /home/u1606672/public_html/system/Common.php(90): realpath('\x89PNG\r\n\x1A\n\x00\x00\x00\rIHD...')
+#2 /home/u1606672/public_html/system/Debug/Exceptions.php(516): clean_path('\x89PNG\r\n\x1A\n\x00\x00\x00\rIHD...')
+#3 [internal function]: CodeIgniter\Debug\Exceptions::CodeIgniter\Debug\{closure}('\x89PNG\r\n\x1A\n\x00\x00\x00\rIHD...')
+#4 /home/u1606672/public_html/system/Debug/Exceptions.php(521): array_map(Object(Closure), Array)
+#5 /home/u1606672/public_html/system/Debug/Exceptions.php(115): CodeIgniter\Debug\Exceptions::renderBacktrace(Array)
+#6 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#7 {main}
+  thrown
+in SYSTEMPATH/Common.php on line 90.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2022-11-29 23:31:32 --> Uncaught ErrorException: realpath() expects parameter 1 to be a valid path, string given in /home/u1606672/public_html/system/Common.php:90
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'realpath() expe...', '/home/u1606672/...', 90, Array)
+#1 /home/u1606672/public_html/system/Common.php(90): realpath('\x89PNG\r\n\x1A\n\x00\x00\x00\rIHD...')
+#2 /home/u1606672/public_html/system/Debug/Exceptions.php(516): clean_path('\x89PNG\r\n\x1A\n\x00\x00\x00\rIHD...')
+#3 [internal function]: CodeIgniter\Debug\Exceptions::CodeIgniter\Debug\{closure}('\x89PNG\r\n\x1A\n\x00\x00\x00\rIHD...')
+#4 /home/u1606672/public_html/system/Debug/Exceptions.php(521): array_map(Object(Closure), Array)
+#5 /home/u1606672/public_html/system/Debug/Exceptions.php(115): CodeIgniter\Debug\Exceptions::renderBacktrace(Array)
+#6 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#7 {main}
+  thrown
+in SYSTEMPATH/Common.php on line 90.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2022-11-29 23:31:33 --> Uncaught ErrorException: realpath() expects parameter 1 to be a valid path, string given in /home/u1606672/public_html/system/Common.php:90
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'realpath() expe...', '/home/u1606672/...', 90, Array)
+#1 /home/u1606672/public_html/system/Common.php(90): realpath('\x89PNG\r\n\x1A\n\x00\x00\x00\rIHD...')
+#2 /home/u1606672/public_html/system/Debug/Exceptions.php(516): clean_path('\x89PNG\r\n\x1A\n\x00\x00\x00\rIHD...')
+#3 [internal function]: CodeIgniter\Debug\Exceptions::CodeIgniter\Debug\{closure}('\x89PNG\r\n\x1A\n\x00\x00\x00\rIHD...')
+#4 /home/u1606672/public_html/system/Debug/Exceptions.php(521): array_map(Object(Closure), Array)
+#5 /home/u1606672/public_html/system/Debug/Exceptions.php(115): CodeIgniter\Debug\Exceptions::renderBacktrace(Array)
+#6 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#7 {main}
+  thrown
+in SYSTEMPATH/Common.php on line 90.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2022-11-29 23:31:33 --> Uncaught ErrorException: realpath() expects parameter 1 to be a valid path, string given in /home/u1606672/public_html/system/Common.php:90
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'realpath() expe...', '/home/u1606672/...', 90, Array)
+#1 /home/u1606672/public_html/system/Common.php(90): realpath('\x89PNG\r\n\x1A\n\x00\x00\x00\rIHD...')
+#2 /home/u1606672/public_html/system/Debug/Exceptions.php(516): clean_path('\x89PNG\r\n\x1A\n\x00\x00\x00\rIHD...')
+#3 [internal function]: CodeIgniter\Debug\Exceptions::CodeIgniter\Debug\{closure}('\x89PNG\r\n\x1A\n\x00\x00\x00\rIHD...')
+#4 /home/u1606672/public_html/system/Debug/Exceptions.php(521): array_map(Object(Closure), Array)
+#5 /home/u1606672/public_html/system/Debug/Exceptions.php(115): CodeIgniter\Debug\Exceptions::renderBacktrace(Array)
+#6 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#7 {main}
+  thrown
+in SYSTEMPATH/Common.php on line 90.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2022-11-29 23:31:33 --> Uncaught ErrorException: realpath() expects parameter 1 to be a valid path, string given in /home/u1606672/public_html/system/Common.php:90
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'realpath() expe...', '/home/u1606672/...', 90, Array)
+#1 /home/u1606672/public_html/system/Common.php(90): realpath('\x89PNG\r\n\x1A\n\x00\x00\x00\rIHD...')
+#2 /home/u1606672/public_html/system/Debug/Exceptions.php(516): clean_path('\x89PNG\r\n\x1A\n\x00\x00\x00\rIHD...')
+#3 [internal function]: CodeIgniter\Debug\Exceptions::CodeIgniter\Debug\{closure}('\x89PNG\r\n\x1A\n\x00\x00\x00\rIHD...')
+#4 /home/u1606672/public_html/system/Debug/Exceptions.php(521): array_map(Object(Closure), Array)
+#5 /home/u1606672/public_html/system/Debug/Exceptions.php(115): CodeIgniter\Debug\Exceptions::renderBacktrace(Array)
+#6 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#7 {main}
+  thrown
+in SYSTEMPATH/Common.php on line 90.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2022-11-29 23:31:34 --> Uncaught ErrorException: realpath() expects parameter 1 to be a valid path, string given in /home/u1606672/public_html/system/Common.php:90
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'realpath() expe...', '/home/u1606672/...', 90, Array)
+#1 /home/u1606672/public_html/system/Common.php(90): realpath('\x89PNG\r\n\x1A\n\x00\x00\x00\rIHD...')
+#2 /home/u1606672/public_html/system/Debug/Exceptions.php(516): clean_path('\x89PNG\r\n\x1A\n\x00\x00\x00\rIHD...')
+#3 [internal function]: CodeIgniter\Debug\Exceptions::CodeIgniter\Debug\{closure}('\x89PNG\r\n\x1A\n\x00\x00\x00\rIHD...')
+#4 /home/u1606672/public_html/system/Debug/Exceptions.php(521): array_map(Object(Closure), Array)
+#5 /home/u1606672/public_html/system/Debug/Exceptions.php(115): CodeIgniter\Debug\Exceptions::renderBacktrace(Array)
+#6 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#7 {main}
+  thrown
+in SYSTEMPATH/Common.php on line 90.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2022-11-29 23:32:02 --> Uncaught ErrorException: realpath() expects parameter 1 to be a valid path, string given in /home/u1606672/public_html/system/Common.php:90
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'realpath() expe...', '/home/u1606672/...', 90, Array)
+#1 /home/u1606672/public_html/system/Common.php(90): realpath('\x89PNG\r\n\x1A\n\x00\x00\x00\rIHD...')
+#2 /home/u1606672/public_html/system/Debug/Exceptions.php(516): clean_path('\x89PNG\r\n\x1A\n\x00\x00\x00\rIHD...')
+#3 [internal function]: CodeIgniter\Debug\Exceptions::CodeIgniter\Debug\{closure}('\x89PNG\r\n\x1A\n\x00\x00\x00\rIHD...')
+#4 /home/u1606672/public_html/system/Debug/Exceptions.php(521): array_map(Object(Closure), Array)
+#5 /home/u1606672/public_html/system/Debug/Exceptions.php(115): CodeIgniter\Debug\Exceptions::renderBacktrace(Array)
+#6 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#7 {main}
+  thrown
+in SYSTEMPATH/Common.php on line 90.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2022-11-29 23:32:05 --> Uncaught ErrorException: realpath() expects parameter 1 to be a valid path, string given in /home/u1606672/public_html/system/Common.php:90
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'realpath() expe...', '/home/u1606672/...', 90, Array)
+#1 /home/u1606672/public_html/system/Common.php(90): realpath('\x89PNG\r\n\x1A\n\x00\x00\x00\rIHD...')
+#2 /home/u1606672/public_html/system/Debug/Exceptions.php(516): clean_path('\x89PNG\r\n\x1A\n\x00\x00\x00\rIHD...')
+#3 [internal function]: CodeIgniter\Debug\Exceptions::CodeIgniter\Debug\{closure}('\x89PNG\r\n\x1A\n\x00\x00\x00\rIHD...')
+#4 /home/u1606672/public_html/system/Debug/Exceptions.php(521): array_map(Object(Closure), Array)
+#5 /home/u1606672/public_html/system/Debug/Exceptions.php(115): CodeIgniter\Debug\Exceptions::renderBacktrace(Array)
+#6 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#7 {main}
+  thrown
+in SYSTEMPATH/Common.php on line 90.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2022-11-29 23:32:45 --> Uncaught ErrorException: realpath() expects parameter 1 to be a valid path, string given in /home/u1606672/public_html/system/Common.php:90
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'realpath() expe...', '/home/u1606672/...', 90, Array)
+#1 /home/u1606672/public_html/system/Common.php(90): realpath('\x89PNG\r\n\x1A\n\x00\x00\x00\rIHD...')
+#2 /home/u1606672/public_html/system/Debug/Exceptions.php(516): clean_path('\x89PNG\r\n\x1A\n\x00\x00\x00\rIHD...')
+#3 [internal function]: CodeIgniter\Debug\Exceptions::CodeIgniter\Debug\{closure}('\x89PNG\r\n\x1A\n\x00\x00\x00\rIHD...')
+#4 /home/u1606672/public_html/system/Debug/Exceptions.php(521): array_map(Object(Closure), Array)
+#5 /home/u1606672/public_html/system/Debug/Exceptions.php(115): CodeIgniter\Debug\Exceptions::renderBacktrace(Array)
+#6 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#7 {main}
+  thrown
+in SYSTEMPATH/Common.php on line 90.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2022-11-29 23:32:50 --> Uncaught ErrorException: realpath() expects parameter 1 to be a valid path, string given in /home/u1606672/public_html/system/Common.php:90
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'realpath() expe...', '/home/u1606672/...', 90, Array)
+#1 /home/u1606672/public_html/system/Common.php(90): realpath('\x89PNG\r\n\x1A\n\x00\x00\x00\rIHD...')
+#2 /home/u1606672/public_html/system/Debug/Exceptions.php(516): clean_path('\x89PNG\r\n\x1A\n\x00\x00\x00\rIHD...')
+#3 [internal function]: CodeIgniter\Debug\Exceptions::CodeIgniter\Debug\{closure}('\x89PNG\r\n\x1A\n\x00\x00\x00\rIHD...')
+#4 /home/u1606672/public_html/system/Debug/Exceptions.php(521): array_map(Object(Closure), Array)
+#5 /home/u1606672/public_html/system/Debug/Exceptions.php(115): CodeIgniter\Debug\Exceptions::renderBacktrace(Array)
+#6 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#7 {main}
+  thrown
+in SYSTEMPATH/Common.php on line 90.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2022-11-29 23:35:16 --> Uncaught ErrorException: realpath() expects parameter 1 to be a valid path, string given in /home/u1606672/public_html/system/Common.php:90
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'realpath() expe...', '/home/u1606672/...', 90, Array)
+#1 /home/u1606672/public_html/system/Common.php(90): realpath('\x89PNG\r\n\x1A\n\x00\x00\x00\rIHD...')
+#2 /home/u1606672/public_html/system/Debug/Exceptions.php(516): clean_path('\x89PNG\r\n\x1A\n\x00\x00\x00\rIHD...')
+#3 [internal function]: CodeIgniter\Debug\Exceptions::CodeIgniter\Debug\{closure}('\x89PNG\r\n\x1A\n\x00\x00\x00\rIHD...')
+#4 /home/u1606672/public_html/system/Debug/Exceptions.php(521): array_map(Object(Closure), Array)
+#5 /home/u1606672/public_html/system/Debug/Exceptions.php(115): CodeIgniter\Debug\Exceptions::renderBacktrace(Array)
+#6 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#7 {main}
+  thrown
+in SYSTEMPATH/Common.php on line 90.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2022-11-29 23:35:19 --> Uncaught ErrorException: realpath() expects parameter 1 to be a valid path, string given in /home/u1606672/public_html/system/Common.php:90
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'realpath() expe...', '/home/u1606672/...', 90, Array)
+#1 /home/u1606672/public_html/system/Common.php(90): realpath('\x89PNG\r\n\x1A\n\x00\x00\x00\rIHD...')
+#2 /home/u1606672/public_html/system/Debug/Exceptions.php(516): clean_path('\x89PNG\r\n\x1A\n\x00\x00\x00\rIHD...')
+#3 [internal function]: CodeIgniter\Debug\Exceptions::CodeIgniter\Debug\{closure}('\x89PNG\r\n\x1A\n\x00\x00\x00\rIHD...')
+#4 /home/u1606672/public_html/system/Debug/Exceptions.php(521): array_map(Object(Closure), Array)
+#5 /home/u1606672/public_html/system/Debug/Exceptions.php(115): CodeIgniter\Debug\Exceptions::renderBacktrace(Array)
+#6 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#7 {main}
+  thrown
+in SYSTEMPATH/Common.php on line 90.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2022-11-29 23:35:21 --> Uncaught ErrorException: realpath() expects parameter 1 to be a valid path, string given in /home/u1606672/public_html/system/Common.php:90
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'realpath() expe...', '/home/u1606672/...', 90, Array)
+#1 /home/u1606672/public_html/system/Common.php(90): realpath('\x89PNG\r\n\x1A\n\x00\x00\x00\rIHD...')
+#2 /home/u1606672/public_html/system/Debug/Exceptions.php(516): clean_path('\x89PNG\r\n\x1A\n\x00\x00\x00\rIHD...')
+#3 [internal function]: CodeIgniter\Debug\Exceptions::CodeIgniter\Debug\{closure}('\x89PNG\r\n\x1A\n\x00\x00\x00\rIHD...')
+#4 /home/u1606672/public_html/system/Debug/Exceptions.php(521): array_map(Object(Closure), Array)
+#5 /home/u1606672/public_html/system/Debug/Exceptions.php(115): CodeIgniter\Debug\Exceptions::renderBacktrace(Array)
+#6 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#7 {main}
+  thrown
+in SYSTEMPATH/Common.php on line 90.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2022-11-29 23:36:23 --> imagecreatefrompng(): gd-png: fatal libpng error: IHDR: CRC error
+
+in APPPATH/Controllers/Settings.php on line 105.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'imagecreatefrompng(): gd-png: fatal libpng error: IHDR: CRC error
+', 'APPPATH/Controllers/Settings.php', 105, [...])
+ 2 APPPATH/Controllers/Settings.php(105): imagecreatefrompng('FCPATH/uploads/signatures/b25lc0BwdGJzcy5jb20=.png')
+ 3 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Settings->setesign()
+ 4 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Settings))
+ 5 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-29 23:36:25 --> imagecreatefrompng(): gd-png: fatal libpng error: IHDR: CRC error
+
+in APPPATH/Controllers/Settings.php on line 105.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'imagecreatefrompng(): gd-png: fatal libpng error: IHDR: CRC error
+', 'APPPATH/Controllers/Settings.php', 105, [...])
+ 2 APPPATH/Controllers/Settings.php(105): imagecreatefrompng('FCPATH/uploads/signatures/b25lc0BwdGJzcy5jb20=.png')
+ 3 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Settings->setesign()
+ 4 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Settings))
+ 5 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-29 23:36:29 --> imagecreatefrompng(): gd-png: fatal libpng error: IHDR: CRC error
+
+in APPPATH/Controllers/Settings.php on line 105.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'imagecreatefrompng(): gd-png: fatal libpng error: IHDR: CRC error
+', 'APPPATH/Controllers/Settings.php', 105, [...])
+ 2 APPPATH/Controllers/Settings.php(105): imagecreatefrompng('FCPATH/uploads/signatures/b25lc0BwdGJzcy5jb20=.png')
+ 3 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Settings->setesign()
+ 4 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Settings))
+ 5 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-29 23:36:29 --> Uncaught CodeIgniter\Format\Exceptions\FormatException: Failed to parse json string, error: "Malformed UTF-8 characters, possibly incorrectly encoded". in /home/u1606672/public_html/system/Format/JSONFormatter.php:41
+Stack trace:
+#0 /home/u1606672/public_html/system/Format/JSONFormatter.php(41): CodeIgniter\Format\Exceptions\FormatException::forInvalidJSON('Malformed UTF-8...')
+#1 /home/u1606672/public_html/system/API/ResponseTrait.php(348): CodeIgniter\Format\JSONFormatter->format(Array)
+#2 /home/u1606672/public_html/system/API/ResponseTrait.php(99): CodeIgniter\Debug\Exceptions->format(Array)
+#3 /home/u1606672/public_html/system/Debug/Exceptions.php(133): CodeIgniter\Debug\Exceptions->respond(Array, 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#5 {main}
+  thrown
+in SYSTEMPATH/Format/JSONFormatter.php on line 41.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2022-11-29 23:36:45 --> Uncaught ErrorException: realpath() expects parameter 1 to be a valid path, string given in /home/u1606672/public_html/system/Common.php:90
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'realpath() expe...', '/home/u1606672/...', 90, Array)
+#1 /home/u1606672/public_html/system/Common.php(90): realpath('\x89PNG\r\n\x1A\n\x00\x00\x00\rIHD...')
+#2 /home/u1606672/public_html/system/Debug/Exceptions.php(516): clean_path('\x89PNG\r\n\x1A\n\x00\x00\x00\rIHD...')
+#3 [internal function]: CodeIgniter\Debug\Exceptions::CodeIgniter\Debug\{closure}('\x89PNG\r\n\x1A\n\x00\x00\x00\rIHD...')
+#4 /home/u1606672/public_html/system/Debug/Exceptions.php(521): array_map(Object(Closure), Array)
+#5 /home/u1606672/public_html/system/Debug/Exceptions.php(115): CodeIgniter\Debug\Exceptions::renderBacktrace(Array)
+#6 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#7 {main}
+  thrown
+in SYSTEMPATH/Common.php on line 90.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2022-11-29 23:37:03 --> Uncaught ErrorException: realpath() expects parameter 1 to be a valid path, string given in /home/u1606672/public_html/system/Common.php:90
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'realpath() expe...', '/home/u1606672/...', 90, Array)
+#1 /home/u1606672/public_html/system/Common.php(90): realpath('\x89PNG\r\n\x1A\n\x00\x00\x00\rIHD...')
+#2 /home/u1606672/public_html/system/Debug/Exceptions.php(516): clean_path('\x89PNG\r\n\x1A\n\x00\x00\x00\rIHD...')
+#3 [internal function]: CodeIgniter\Debug\Exceptions::CodeIgniter\Debug\{closure}('\x89PNG\r\n\x1A\n\x00\x00\x00\rIHD...')
+#4 /home/u1606672/public_html/system/Debug/Exceptions.php(521): array_map(Object(Closure), Array)
+#5 /home/u1606672/public_html/system/Debug/Exceptions.php(115): CodeIgniter\Debug\Exceptions::renderBacktrace(Array)
+#6 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#7 {main}
+  thrown
+in SYSTEMPATH/Common.php on line 90.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2022-11-29 23:41:12 --> Undefined variable: path
+in APPPATH/Controllers/Settings.php on line 93.
+ 1 APPPATH/Controllers/Settings.php(93): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: path', 'APPPATH/Controllers/Settings.php', 93, [...])
+ 2 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Settings->setesign()
+ 3 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Settings))
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-29 23:41:14 --> Undefined variable: path
+in APPPATH/Controllers/Settings.php on line 93.
+ 1 APPPATH/Controllers/Settings.php(93): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: path', 'APPPATH/Controllers/Settings.php', 93, [...])
+ 2 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Settings->setesign()
+ 3 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Settings))
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-29 23:41:27 --> Call to a member function move() on string
+in APPPATH/Controllers/Settings.php on line 104.
+ 1 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Settings->setesign()
+ 2 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Settings))
+ 3 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-29 23:41:28 --> Call to a member function move() on string
+in APPPATH/Controllers/Settings.php on line 104.
+ 1 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Settings->setesign()
+ 2 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Settings))
+ 3 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-29 23:45:53 --> Call to a member function move() on string
+in APPPATH/Controllers/Settings.php on line 104.
+ 1 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Settings->setesign()
+ 2 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Settings))
+ 3 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-29 23:45:55 --> Call to a member function move() on string
+in APPPATH/Controllers/Settings.php on line 104.
+ 1 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Settings->setesign()
+ 2 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Settings))
+ 3 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-29 23:45:56 --> Call to a member function move() on string
+in APPPATH/Controllers/Settings.php on line 104.
+ 1 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Settings->setesign()
+ 2 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Settings))
+ 3 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-29 23:45:57 --> Call to a member function move() on string
+in APPPATH/Controllers/Settings.php on line 104.
+ 1 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Settings->setesign()
+ 2 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Settings))
+ 3 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-29 23:45:57 --> Call to a member function move() on string
+in APPPATH/Controllers/Settings.php on line 104.
+ 1 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Settings->setesign()
+ 2 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Settings))
+ 3 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-29 23:46:27 --> Uncaught ErrorException: realpath() expects parameter 1 to be a valid path, string given in /home/u1606672/public_html/system/Common.php:90
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'realpath() expe...', '/home/u1606672/...', 90, Array)
+#1 /home/u1606672/public_html/system/Common.php(90): realpath('\x89PNG\r\n\x1A\n\x00\x00\x00\rIHD...')
+#2 /home/u1606672/public_html/system/Debug/Exceptions.php(516): clean_path('\x89PNG\r\n\x1A\n\x00\x00\x00\rIHD...')
+#3 [internal function]: CodeIgniter\Debug\Exceptions::CodeIgniter\Debug\{closure}('\x89PNG\r\n\x1A\n\x00\x00\x00\rIHD...')
+#4 /home/u1606672/public_html/system/Debug/Exceptions.php(521): array_map(Object(Closure), Array)
+#5 /home/u1606672/public_html/system/Debug/Exceptions.php(115): CodeIgniter\Debug\Exceptions::renderBacktrace(Array)
+#6 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#7 {main}
+  thrown
+in SYSTEMPATH/Common.php on line 90.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2022-11-29 23:47:08 --> Uncaught ErrorException: realpath() expects parameter 1 to be a valid path, string given in /home/u1606672/public_html/system/Common.php:90
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'realpath() expe...', '/home/u1606672/...', 90, Array)
+#1 /home/u1606672/public_html/system/Common.php(90): realpath('\x89PNG\r\n\x1A\n\x00\x00\x00\rIHD...')
+#2 /home/u1606672/public_html/system/Debug/Exceptions.php(516): clean_path('\x89PNG\r\n\x1A\n\x00\x00\x00\rIHD...')
+#3 [internal function]: CodeIgniter\Debug\Exceptions::CodeIgniter\Debug\{closure}('\x89PNG\r\n\x1A\n\x00\x00\x00\rIHD...')
+#4 /home/u1606672/public_html/system/Debug/Exceptions.php(521): array_map(Object(Closure), Array)
+#5 /home/u1606672/public_html/system/Debug/Exceptions.php(115): CodeIgniter\Debug\Exceptions::renderBacktrace(Array)
+#6 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#7 {main}
+  thrown
+in SYSTEMPATH/Common.php on line 90.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2022-11-29 23:47:09 --> Uncaught ErrorException: realpath() expects parameter 1 to be a valid path, string given in /home/u1606672/public_html/system/Common.php:90
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'realpath() expe...', '/home/u1606672/...', 90, Array)
+#1 /home/u1606672/public_html/system/Common.php(90): realpath('\x89PNG\r\n\x1A\n\x00\x00\x00\rIHD...')
+#2 /home/u1606672/public_html/system/Debug/Exceptions.php(516): clean_path('\x89PNG\r\n\x1A\n\x00\x00\x00\rIHD...')
+#3 [internal function]: CodeIgniter\Debug\Exceptions::CodeIgniter\Debug\{closure}('\x89PNG\r\n\x1A\n\x00\x00\x00\rIHD...')
+#4 /home/u1606672/public_html/system/Debug/Exceptions.php(521): array_map(Object(Closure), Array)
+#5 /home/u1606672/public_html/system/Debug/Exceptions.php(115): CodeIgniter\Debug\Exceptions::renderBacktrace(Array)
+#6 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#7 {main}
+  thrown
+in SYSTEMPATH/Common.php on line 90.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2022-11-29 23:47:10 --> Uncaught ErrorException: realpath() expects parameter 1 to be a valid path, string given in /home/u1606672/public_html/system/Common.php:90
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'realpath() expe...', '/home/u1606672/...', 90, Array)
+#1 /home/u1606672/public_html/system/Common.php(90): realpath('\x89PNG\r\n\x1A\n\x00\x00\x00\rIHD...')
+#2 /home/u1606672/public_html/system/Debug/Exceptions.php(516): clean_path('\x89PNG\r\n\x1A\n\x00\x00\x00\rIHD...')
+#3 [internal function]: CodeIgniter\Debug\Exceptions::CodeIgniter\Debug\{closure}('\x89PNG\r\n\x1A\n\x00\x00\x00\rIHD...')
+#4 /home/u1606672/public_html/system/Debug/Exceptions.php(521): array_map(Object(Closure), Array)
+#5 /home/u1606672/public_html/system/Debug/Exceptions.php(115): CodeIgniter\Debug\Exceptions::renderBacktrace(Array)
+#6 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#7 {main}
+  thrown
+in SYSTEMPATH/Common.php on line 90.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2022-11-29 23:47:11 --> Uncaught ErrorException: realpath() expects parameter 1 to be a valid path, string given in /home/u1606672/public_html/system/Common.php:90
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'realpath() expe...', '/home/u1606672/...', 90, Array)
+#1 /home/u1606672/public_html/system/Common.php(90): realpath('\x89PNG\r\n\x1A\n\x00\x00\x00\rIHD...')
+#2 /home/u1606672/public_html/system/Debug/Exceptions.php(516): clean_path('\x89PNG\r\n\x1A\n\x00\x00\x00\rIHD...')
+#3 [internal function]: CodeIgniter\Debug\Exceptions::CodeIgniter\Debug\{closure}('\x89PNG\r\n\x1A\n\x00\x00\x00\rIHD...')
+#4 /home/u1606672/public_html/system/Debug/Exceptions.php(521): array_map(Object(Closure), Array)
+#5 /home/u1606672/public_html/system/Debug/Exceptions.php(115): CodeIgniter\Debug\Exceptions::renderBacktrace(Array)
+#6 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#7 {main}
+  thrown
+in SYSTEMPATH/Common.php on line 90.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2022-11-29 23:48:06 --> Uncaught ErrorException: realpath() expects parameter 1 to be a valid path, string given in /home/u1606672/public_html/system/Common.php:90
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'realpath() expe...', '/home/u1606672/...', 90, Array)
+#1 /home/u1606672/public_html/system/Common.php(90): realpath('\x89PNG\r\n\x1A\n\x00\x00\x00\rIHD...')
+#2 /home/u1606672/public_html/system/Debug/Exceptions.php(516): clean_path('\x89PNG\r\n\x1A\n\x00\x00\x00\rIHD...')
+#3 [internal function]: CodeIgniter\Debug\Exceptions::CodeIgniter\Debug\{closure}('\x89PNG\r\n\x1A\n\x00\x00\x00\rIHD...')
+#4 /home/u1606672/public_html/system/Debug/Exceptions.php(521): array_map(Object(Closure), Array)
+#5 /home/u1606672/public_html/system/Debug/Exceptions.php(115): CodeIgniter\Debug\Exceptions::renderBacktrace(Array)
+#6 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#7 {main}
+  thrown
+in SYSTEMPATH/Common.php on line 90.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2022-11-29 23:48:07 --> Uncaught ErrorException: realpath() expects parameter 1 to be a valid path, string given in /home/u1606672/public_html/system/Common.php:90
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'realpath() expe...', '/home/u1606672/...', 90, Array)
+#1 /home/u1606672/public_html/system/Common.php(90): realpath('\x89PNG\r\n\x1A\n\x00\x00\x00\rIHD...')
+#2 /home/u1606672/public_html/system/Debug/Exceptions.php(516): clean_path('\x89PNG\r\n\x1A\n\x00\x00\x00\rIHD...')
+#3 [internal function]: CodeIgniter\Debug\Exceptions::CodeIgniter\Debug\{closure}('\x89PNG\r\n\x1A\n\x00\x00\x00\rIHD...')
+#4 /home/u1606672/public_html/system/Debug/Exceptions.php(521): array_map(Object(Closure), Array)
+#5 /home/u1606672/public_html/system/Debug/Exceptions.php(115): CodeIgniter\Debug\Exceptions::renderBacktrace(Array)
+#6 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#7 {main}
+  thrown
+in SYSTEMPATH/Common.php on line 90.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2022-11-29 23:48:07 --> Uncaught ErrorException: realpath() expects parameter 1 to be a valid path, string given in /home/u1606672/public_html/system/Common.php:90
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'realpath() expe...', '/home/u1606672/...', 90, Array)
+#1 /home/u1606672/public_html/system/Common.php(90): realpath('\x89PNG\r\n\x1A\n\x00\x00\x00\rIHD...')
+#2 /home/u1606672/public_html/system/Debug/Exceptions.php(516): clean_path('\x89PNG\r\n\x1A\n\x00\x00\x00\rIHD...')
+#3 [internal function]: CodeIgniter\Debug\Exceptions::CodeIgniter\Debug\{closure}('\x89PNG\r\n\x1A\n\x00\x00\x00\rIHD...')
+#4 /home/u1606672/public_html/system/Debug/Exceptions.php(521): array_map(Object(Closure), Array)
+#5 /home/u1606672/public_html/system/Debug/Exceptions.php(115): CodeIgniter\Debug\Exceptions::renderBacktrace(Array)
+#6 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#7 {main}
+  thrown
+in SYSTEMPATH/Common.php on line 90.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2022-11-29 23:48:08 --> Uncaught ErrorException: realpath() expects parameter 1 to be a valid path, string given in /home/u1606672/public_html/system/Common.php:90
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'realpath() expe...', '/home/u1606672/...', 90, Array)
+#1 /home/u1606672/public_html/system/Common.php(90): realpath('\x89PNG\r\n\x1A\n\x00\x00\x00\rIHD...')
+#2 /home/u1606672/public_html/system/Debug/Exceptions.php(516): clean_path('\x89PNG\r\n\x1A\n\x00\x00\x00\rIHD...')
+#3 [internal function]: CodeIgniter\Debug\Exceptions::CodeIgniter\Debug\{closure}('\x89PNG\r\n\x1A\n\x00\x00\x00\rIHD...')
+#4 /home/u1606672/public_html/system/Debug/Exceptions.php(521): array_map(Object(Closure), Array)
+#5 /home/u1606672/public_html/system/Debug/Exceptions.php(115): CodeIgniter\Debug\Exceptions::renderBacktrace(Array)
+#6 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#7 {main}
+  thrown
+in SYSTEMPATH/Common.php on line 90.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2022-11-29 23:48:11 --> Uncaught ErrorException: realpath() expects parameter 1 to be a valid path, string given in /home/u1606672/public_html/system/Common.php:90
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'realpath() expe...', '/home/u1606672/...', 90, Array)
+#1 /home/u1606672/public_html/system/Common.php(90): realpath('\x89PNG\r\n\x1A\n\x00\x00\x00\rIHD...')
+#2 /home/u1606672/public_html/system/Debug/Exceptions.php(516): clean_path('\x89PNG\r\n\x1A\n\x00\x00\x00\rIHD...')
+#3 [internal function]: CodeIgniter\Debug\Exceptions::CodeIgniter\Debug\{closure}('\x89PNG\r\n\x1A\n\x00\x00\x00\rIHD...')
+#4 /home/u1606672/public_html/system/Debug/Exceptions.php(521): array_map(Object(Closure), Array)
+#5 /home/u1606672/public_html/system/Debug/Exceptions.php(115): CodeIgniter\Debug\Exceptions::renderBacktrace(Array)
+#6 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#7 {main}
+  thrown
+in SYSTEMPATH/Common.php on line 90.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2022-11-29 23:48:22 --> Uncaught ErrorException: realpath() expects parameter 1 to be a valid path, string given in /home/u1606672/public_html/system/Common.php:90
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'realpath() expe...', '/home/u1606672/...', 90, Array)
+#1 /home/u1606672/public_html/system/Common.php(90): realpath('\x89PNG\r\n\x1A\n\x00\x00\x00\rIHD...')
+#2 /home/u1606672/public_html/system/Debug/Exceptions.php(516): clean_path('\x89PNG\r\n\x1A\n\x00\x00\x00\rIHD...')
+#3 [internal function]: CodeIgniter\Debug\Exceptions::CodeIgniter\Debug\{closure}('\x89PNG\r\n\x1A\n\x00\x00\x00\rIHD...')
+#4 /home/u1606672/public_html/system/Debug/Exceptions.php(521): array_map(Object(Closure), Array)
+#5 /home/u1606672/public_html/system/Debug/Exceptions.php(115): CodeIgniter\Debug\Exceptions::renderBacktrace(Array)
+#6 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#7 {main}
+  thrown
+in SYSTEMPATH/Common.php on line 90.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2022-11-29 23:48:23 --> Uncaught ErrorException: realpath() expects parameter 1 to be a valid path, string given in /home/u1606672/public_html/system/Common.php:90
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'realpath() expe...', '/home/u1606672/...', 90, Array)
+#1 /home/u1606672/public_html/system/Common.php(90): realpath('\x89PNG\r\n\x1A\n\x00\x00\x00\rIHD...')
+#2 /home/u1606672/public_html/system/Debug/Exceptions.php(516): clean_path('\x89PNG\r\n\x1A\n\x00\x00\x00\rIHD...')
+#3 [internal function]: CodeIgniter\Debug\Exceptions::CodeIgniter\Debug\{closure}('\x89PNG\r\n\x1A\n\x00\x00\x00\rIHD...')
+#4 /home/u1606672/public_html/system/Debug/Exceptions.php(521): array_map(Object(Closure), Array)
+#5 /home/u1606672/public_html/system/Debug/Exceptions.php(115): CodeIgniter\Debug\Exceptions::renderBacktrace(Array)
+#6 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#7 {main}
+  thrown
+in SYSTEMPATH/Common.php on line 90.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2022-11-29 23:48:24 --> Uncaught ErrorException: realpath() expects parameter 1 to be a valid path, string given in /home/u1606672/public_html/system/Common.php:90
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'realpath() expe...', '/home/u1606672/...', 90, Array)
+#1 /home/u1606672/public_html/system/Common.php(90): realpath('\x89PNG\r\n\x1A\n\x00\x00\x00\rIHD...')
+#2 /home/u1606672/public_html/system/Debug/Exceptions.php(516): clean_path('\x89PNG\r\n\x1A\n\x00\x00\x00\rIHD...')
+#3 [internal function]: CodeIgniter\Debug\Exceptions::CodeIgniter\Debug\{closure}('\x89PNG\r\n\x1A\n\x00\x00\x00\rIHD...')
+#4 /home/u1606672/public_html/system/Debug/Exceptions.php(521): array_map(Object(Closure), Array)
+#5 /home/u1606672/public_html/system/Debug/Exceptions.php(115): CodeIgniter\Debug\Exceptions::renderBacktrace(Array)
+#6 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#7 {main}
+  thrown
+in SYSTEMPATH/Common.php on line 90.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2022-11-29 23:48:25 --> Uncaught ErrorException: realpath() expects parameter 1 to be a valid path, string given in /home/u1606672/public_html/system/Common.php:90
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'realpath() expe...', '/home/u1606672/...', 90, Array)
+#1 /home/u1606672/public_html/system/Common.php(90): realpath('\x89PNG\r\n\x1A\n\x00\x00\x00\rIHD...')
+#2 /home/u1606672/public_html/system/Debug/Exceptions.php(516): clean_path('\x89PNG\r\n\x1A\n\x00\x00\x00\rIHD...')
+#3 [internal function]: CodeIgniter\Debug\Exceptions::CodeIgniter\Debug\{closure}('\x89PNG\r\n\x1A\n\x00\x00\x00\rIHD...')
+#4 /home/u1606672/public_html/system/Debug/Exceptions.php(521): array_map(Object(Closure), Array)
+#5 /home/u1606672/public_html/system/Debug/Exceptions.php(115): CodeIgniter\Debug\Exceptions::renderBacktrace(Array)
+#6 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#7 {main}
+  thrown
+in SYSTEMPATH/Common.php on line 90.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2022-11-29 23:48:26 --> Uncaught ErrorException: realpath() expects parameter 1 to be a valid path, string given in /home/u1606672/public_html/system/Common.php:90
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'realpath() expe...', '/home/u1606672/...', 90, Array)
+#1 /home/u1606672/public_html/system/Common.php(90): realpath('\x89PNG\r\n\x1A\n\x00\x00\x00\rIHD...')
+#2 /home/u1606672/public_html/system/Debug/Exceptions.php(516): clean_path('\x89PNG\r\n\x1A\n\x00\x00\x00\rIHD...')
+#3 [internal function]: CodeIgniter\Debug\Exceptions::CodeIgniter\Debug\{closure}('\x89PNG\r\n\x1A\n\x00\x00\x00\rIHD...')
+#4 /home/u1606672/public_html/system/Debug/Exceptions.php(521): array_map(Object(Closure), Array)
+#5 /home/u1606672/public_html/system/Debug/Exceptions.php(115): CodeIgniter\Debug\Exceptions::renderBacktrace(Array)
+#6 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#7 {main}
+  thrown
+in SYSTEMPATH/Common.php on line 90.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2022-11-29 23:48:26 --> Uncaught ErrorException: realpath() expects parameter 1 to be a valid path, string given in /home/u1606672/public_html/system/Common.php:90
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'realpath() expe...', '/home/u1606672/...', 90, Array)
+#1 /home/u1606672/public_html/system/Common.php(90): realpath('\x89PNG\r\n\x1A\n\x00\x00\x00\rIHD...')
+#2 /home/u1606672/public_html/system/Debug/Exceptions.php(516): clean_path('\x89PNG\r\n\x1A\n\x00\x00\x00\rIHD...')
+#3 [internal function]: CodeIgniter\Debug\Exceptions::CodeIgniter\Debug\{closure}('\x89PNG\r\n\x1A\n\x00\x00\x00\rIHD...')
+#4 /home/u1606672/public_html/system/Debug/Exceptions.php(521): array_map(Object(Closure), Array)
+#5 /home/u1606672/public_html/system/Debug/Exceptions.php(115): CodeIgniter\Debug\Exceptions::renderBacktrace(Array)
+#6 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#7 {main}
+  thrown
+in SYSTEMPATH/Common.php on line 90.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2022-11-29 23:48:27 --> Uncaught ErrorException: realpath() expects parameter 1 to be a valid path, string given in /home/u1606672/public_html/system/Common.php:90
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'realpath() expe...', '/home/u1606672/...', 90, Array)
+#1 /home/u1606672/public_html/system/Common.php(90): realpath('\x89PNG\r\n\x1A\n\x00\x00\x00\rIHD...')
+#2 /home/u1606672/public_html/system/Debug/Exceptions.php(516): clean_path('\x89PNG\r\n\x1A\n\x00\x00\x00\rIHD...')
+#3 [internal function]: CodeIgniter\Debug\Exceptions::CodeIgniter\Debug\{closure}('\x89PNG\r\n\x1A\n\x00\x00\x00\rIHD...')
+#4 /home/u1606672/public_html/system/Debug/Exceptions.php(521): array_map(Object(Closure), Array)
+#5 /home/u1606672/public_html/system/Debug/Exceptions.php(115): CodeIgniter\Debug\Exceptions::renderBacktrace(Array)
+#6 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#7 {main}
+  thrown
+in SYSTEMPATH/Common.php on line 90.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2022-11-29 23:48:27 --> Uncaught ErrorException: realpath() expects parameter 1 to be a valid path, string given in /home/u1606672/public_html/system/Common.php:90
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'realpath() expe...', '/home/u1606672/...', 90, Array)
+#1 /home/u1606672/public_html/system/Common.php(90): realpath('\x89PNG\r\n\x1A\n\x00\x00\x00\rIHD...')
+#2 /home/u1606672/public_html/system/Debug/Exceptions.php(516): clean_path('\x89PNG\r\n\x1A\n\x00\x00\x00\rIHD...')
+#3 [internal function]: CodeIgniter\Debug\Exceptions::CodeIgniter\Debug\{closure}('\x89PNG\r\n\x1A\n\x00\x00\x00\rIHD...')
+#4 /home/u1606672/public_html/system/Debug/Exceptions.php(521): array_map(Object(Closure), Array)
+#5 /home/u1606672/public_html/system/Debug/Exceptions.php(115): CodeIgniter\Debug\Exceptions::renderBacktrace(Array)
+#6 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#7 {main}
+  thrown
+in SYSTEMPATH/Common.php on line 90.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2022-11-29 23:48:27 --> Uncaught ErrorException: realpath() expects parameter 1 to be a valid path, string given in /home/u1606672/public_html/system/Common.php:90
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'realpath() expe...', '/home/u1606672/...', 90, Array)
+#1 /home/u1606672/public_html/system/Common.php(90): realpath('\x89PNG\r\n\x1A\n\x00\x00\x00\rIHD...')
+#2 /home/u1606672/public_html/system/Debug/Exceptions.php(516): clean_path('\x89PNG\r\n\x1A\n\x00\x00\x00\rIHD...')
+#3 [internal function]: CodeIgniter\Debug\Exceptions::CodeIgniter\Debug\{closure}('\x89PNG\r\n\x1A\n\x00\x00\x00\rIHD...')
+#4 /home/u1606672/public_html/system/Debug/Exceptions.php(521): array_map(Object(Closure), Array)
+#5 /home/u1606672/public_html/system/Debug/Exceptions.php(115): CodeIgniter\Debug\Exceptions::renderBacktrace(Array)
+#6 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#7 {main}
+  thrown
+in SYSTEMPATH/Common.php on line 90.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2022-11-29 23:49:26 --> Uncaught ErrorException: realpath() expects parameter 1 to be a valid path, string given in /home/u1606672/public_html/system/Common.php:90
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'realpath() expe...', '/home/u1606672/...', 90, Array)
+#1 /home/u1606672/public_html/system/Common.php(90): realpath('\x89PNG\r\n\x1A\n\x00\x00\x00\rIHD...')
+#2 /home/u1606672/public_html/system/Debug/Exceptions.php(516): clean_path('\x89PNG\r\n\x1A\n\x00\x00\x00\rIHD...')
+#3 [internal function]: CodeIgniter\Debug\Exceptions::CodeIgniter\Debug\{closure}('\x89PNG\r\n\x1A\n\x00\x00\x00\rIHD...')
+#4 /home/u1606672/public_html/system/Debug/Exceptions.php(521): array_map(Object(Closure), Array)
+#5 /home/u1606672/public_html/system/Debug/Exceptions.php(115): CodeIgniter\Debug\Exceptions::renderBacktrace(Array)
+#6 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#7 {main}
+  thrown
+in SYSTEMPATH/Common.php on line 90.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2022-11-29 23:49:27 --> Uncaught ErrorException: realpath() expects parameter 1 to be a valid path, string given in /home/u1606672/public_html/system/Common.php:90
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'realpath() expe...', '/home/u1606672/...', 90, Array)
+#1 /home/u1606672/public_html/system/Common.php(90): realpath('\x89PNG\r\n\x1A\n\x00\x00\x00\rIHD...')
+#2 /home/u1606672/public_html/system/Debug/Exceptions.php(516): clean_path('\x89PNG\r\n\x1A\n\x00\x00\x00\rIHD...')
+#3 [internal function]: CodeIgniter\Debug\Exceptions::CodeIgniter\Debug\{closure}('\x89PNG\r\n\x1A\n\x00\x00\x00\rIHD...')
+#4 /home/u1606672/public_html/system/Debug/Exceptions.php(521): array_map(Object(Closure), Array)
+#5 /home/u1606672/public_html/system/Debug/Exceptions.php(115): CodeIgniter\Debug\Exceptions::renderBacktrace(Array)
+#6 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#7 {main}
+  thrown
+in SYSTEMPATH/Common.php on line 90.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2022-11-29 23:49:32 --> Uncaught ErrorException: realpath() expects parameter 1 to be a valid path, string given in /home/u1606672/public_html/system/Common.php:90
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'realpath() expe...', '/home/u1606672/...', 90, Array)
+#1 /home/u1606672/public_html/system/Common.php(90): realpath('\x89PNG\r\n\x1A\n\x00\x00\x00\rIHD...')
+#2 /home/u1606672/public_html/system/Debug/Exceptions.php(516): clean_path('\x89PNG\r\n\x1A\n\x00\x00\x00\rIHD...')
+#3 [internal function]: CodeIgniter\Debug\Exceptions::CodeIgniter\Debug\{closure}('\x89PNG\r\n\x1A\n\x00\x00\x00\rIHD...')
+#4 /home/u1606672/public_html/system/Debug/Exceptions.php(521): array_map(Object(Closure), Array)
+#5 /home/u1606672/public_html/system/Debug/Exceptions.php(115): CodeIgniter\Debug\Exceptions::renderBacktrace(Array)
+#6 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#7 {main}
+  thrown
+in SYSTEMPATH/Common.php on line 90.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2022-11-29 23:49:32 --> Uncaught ErrorException: realpath() expects parameter 1 to be a valid path, string given in /home/u1606672/public_html/system/Common.php:90
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'realpath() expe...', '/home/u1606672/...', 90, Array)
+#1 /home/u1606672/public_html/system/Common.php(90): realpath('\x89PNG\r\n\x1A\n\x00\x00\x00\rIHD...')
+#2 /home/u1606672/public_html/system/Debug/Exceptions.php(516): clean_path('\x89PNG\r\n\x1A\n\x00\x00\x00\rIHD...')
+#3 [internal function]: CodeIgniter\Debug\Exceptions::CodeIgniter\Debug\{closure}('\x89PNG\r\n\x1A\n\x00\x00\x00\rIHD...')
+#4 /home/u1606672/public_html/system/Debug/Exceptions.php(521): array_map(Object(Closure), Array)
+#5 /home/u1606672/public_html/system/Debug/Exceptions.php(115): CodeIgniter\Debug\Exceptions::renderBacktrace(Array)
+#6 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#7 {main}
+  thrown
+in SYSTEMPATH/Common.php on line 90.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2022-11-29 23:49:51 --> Uncaught ErrorException: realpath() expects parameter 1 to be a valid path, string given in /home/u1606672/public_html/system/Common.php:90
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'realpath() expe...', '/home/u1606672/...', 90, Array)
+#1 /home/u1606672/public_html/system/Common.php(90): realpath('\x89PNG\r\n\x1A\n\x00\x00\x00\rIHD...')
+#2 /home/u1606672/public_html/system/Debug/Exceptions.php(516): clean_path('\x89PNG\r\n\x1A\n\x00\x00\x00\rIHD...')
+#3 [internal function]: CodeIgniter\Debug\Exceptions::CodeIgniter\Debug\{closure}('\x89PNG\r\n\x1A\n\x00\x00\x00\rIHD...')
+#4 /home/u1606672/public_html/system/Debug/Exceptions.php(521): array_map(Object(Closure), Array)
+#5 /home/u1606672/public_html/system/Debug/Exceptions.php(115): CodeIgniter\Debug\Exceptions::renderBacktrace(Array)
+#6 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#7 {main}
+  thrown
+in SYSTEMPATH/Common.php on line 90.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2022-11-29 23:49:57 --> Uncaught ErrorException: realpath() expects parameter 1 to be a valid path, string given in /home/u1606672/public_html/system/Common.php:90
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'realpath() expe...', '/home/u1606672/...', 90, Array)
+#1 /home/u1606672/public_html/system/Common.php(90): realpath('\x89PNG\r\n\x1A\n\x00\x00\x00\rIHD...')
+#2 /home/u1606672/public_html/system/Debug/Exceptions.php(516): clean_path('\x89PNG\r\n\x1A\n\x00\x00\x00\rIHD...')
+#3 [internal function]: CodeIgniter\Debug\Exceptions::CodeIgniter\Debug\{closure}('\x89PNG\r\n\x1A\n\x00\x00\x00\rIHD...')
+#4 /home/u1606672/public_html/system/Debug/Exceptions.php(521): array_map(Object(Closure), Array)
+#5 /home/u1606672/public_html/system/Debug/Exceptions.php(115): CodeIgniter\Debug\Exceptions::renderBacktrace(Array)
+#6 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#7 {main}
+  thrown
+in SYSTEMPATH/Common.php on line 90.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2022-11-29 23:52:13 --> Uncaught ErrorException: realpath() expects parameter 1 to be a valid path, string given in /home/u1606672/public_html/system/Common.php:90
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'realpath() expe...', '/home/u1606672/...', 90, Array)
+#1 /home/u1606672/public_html/system/Common.php(90): realpath('\x89PNG\r\n\x1A\n\x00\x00\x00\rIHD...')
+#2 /home/u1606672/public_html/system/Debug/Exceptions.php(516): clean_path('\x89PNG\r\n\x1A\n\x00\x00\x00\rIHD...')
+#3 [internal function]: CodeIgniter\Debug\Exceptions::CodeIgniter\Debug\{closure}('\x89PNG\r\n\x1A\n\x00\x00\x00\rIHD...')
+#4 /home/u1606672/public_html/system/Debug/Exceptions.php(521): array_map(Object(Closure), Array)
+#5 /home/u1606672/public_html/system/Debug/Exceptions.php(115): CodeIgniter\Debug\Exceptions::renderBacktrace(Array)
+#6 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#7 {main}
+  thrown
+in SYSTEMPATH/Common.php on line 90.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2022-11-29 23:52:18 --> Uncaught ErrorException: realpath() expects parameter 1 to be a valid path, string given in /home/u1606672/public_html/system/Common.php:90
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'realpath() expe...', '/home/u1606672/...', 90, Array)
+#1 /home/u1606672/public_html/system/Common.php(90): realpath('\x89PNG\r\n\x1A\n\x00\x00\x00\rIHD...')
+#2 /home/u1606672/public_html/system/Debug/Exceptions.php(516): clean_path('\x89PNG\r\n\x1A\n\x00\x00\x00\rIHD...')
+#3 [internal function]: CodeIgniter\Debug\Exceptions::CodeIgniter\Debug\{closure}('\x89PNG\r\n\x1A\n\x00\x00\x00\rIHD...')
+#4 /home/u1606672/public_html/system/Debug/Exceptions.php(521): array_map(Object(Closure), Array)
+#5 /home/u1606672/public_html/system/Debug/Exceptions.php(115): CodeIgniter\Debug\Exceptions::renderBacktrace(Array)
+#6 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#7 {main}
+  thrown
+in SYSTEMPATH/Common.php on line 90.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2022-11-29 23:54:27 --> Uncaught ErrorException: realpath() expects parameter 1 to be a valid path, string given in /home/u1606672/public_html/system/Common.php:90
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'realpath() expe...', '/home/u1606672/...', 90, Array)
+#1 /home/u1606672/public_html/system/Common.php(90): realpath('\x89PNG\r\n\x1A\n\x00\x00\x00\rIHD...')
+#2 /home/u1606672/public_html/system/Debug/Exceptions.php(516): clean_path('\x89PNG\r\n\x1A\n\x00\x00\x00\rIHD...')
+#3 [internal function]: CodeIgniter\Debug\Exceptions::CodeIgniter\Debug\{closure}('\x89PNG\r\n\x1A\n\x00\x00\x00\rIHD...')
+#4 /home/u1606672/public_html/system/Debug/Exceptions.php(521): array_map(Object(Closure), Array)
+#5 /home/u1606672/public_html/system/Debug/Exceptions.php(115): CodeIgniter\Debug\Exceptions::renderBacktrace(Array)
+#6 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#7 {main}
+  thrown
+in SYSTEMPATH/Common.php on line 90.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2022-11-29 23:54:30 --> Uncaught ErrorException: realpath() expects parameter 1 to be a valid path, string given in /home/u1606672/public_html/system/Common.php:90
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'realpath() expe...', '/home/u1606672/...', 90, Array)
+#1 /home/u1606672/public_html/system/Common.php(90): realpath('\x89PNG\r\n\x1A\n\x00\x00\x00\rIHD...')
+#2 /home/u1606672/public_html/system/Debug/Exceptions.php(516): clean_path('\x89PNG\r\n\x1A\n\x00\x00\x00\rIHD...')
+#3 [internal function]: CodeIgniter\Debug\Exceptions::CodeIgniter\Debug\{closure}('\x89PNG\r\n\x1A\n\x00\x00\x00\rIHD...')
+#4 /home/u1606672/public_html/system/Debug/Exceptions.php(521): array_map(Object(Closure), Array)
+#5 /home/u1606672/public_html/system/Debug/Exceptions.php(115): CodeIgniter\Debug\Exceptions::renderBacktrace(Array)
+#6 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#7 {main}
+  thrown
+in SYSTEMPATH/Common.php on line 90.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2022-11-29 23:57:23 --> Uncaught ErrorException: realpath() expects parameter 1 to be a valid path, string given in /home/u1606672/public_html/system/Common.php:90
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'realpath() expe...', '/home/u1606672/...', 90, Array)
+#1 /home/u1606672/public_html/system/Common.php(90): realpath('/home/u1606672/...')
+#2 /home/u1606672/public_html/system/Debug/Exceptions.php(516): clean_path('/home/u1606672/...')
+#3 [internal function]: CodeIgniter\Debug\Exceptions::CodeIgniter\Debug\{closure}('/home/u1606672/...')
+#4 /home/u1606672/public_html/system/Debug/Exceptions.php(521): array_map(Object(Closure), Array)
+#5 /home/u1606672/public_html/system/Debug/Exceptions.php(115): CodeIgniter\Debug\Exceptions::renderBacktrace(Array)
+#6 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#7 {main}
+  thrown
+in SYSTEMPATH/Common.php on line 90.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2022-11-29 23:58:26 --> Uncaught ErrorException: realpath() expects parameter 1 to be a valid path, string given in /home/u1606672/public_html/system/Common.php:90
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'realpath() expe...', '/home/u1606672/...', 90, Array)
+#1 /home/u1606672/public_html/system/Common.php(90): realpath('\x89PNG\r\n\x1A\n\x00\x00\x00\rIHD...')
+#2 /home/u1606672/public_html/system/Debug/Exceptions.php(516): clean_path('\x89PNG\r\n\x1A\n\x00\x00\x00\rIHD...')
+#3 [internal function]: CodeIgniter\Debug\Exceptions::CodeIgniter\Debug\{closure}('\x89PNG\r\n\x1A\n\x00\x00\x00\rIHD...')
+#4 /home/u1606672/public_html/system/Debug/Exceptions.php(521): array_map(Object(Closure), Array)
+#5 /home/u1606672/public_html/system/Debug/Exceptions.php(115): CodeIgniter\Debug\Exceptions::renderBacktrace(Array)
+#6 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#7 {main}
+  thrown
+in SYSTEMPATH/Common.php on line 90.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2022-11-29 23:58:31 --> Uncaught ErrorException: realpath() expects parameter 1 to be a valid path, string given in /home/u1606672/public_html/system/Common.php:90
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'realpath() expe...', '/home/u1606672/...', 90, Array)
+#1 /home/u1606672/public_html/system/Common.php(90): realpath('\x89PNG\r\n\x1A\n\x00\x00\x00\rIHD...')
+#2 /home/u1606672/public_html/system/Debug/Exceptions.php(516): clean_path('\x89PNG\r\n\x1A\n\x00\x00\x00\rIHD...')
+#3 [internal function]: CodeIgniter\Debug\Exceptions::CodeIgniter\Debug\{closure}('\x89PNG\r\n\x1A\n\x00\x00\x00\rIHD...')
+#4 /home/u1606672/public_html/system/Debug/Exceptions.php(521): array_map(Object(Closure), Array)
+#5 /home/u1606672/public_html/system/Debug/Exceptions.php(115): CodeIgniter\Debug\Exceptions::renderBacktrace(Array)
+#6 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#7 {main}
+  thrown
+in SYSTEMPATH/Common.php on line 90.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()

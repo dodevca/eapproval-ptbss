@@ -1,0 +1,56 @@
+CRITICAL - 2022-12-23 13:31:35 --> implode(): Invalid arguments passed
+in APPPATH/Controllers/Views.php on line 365.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'implode(): Invalid arguments passed', 'APPPATH/Controllers/Views.php', 365, [...])
+ 2 APPPATH/Controllers/Views.php(365): implode(', ', null)
+ 3 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Views->save()
+ 4 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Views))
+ 5 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-23 13:31:43 --> implode(): Invalid arguments passed
+in APPPATH/Controllers/Views.php on line 365.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'implode(): Invalid arguments passed', 'APPPATH/Controllers/Views.php', 365, [...])
+ 2 APPPATH/Controllers/Views.php(365): implode(', ', null)
+ 3 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Views->save()
+ 4 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Views))
+ 5 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-23 13:31:53 --> implode(): Invalid arguments passed
+in APPPATH/Controllers/Views.php on line 365.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'implode(): Invalid arguments passed', 'APPPATH/Controllers/Views.php', 365, [...])
+ 2 APPPATH/Controllers/Views.php(365): implode(', ', null)
+ 3 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Views->save()
+ 4 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Views))
+ 5 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-23 13:32:10 --> implode(): Invalid arguments passed
+in APPPATH/Controllers/Views.php on line 365.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'implode(): Invalid arguments passed', 'APPPATH/Controllers/Views.php', 365, [...])
+ 2 APPPATH/Controllers/Views.php(365): implode(', ', null)
+ 3 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Views->save()
+ 4 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Views))
+ 5 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-23 13:36:54 --> implode(): Invalid arguments passed
+in APPPATH/Controllers/Views.php on line 365.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'implode(): Invalid arguments passed', 'APPPATH/Controllers/Views.php', 365, [...])
+ 2 APPPATH/Controllers/Views.php(365): implode(', ', null)
+ 3 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Views->save()
+ 4 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Views))
+ 5 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-23 13:37:29 --> implode(): Invalid arguments passed
+in APPPATH/Controllers/Views.php on line 365.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'implode(): Invalid arguments passed', 'APPPATH/Controllers/Views.php', 365, [...])
+ 2 APPPATH/Controllers/Views.php(365): implode(', ', null)
+ 3 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Views->save()
+ 4 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Views))
+ 5 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-23 13:44:12 --> implode(): Invalid arguments passed
+in APPPATH/Controllers/Views.php on line 365.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'implode(): Invalid arguments passed', 'APPPATH/Controllers/Views.php', 365, [...])
+ 2 APPPATH/Controllers/Views.php(365): implode(', ', null)
+ 3 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Views->save()
+ 4 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Views))
+ 5 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()

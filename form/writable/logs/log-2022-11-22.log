@@ -1,0 +1,393 @@
+CRITICAL - 2022-11-22 02:30:40 --> Call to undefined function baseurl()
+in APPPATH/Views/form_output.php on line 175.
+ 1 SYSTEMPATH/View/View.php(213): include()
+ 2 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render('form_output', [], true)
+ 4 APPPATH/Controllers/Home.php(76): view('form_output', [...])
+ 5 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Home->submit()
+ 6 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 7 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-22 21:21:05 --> Undefined variable: db
+in APPPATH/Controllers/Home.php on line 83.
+ 1 APPPATH/Controllers/Home.php(83): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: db', 'APPPATH/Controllers/Home.php', 83, [...])
+ 2 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Home->submit()
+ 3 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-22 21:22:04 --> Cannot call constructor
+in APPPATH/Controllers/Home.php on line 15.
+ 1 SYSTEMPATH/CodeIgniter.php(889): App\Controllers\Home->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(473): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-22 21:22:31 --> Trying to get property 'document' of non-object
+in APPPATH/Controllers/Home.php on line 80.
+ 1 APPPATH/Controllers/Home.php(80): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'document\' of non-object', 'APPPATH/Controllers/Home.php', 80, [...])
+ 2 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Home->submit()
+ 3 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-22 21:23:00 --> Undefined index: attachment
+in APPPATH/Controllers/Home.php on line 93.
+ 1 APPPATH/Controllers/Home.php(93): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: attachment', 'APPPATH/Controllers/Home.php', 93, [...])
+ 2 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Home->submit()
+ 3 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-22 21:23:39 --> Array to string conversion
+in SYSTEMPATH/Database/Query.php on line 329.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(8, 'Array to string conversion', 'SYSTEMPATH/Database/Query.php', 329, [...])
+ 2 SYSTEMPATH/Database/Query.php(329): implode(',', [...])
+ 3 SYSTEMPATH/Database/Query.php(310): CodeIgniter\Database\Query->matchNamedBinds('INSERT INTO `submissions` (`date`, `proofNumber`, `projectCode`, `contractNumber`, `customer`, `recipient`, `category`, `items`, `attachment`, `submission`, `email`) VALUES (:date:, :proofNumber:, :projectCode:, :contractNumber:, :customer:, :recipient:, :category:, :items:, :attachment:, :submission:, :email:)', [...])
+ 4 SYSTEMPATH/Database/Query.php(159): CodeIgniter\Database\Query->compileBinds()
+ 5 SYSTEMPATH/Debug/Toolbar/Collectors/Database.php(86): CodeIgniter\Database\Query->getQuery()
+ 6 SYSTEMPATH/Events/Events.php(149): CodeIgniter\Debug\Toolbar\Collectors\Database::collect(Object(CodeIgniter\Database\Query))
+ 7 SYSTEMPATH/Database/BaseConnection.php(622): CodeIgniter\Events\Events::trigger('DBQuery', Object(CodeIgniter\Database\Query))
+ 8 SYSTEMPATH/Database/BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `submissions` (`date`, `proofNumber`, `projectCode`, `contractNumber`, `customer`, `recipient`, `category`, `items`, `attachment`, `submission`, `email`) VALUES (:date:, :proofNumber:, :projectCode:, :contractNumber:, :customer:, :recipient:, :category:, :items:, :attachment:, :submission:, :email:)', [...], false)
+ 9 APPPATH/Controllers/Home.php(92): CodeIgniter\Database\BaseBuilder->insert([...])
+10 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Home->submit()
+11 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+12 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-22 21:25:27 --> json_decode() expects parameter 1 to be string, array given
+in APPPATH/Controllers/Home.php on line 89.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'json_decode() expects parameter 1 to be string, array given', 'APPPATH/Controllers/Home.php', 89, [...])
+ 2 APPPATH/Controllers/Home.php(89): json_decode([...])
+ 3 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Home->submit()
+ 4 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 5 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-11-22 21:25:42 --> mysqli_sql_exception: Column 'attachment' cannot be null in /home/u1606672/public_html/form/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /home/u1606672/public_html/form/system/Database/MySQLi/Connection.php(292): mysqli->query('INSERT INTO `su...', 0)
+#1 /home/u1606672/public_html/form/system/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `su...')
+#2 /home/u1606672/public_html/form/system/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `su...')
+#3 /home/u1606672/public_html/form/system/Database/BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `su...', Array, false)
+#4 /home/u1606672/public_html/form/app/Controllers/Home.php(92): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 /home/u1606672/public_html/form/system/CodeIgniter.php(927): App\Controllers\Home->submit()
+#6 /home/u1606672/public_html/form/system/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 /home/u1606672/public_html/form/system/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/u1606672/public_html/form/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-11-22 21:25:42 --> Column 'attachment' cannot be null
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 292.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(292): mysqli->query('INSERT INTO `submissions` (`date`, `proofNumber`, `projectCode`, `contractNumber`, `customer`, `recipient`, `category`, `items`, `attachment`, `submission`, `email`) VALUES (\'22-11-2022\', \'GS 001/10/2022\', \'P001\', \'S180243/JOBT/TPD\', \'Job Senoro\', \'Amir\', \'3\', \'[{\\"description\\":\\"MEJA\\",\\"amount\\":\\"22\\",\\"unitPrice\\":\\"3\\",\\"totalPrice\\":\\"3\\"},{\\"description\\":\\"MEJA\\",\\"amount\\":\\"3\\",\\"unitPrice\\":\\"3\\",\\"totalPrice\\":\\"3\\"},{\\"description\\":\\"MEJA\\",\\"amount\\":\\"3\\",\\"unitPrice\\":\\"3\\",\\"totalPrice\\":\\"3\\"},{\\"description\\":\\"MEJA\\",\\"amount\\":\\"3\\",\\"unitPrice\\":\\"3\\",\\"totalPrice\\":\\"3\\"},{\\"description\\":\\"MEJA\\",\\"amount\\":\\"3\\",\\"unitPrice\\":\\"3\\",\\"totalPrice\\":\\"3\\"},{\\"description\\":\\"MEJA\\",\\"amount\\":\\"3\\",\\"unitPrice\\":\\"3\\",\\"totalPrice\\":\\"3\\"}]\', NULL, \'GS-001-10-2022\', \'twelvedotio@gmail.com\')', 0)
+ 2 SYSTEMPATH/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `submissions` (`date`, `proofNumber`, `projectCode`, `contractNumber`, `customer`, `recipient`, `category`, `items`, `attachment`, `submission`, `email`) VALUES (\'22-11-2022\', \'GS 001/10/2022\', \'P001\', \'S180243/JOBT/TPD\', \'Job Senoro\', \'Amir\', \'3\', \'[{\\"description\\":\\"MEJA\\",\\"amount\\":\\"22\\",\\"unitPrice\\":\\"3\\",\\"totalPrice\\":\\"3\\"},{\\"description\\":\\"MEJA\\",\\"amount\\":\\"3\\",\\"unitPrice\\":\\"3\\",\\"totalPrice\\":\\"3\\"},{\\"description\\":\\"MEJA\\",\\"amount\\":\\"3\\",\\"unitPrice\\":\\"3\\",\\"totalPrice\\":\\"3\\"},{\\"description\\":\\"MEJA\\",\\"amount\\":\\"3\\",\\"unitPrice\\":\\"3\\",\\"totalPrice\\":\\"3\\"},{\\"description\\":\\"MEJA\\",\\"amount\\":\\"3\\",\\"unitPrice\\":\\"3\\",\\"totalPrice\\":\\"3\\"},{\\"description\\":\\"MEJA\\",\\"amount\\":\\"3\\",\\"unitPrice\\":\\"3\\",\\"totalPrice\\":\\"3\\"}]\', NULL, \'GS-001-10-2022\', \'twelvedotio@gmail.com\')')
+ 3 SYSTEMPATH/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `submissions` (`date`, `proofNumber`, `projectCode`, `contractNumber`, `customer`, `recipient`, `category`, `items`, `attachment`, `submission`, `email`) VALUES (\'22-11-2022\', \'GS 001/10/2022\', \'P001\', \'S180243/JOBT/TPD\', \'Job Senoro\', \'Amir\', \'3\', \'[{\\"description\\":\\"MEJA\\",\\"amount\\":\\"22\\",\\"unitPrice\\":\\"3\\",\\"totalPrice\\":\\"3\\"},{\\"description\\":\\"MEJA\\",\\"amount\\":\\"3\\",\\"unitPrice\\":\\"3\\",\\"totalPrice\\":\\"3\\"},{\\"description\\":\\"MEJA\\",\\"amount\\":\\"3\\",\\"unitPrice\\":\\"3\\",\\"totalPrice\\":\\"3\\"},{\\"description\\":\\"MEJA\\",\\"amount\\":\\"3\\",\\"unitPrice\\":\\"3\\",\\"totalPrice\\":\\"3\\"},{\\"description\\":\\"MEJA\\",\\"amount\\":\\"3\\",\\"unitPrice\\":\\"3\\",\\"totalPrice\\":\\"3\\"},{\\"description\\":\\"MEJA\\",\\"amount\\":\\"3\\",\\"unitPrice\\":\\"3\\",\\"totalPrice\\":\\"3\\"}]\', NULL, \'GS-001-10-2022\', \'twelvedotio@gmail.com\')')
+ 4 SYSTEMPATH/Database/BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `submissions` (`date`, `proofNumber`, `projectCode`, `contractNumber`, `customer`, `recipient`, `category`, `items`, `attachment`, `submission`, `email`) VALUES (:date:, :proofNumber:, :projectCode:, :contractNumber:, :customer:, :recipient:, :category:, :items:, :attachment:, :submission:, :email:)', [...], false)
+ 5 APPPATH/Controllers/Home.php(92): CodeIgniter\Database\BaseBuilder->insert([...])
+ 6 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Home->submit()
+ 7 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-11-22 21:37:45 --> mysqli_sql_exception: Duplicate entry 'GS 001/10/2022' for key 'proofNumber' in /home/u1606672/public_html/form/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /home/u1606672/public_html/form/system/Database/MySQLi/Connection.php(292): mysqli->query('INSERT INTO `su...', 0)
+#1 /home/u1606672/public_html/form/system/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `su...')
+#2 /home/u1606672/public_html/form/system/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `su...')
+#3 /home/u1606672/public_html/form/system/Database/BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `su...', Array, false)
+#4 /home/u1606672/public_html/form/app/Controllers/Home.php(95): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 /home/u1606672/public_html/form/system/CodeIgniter.php(927): App\Controllers\Home->submit()
+#6 /home/u1606672/public_html/form/system/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 /home/u1606672/public_html/form/system/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/u1606672/public_html/form/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-11-22 21:37:45 --> Duplicate entry 'GS 001/10/2022' for key 'proofNumber'
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 292.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(292): mysqli->query('INSERT INTO `submissions` (`date`, `proofNumber`, `projectCode`, `contractNumber`, `customer`, `recipient`, `category`, `items`, `attachment`, `submission`, `email`) VALUES (\'22-11-2022\', \'GS 001/10/2022\', \'P001\', \'S180243/JOBT/TPD\', \'Job Senoro\', \'Amir\', \'3\', \'[{\\"description\\":\\"MEJA\\",\\"amount\\":\\"22\\",\\"unitPrice\\":\\"3\\",\\"totalPrice\\":\\"3\\"},{\\"description\\":\\"MEJA\\",\\"amount\\":\\"3\\",\\"unitPrice\\":\\"3\\",\\"totalPrice\\":\\"3\\"},{\\"description\\":\\"MEJA\\",\\"amount\\":\\"3\\",\\"unitPrice\\":\\"3\\",\\"totalPrice\\":\\"3\\"},{\\"description\\":\\"MEJA\\",\\"amount\\":\\"3\\",\\"unitPrice\\":\\"3\\",\\"totalPrice\\":\\"3\\"},{\\"description\\":\\"MEJA\\",\\"amount\\":\\"3\\",\\"unitPrice\\":\\"3\\",\\"totalPrice\\":\\"3\\"},{\\"description\\":\\"MEJA\\",\\"amount\\":\\"3\\",\\"unitPrice\\":\\"3\\",\\"totalPrice\\":\\"3\\"}]\', NULL, \'GS-001-10-2022\', \'twelvedotio@gmail.com\')', 0)
+ 2 SYSTEMPATH/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `submissions` (`date`, `proofNumber`, `projectCode`, `contractNumber`, `customer`, `recipient`, `category`, `items`, `attachment`, `submission`, `email`) VALUES (\'22-11-2022\', \'GS 001/10/2022\', \'P001\', \'S180243/JOBT/TPD\', \'Job Senoro\', \'Amir\', \'3\', \'[{\\"description\\":\\"MEJA\\",\\"amount\\":\\"22\\",\\"unitPrice\\":\\"3\\",\\"totalPrice\\":\\"3\\"},{\\"description\\":\\"MEJA\\",\\"amount\\":\\"3\\",\\"unitPrice\\":\\"3\\",\\"totalPrice\\":\\"3\\"},{\\"description\\":\\"MEJA\\",\\"amount\\":\\"3\\",\\"unitPrice\\":\\"3\\",\\"totalPrice\\":\\"3\\"},{\\"description\\":\\"MEJA\\",\\"amount\\":\\"3\\",\\"unitPrice\\":\\"3\\",\\"totalPrice\\":\\"3\\"},{\\"description\\":\\"MEJA\\",\\"amount\\":\\"3\\",\\"unitPrice\\":\\"3\\",\\"totalPrice\\":\\"3\\"},{\\"description\\":\\"MEJA\\",\\"amount\\":\\"3\\",\\"unitPrice\\":\\"3\\",\\"totalPrice\\":\\"3\\"}]\', NULL, \'GS-001-10-2022\', \'twelvedotio@gmail.com\')')
+ 3 SYSTEMPATH/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `submissions` (`date`, `proofNumber`, `projectCode`, `contractNumber`, `customer`, `recipient`, `category`, `items`, `attachment`, `submission`, `email`) VALUES (\'22-11-2022\', \'GS 001/10/2022\', \'P001\', \'S180243/JOBT/TPD\', \'Job Senoro\', \'Amir\', \'3\', \'[{\\"description\\":\\"MEJA\\",\\"amount\\":\\"22\\",\\"unitPrice\\":\\"3\\",\\"totalPrice\\":\\"3\\"},{\\"description\\":\\"MEJA\\",\\"amount\\":\\"3\\",\\"unitPrice\\":\\"3\\",\\"totalPrice\\":\\"3\\"},{\\"description\\":\\"MEJA\\",\\"amount\\":\\"3\\",\\"unitPrice\\":\\"3\\",\\"totalPrice\\":\\"3\\"},{\\"description\\":\\"MEJA\\",\\"amount\\":\\"3\\",\\"unitPrice\\":\\"3\\",\\"totalPrice\\":\\"3\\"},{\\"description\\":\\"MEJA\\",\\"amount\\":\\"3\\",\\"unitPrice\\":\\"3\\",\\"totalPrice\\":\\"3\\"},{\\"description\\":\\"MEJA\\",\\"amount\\":\\"3\\",\\"unitPrice\\":\\"3\\",\\"totalPrice\\":\\"3\\"}]\', NULL, \'GS-001-10-2022\', \'twelvedotio@gmail.com\')')
+ 4 SYSTEMPATH/Database/BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `submissions` (`date`, `proofNumber`, `projectCode`, `contractNumber`, `customer`, `recipient`, `category`, `items`, `attachment`, `submission`, `email`) VALUES (:date:, :proofNumber:, :projectCode:, :contractNumber:, :customer:, :recipient:, :category:, :items:, :attachment:, :submission:, :email:)', [...], false)
+ 5 APPPATH/Controllers/Home.php(95): CodeIgniter\Database\BaseBuilder->insert([...])
+ 6 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Home->submit()
+ 7 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-22 21:40:19 --> A non well formed numeric value encountered
+in APPPATH/Controllers/Home.php on line 85.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(8, 'A non well formed numeric value encountered', 'APPPATH/Controllers/Home.php', 85, [...])
+ 2 APPPATH/Controllers/Home.php(85): date('d-m-Y', '22-11-2022')
+ 3 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Home->submit()
+ 4 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 5 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-22 21:40:47 --> A non well formed numeric value encountered
+in APPPATH/Controllers/Home.php on line 85.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(8, 'A non well formed numeric value encountered', 'APPPATH/Controllers/Home.php', 85, [...])
+ 2 APPPATH/Controllers/Home.php(85): date('d-m-Y', '2022-11-22')
+ 3 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Home->submit()
+ 4 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 5 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-22 21:40:53 --> A non well formed numeric value encountered
+in APPPATH/Controllers/Home.php on line 85.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(8, 'A non well formed numeric value encountered', 'APPPATH/Controllers/Home.php', 85, [...])
+ 2 APPPATH/Controllers/Home.php(85): date('d-m-Y', '2022-11-22')
+ 3 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Home->submit()
+ 4 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 5 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-11-22 21:46:33 --> mysqli_sql_exception: Duplicate entry 'GS 001/10/2022' for key 'proofNumber' in /home/u1606672/public_html/form/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /home/u1606672/public_html/form/system/Database/MySQLi/Connection.php(292): mysqli->query('INSERT INTO `su...', 0)
+#1 /home/u1606672/public_html/form/system/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `su...')
+#2 /home/u1606672/public_html/form/system/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `su...')
+#3 /home/u1606672/public_html/form/system/Database/BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `su...', Array, false)
+#4 /home/u1606672/public_html/form/app/Controllers/Home.php(90): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 /home/u1606672/public_html/form/system/CodeIgniter.php(927): App\Controllers\Home->submit()
+#6 /home/u1606672/public_html/form/system/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 /home/u1606672/public_html/form/system/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/u1606672/public_html/form/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-11-22 21:48:26 --> mysqli_sql_exception: Duplicate entry 'GS 001/10/2022' for key 'proofNumber' in /home/u1606672/public_html/form/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /home/u1606672/public_html/form/system/Database/MySQLi/Connection.php(292): mysqli->query('INSERT INTO `su...', 0)
+#1 /home/u1606672/public_html/form/system/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `su...')
+#2 /home/u1606672/public_html/form/system/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `su...')
+#3 /home/u1606672/public_html/form/system/Database/BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `su...', Array, false)
+#4 /home/u1606672/public_html/form/app/Controllers/Home.php(90): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 /home/u1606672/public_html/form/system/CodeIgniter.php(927): App\Controllers\Home->submit()
+#6 /home/u1606672/public_html/form/system/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 /home/u1606672/public_html/form/system/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/u1606672/public_html/form/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-11-22 21:48:26 --> Duplicate entry 'GS 001/10/2022' for key 'proofNumber'
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 292.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(292): mysqli->query('INSERT INTO `submissions` (`date`, `proofNumber`, `projectCode`, `contractNumber`, `customer`, `recipient`, `category`, `items`, `attachment`, `submission`, `email`) VALUES (\'2022-11-22\', \'GS 001/10/2022\', \'P001\', \'S180243/JOBT/TPD\', \'Job Senoro\', \'Amir\', \'3\', \'[{\\"description\\":\\"MEJA\\",\\"amount\\":\\"22\\",\\"unitPrice\\":\\"3\\",\\"totalPrice\\":\\"3\\"},{\\"description\\":\\"MEJA\\",\\"amount\\":\\"3\\",\\"unitPrice\\":\\"3\\",\\"totalPrice\\":\\"3\\"},{\\"description\\":\\"MEJA\\",\\"amount\\":\\"3\\",\\"unitPrice\\":\\"3\\",\\"totalPrice\\":\\"3\\"},{\\"description\\":\\"MEJA\\",\\"amount\\":\\"3\\",\\"unitPrice\\":\\"3\\",\\"totalPrice\\":\\"3\\"},{\\"description\\":\\"MEJA\\",\\"amount\\":\\"3\\",\\"unitPrice\\":\\"3\\",\\"totalPrice\\":\\"3\\"},{\\"description\\":\\"MEJA\\",\\"amount\\":\\"3\\",\\"unitPrice\\":\\"3\\",\\"totalPrice\\":\\"3\\"}]\', NULL, \'GS-001-10-2022\', \'twelvedotio@gmail.com\')', 0)
+ 2 SYSTEMPATH/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `submissions` (`date`, `proofNumber`, `projectCode`, `contractNumber`, `customer`, `recipient`, `category`, `items`, `attachment`, `submission`, `email`) VALUES (\'2022-11-22\', \'GS 001/10/2022\', \'P001\', \'S180243/JOBT/TPD\', \'Job Senoro\', \'Amir\', \'3\', \'[{\\"description\\":\\"MEJA\\",\\"amount\\":\\"22\\",\\"unitPrice\\":\\"3\\",\\"totalPrice\\":\\"3\\"},{\\"description\\":\\"MEJA\\",\\"amount\\":\\"3\\",\\"unitPrice\\":\\"3\\",\\"totalPrice\\":\\"3\\"},{\\"description\\":\\"MEJA\\",\\"amount\\":\\"3\\",\\"unitPrice\\":\\"3\\",\\"totalPrice\\":\\"3\\"},{\\"description\\":\\"MEJA\\",\\"amount\\":\\"3\\",\\"unitPrice\\":\\"3\\",\\"totalPrice\\":\\"3\\"},{\\"description\\":\\"MEJA\\",\\"amount\\":\\"3\\",\\"unitPrice\\":\\"3\\",\\"totalPrice\\":\\"3\\"},{\\"description\\":\\"MEJA\\",\\"amount\\":\\"3\\",\\"unitPrice\\":\\"3\\",\\"totalPrice\\":\\"3\\"}]\', NULL, \'GS-001-10-2022\', \'twelvedotio@gmail.com\')')
+ 3 SYSTEMPATH/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `submissions` (`date`, `proofNumber`, `projectCode`, `contractNumber`, `customer`, `recipient`, `category`, `items`, `attachment`, `submission`, `email`) VALUES (\'2022-11-22\', \'GS 001/10/2022\', \'P001\', \'S180243/JOBT/TPD\', \'Job Senoro\', \'Amir\', \'3\', \'[{\\"description\\":\\"MEJA\\",\\"amount\\":\\"22\\",\\"unitPrice\\":\\"3\\",\\"totalPrice\\":\\"3\\"},{\\"description\\":\\"MEJA\\",\\"amount\\":\\"3\\",\\"unitPrice\\":\\"3\\",\\"totalPrice\\":\\"3\\"},{\\"description\\":\\"MEJA\\",\\"amount\\":\\"3\\",\\"unitPrice\\":\\"3\\",\\"totalPrice\\":\\"3\\"},{\\"description\\":\\"MEJA\\",\\"amount\\":\\"3\\",\\"unitPrice\\":\\"3\\",\\"totalPrice\\":\\"3\\"},{\\"description\\":\\"MEJA\\",\\"amount\\":\\"3\\",\\"unitPrice\\":\\"3\\",\\"totalPrice\\":\\"3\\"},{\\"description\\":\\"MEJA\\",\\"amount\\":\\"3\\",\\"unitPrice\\":\\"3\\",\\"totalPrice\\":\\"3\\"}]\', NULL, \'GS-001-10-2022\', \'twelvedotio@gmail.com\')')
+ 4 SYSTEMPATH/Database/BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `submissions` (`date`, `proofNumber`, `projectCode`, `contractNumber`, `customer`, `recipient`, `category`, `items`, `attachment`, `submission`, `email`) VALUES (:date:, :proofNumber:, :projectCode:, :contractNumber:, :customer:, :recipient:, :category:, :items:, :attachment:, :submission:, :email:)', [...], false)
+ 5 APPPATH/Controllers/Home.php(90): CodeIgniter\Database\BaseBuilder->insert([...])
+ 6 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Home->submit()
+ 7 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-22 21:54:07 --> Undefined variable: validation
+in APPPATH/Controllers/Home.php on line 71.
+ 1 APPPATH/Controllers/Home.php(71): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: validation', 'APPPATH/Controllers/Home.php', 71, [...])
+ 2 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Home->submit()
+ 3 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-22 21:54:31 --> Call to a member function hasError() on bool
+in APPPATH/Controllers/Home.php on line 71.
+ 1 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Home->submit()
+ 2 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-11-22 21:55:02 --> mysqli_sql_exception: Duplicate entry 'GS 001/10/2022' for key 'proofNumber' in /home/u1606672/public_html/form/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /home/u1606672/public_html/form/system/Database/MySQLi/Connection.php(292): mysqli->query('INSERT INTO `su...', 0)
+#1 /home/u1606672/public_html/form/system/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `su...')
+#2 /home/u1606672/public_html/form/system/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `su...')
+#3 /home/u1606672/public_html/form/system/Database/BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `su...', Array, false)
+#4 /home/u1606672/public_html/form/app/Controllers/Home.php(84): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 /home/u1606672/public_html/form/system/CodeIgniter.php(927): App\Controllers\Home->submit()
+#6 /home/u1606672/public_html/form/system/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 /home/u1606672/public_html/form/system/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/u1606672/public_html/form/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-11-22 21:55:02 --> Duplicate entry 'GS 001/10/2022' for key 'proofNumber'
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 292.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(292): mysqli->query('INSERT INTO `submissions` (`date`, `proofNumber`, `projectCode`, `contractNumber`, `customer`, `recipient`, `category`, `items`, `attachment`, `submission`, `email`) VALUES (\'2022-11-22\', \'GS 001/10/2022\', \'P001\', \'S180243/JOBT/TPD\', \'Job Senoro\', \'Amir\', \'3\', \'[{\\"description\\":\\"MEJA\\",\\"amount\\":\\"22\\",\\"unitPrice\\":\\"3\\",\\"totalPrice\\":\\"3\\"}]\', NULL, \'GS-001-10-2022\', \'twelvedotio@gmail.com\')', 0)
+ 2 SYSTEMPATH/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `submissions` (`date`, `proofNumber`, `projectCode`, `contractNumber`, `customer`, `recipient`, `category`, `items`, `attachment`, `submission`, `email`) VALUES (\'2022-11-22\', \'GS 001/10/2022\', \'P001\', \'S180243/JOBT/TPD\', \'Job Senoro\', \'Amir\', \'3\', \'[{\\"description\\":\\"MEJA\\",\\"amount\\":\\"22\\",\\"unitPrice\\":\\"3\\",\\"totalPrice\\":\\"3\\"}]\', NULL, \'GS-001-10-2022\', \'twelvedotio@gmail.com\')')
+ 3 SYSTEMPATH/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `submissions` (`date`, `proofNumber`, `projectCode`, `contractNumber`, `customer`, `recipient`, `category`, `items`, `attachment`, `submission`, `email`) VALUES (\'2022-11-22\', \'GS 001/10/2022\', \'P001\', \'S180243/JOBT/TPD\', \'Job Senoro\', \'Amir\', \'3\', \'[{\\"description\\":\\"MEJA\\",\\"amount\\":\\"22\\",\\"unitPrice\\":\\"3\\",\\"totalPrice\\":\\"3\\"}]\', NULL, \'GS-001-10-2022\', \'twelvedotio@gmail.com\')')
+ 4 SYSTEMPATH/Database/BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `submissions` (`date`, `proofNumber`, `projectCode`, `contractNumber`, `customer`, `recipient`, `category`, `items`, `attachment`, `submission`, `email`) VALUES (:date:, :proofNumber:, :projectCode:, :contractNumber:, :customer:, :recipient:, :category:, :items:, :attachment:, :submission:, :email:)', [...], false)
+ 5 APPPATH/Controllers/Home.php(84): CodeIgniter\Database\BaseBuilder->insert([...])
+ 6 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Home->submit()
+ 7 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-11-22 21:56:28 --> mysqli_sql_exception: Duplicate entry 'GS 001/10/2022' for key 'proofNumber' in /home/u1606672/public_html/form/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /home/u1606672/public_html/form/system/Database/MySQLi/Connection.php(292): mysqli->query('INSERT INTO `su...', 0)
+#1 /home/u1606672/public_html/form/system/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `su...')
+#2 /home/u1606672/public_html/form/system/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `su...')
+#3 /home/u1606672/public_html/form/system/Database/BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `su...', Array, false)
+#4 /home/u1606672/public_html/form/app/Controllers/Home.php(84): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 /home/u1606672/public_html/form/system/CodeIgniter.php(927): App\Controllers\Home->submit()
+#6 /home/u1606672/public_html/form/system/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 /home/u1606672/public_html/form/system/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/u1606672/public_html/form/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-11-22 21:56:28 --> Duplicate entry 'GS 001/10/2022' for key 'proofNumber'
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 292.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(292): mysqli->query('INSERT INTO `submissions` (`date`, `proofNumber`, `projectCode`, `contractNumber`, `customer`, `recipient`, `category`, `items`, `attachment`, `submission`, `email`) VALUES (\'2022-11-22\', \'GS 001/10/2022\', \'P001\', \'S180243/JOBT/TPD\', \'Job Senoro\', \'Amir\', \'3\', \'[{\\"description\\":\\"MEJA\\",\\"amount\\":\\"22\\",\\"unitPrice\\":\\"3\\",\\"totalPrice\\":\\"3\\"}]\', NULL, \'GS-001-10-2022\', \'twelvedotio@gmail.com\')', 0)
+ 2 SYSTEMPATH/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `submissions` (`date`, `proofNumber`, `projectCode`, `contractNumber`, `customer`, `recipient`, `category`, `items`, `attachment`, `submission`, `email`) VALUES (\'2022-11-22\', \'GS 001/10/2022\', \'P001\', \'S180243/JOBT/TPD\', \'Job Senoro\', \'Amir\', \'3\', \'[{\\"description\\":\\"MEJA\\",\\"amount\\":\\"22\\",\\"unitPrice\\":\\"3\\",\\"totalPrice\\":\\"3\\"}]\', NULL, \'GS-001-10-2022\', \'twelvedotio@gmail.com\')')
+ 3 SYSTEMPATH/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `submissions` (`date`, `proofNumber`, `projectCode`, `contractNumber`, `customer`, `recipient`, `category`, `items`, `attachment`, `submission`, `email`) VALUES (\'2022-11-22\', \'GS 001/10/2022\', \'P001\', \'S180243/JOBT/TPD\', \'Job Senoro\', \'Amir\', \'3\', \'[{\\"description\\":\\"MEJA\\",\\"amount\\":\\"22\\",\\"unitPrice\\":\\"3\\",\\"totalPrice\\":\\"3\\"}]\', NULL, \'GS-001-10-2022\', \'twelvedotio@gmail.com\')')
+ 4 SYSTEMPATH/Database/BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `submissions` (`date`, `proofNumber`, `projectCode`, `contractNumber`, `customer`, `recipient`, `category`, `items`, `attachment`, `submission`, `email`) VALUES (:date:, :proofNumber:, :projectCode:, :contractNumber:, :customer:, :recipient:, :category:, :items:, :attachment:, :submission:, :email:)', [...], false)
+ 5 APPPATH/Controllers/Home.php(84): CodeIgniter\Database\BaseBuilder->insert([...])
+ 6 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Home->submit()
+ 7 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-11-22 21:56:43 --> mysqli_sql_exception: Duplicate entry 'GS 001/10/2022' for key 'proofNumber' in /home/u1606672/public_html/form/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /home/u1606672/public_html/form/system/Database/MySQLi/Connection.php(292): mysqli->query('INSERT INTO `su...', 0)
+#1 /home/u1606672/public_html/form/system/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `su...')
+#2 /home/u1606672/public_html/form/system/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `su...')
+#3 /home/u1606672/public_html/form/system/Database/BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `su...', Array, false)
+#4 /home/u1606672/public_html/form/app/Controllers/Home.php(84): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 /home/u1606672/public_html/form/system/CodeIgniter.php(927): App\Controllers\Home->submit()
+#6 /home/u1606672/public_html/form/system/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 /home/u1606672/public_html/form/system/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/u1606672/public_html/form/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-11-22 21:56:43 --> Duplicate entry 'GS 001/10/2022' for key 'proofNumber'
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 292.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(292): mysqli->query('INSERT INTO `submissions` (`date`, `proofNumber`, `projectCode`, `contractNumber`, `customer`, `recipient`, `category`, `items`, `attachment`, `submission`, `email`) VALUES (\'2022-11-22\', \'GS 001/10/2022\', \'P001\', \'S180243/JOBT/TPD\', \'Job Senoro\', \'Amir\', \'3\', \'[{\\"description\\":\\"MEJA\\",\\"amount\\":\\"22\\",\\"unitPrice\\":\\"3\\",\\"totalPrice\\":\\"3\\"}]\', NULL, \'GS-001-10-2022\', \'twelvedotio@gmail.com\')', 0)
+ 2 SYSTEMPATH/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `submissions` (`date`, `proofNumber`, `projectCode`, `contractNumber`, `customer`, `recipient`, `category`, `items`, `attachment`, `submission`, `email`) VALUES (\'2022-11-22\', \'GS 001/10/2022\', \'P001\', \'S180243/JOBT/TPD\', \'Job Senoro\', \'Amir\', \'3\', \'[{\\"description\\":\\"MEJA\\",\\"amount\\":\\"22\\",\\"unitPrice\\":\\"3\\",\\"totalPrice\\":\\"3\\"}]\', NULL, \'GS-001-10-2022\', \'twelvedotio@gmail.com\')')
+ 3 SYSTEMPATH/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `submissions` (`date`, `proofNumber`, `projectCode`, `contractNumber`, `customer`, `recipient`, `category`, `items`, `attachment`, `submission`, `email`) VALUES (\'2022-11-22\', \'GS 001/10/2022\', \'P001\', \'S180243/JOBT/TPD\', \'Job Senoro\', \'Amir\', \'3\', \'[{\\"description\\":\\"MEJA\\",\\"amount\\":\\"22\\",\\"unitPrice\\":\\"3\\",\\"totalPrice\\":\\"3\\"}]\', NULL, \'GS-001-10-2022\', \'twelvedotio@gmail.com\')')
+ 4 SYSTEMPATH/Database/BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `submissions` (`date`, `proofNumber`, `projectCode`, `contractNumber`, `customer`, `recipient`, `category`, `items`, `attachment`, `submission`, `email`) VALUES (:date:, :proofNumber:, :projectCode:, :contractNumber:, :customer:, :recipient:, :category:, :items:, :attachment:, :submission:, :email:)', [...], false)
+ 5 APPPATH/Controllers/Home.php(84): CodeIgniter\Database\BaseBuilder->insert([...])
+ 6 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Home->submit()
+ 7 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-22 22:02:35 --> Undefined variable: validation
+in APPPATH/Views/form.php on line 27.
+ 1 APPPATH/Views/form.php(27): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: validation', 'APPPATH/Views/form.php', 27, [])
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/form.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render('form', [], true)
+ 5 APPPATH/Controllers/Home.php(15): view('form')
+ 6 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Home->index()
+ 7 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-22 22:04:02 --> Undefined variable: validation
+in APPPATH/Views/form.php on line 27.
+ 1 APPPATH/Views/form.php(27): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: validation', 'APPPATH/Views/form.php', 27, [])
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/form.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render('form', [], true)
+ 5 APPPATH/Controllers/Home.php(16): view('form')
+ 6 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Home->index()
+ 7 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-22 22:04:04 --> Undefined variable: validation
+in APPPATH/Views/form.php on line 27.
+ 1 APPPATH/Views/form.php(27): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: validation', 'APPPATH/Views/form.php', 27, [])
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/form.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render('form', [], true)
+ 5 APPPATH/Controllers/Home.php(16): view('form')
+ 6 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Home->index()
+ 7 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-22 22:04:05 --> Undefined variable: validation
+in APPPATH/Views/form.php on line 27.
+ 1 APPPATH/Views/form.php(27): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: validation', 'APPPATH/Views/form.php', 27, [])
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/form.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render('form', [], true)
+ 5 APPPATH/Controllers/Home.php(16): view('form')
+ 6 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Home->index()
+ 7 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-22 22:04:05 --> Undefined variable: validation
+in APPPATH/Views/form.php on line 27.
+ 1 APPPATH/Views/form.php(27): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: validation', 'APPPATH/Views/form.php', 27, [])
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/form.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render('form', [], true)
+ 5 APPPATH/Controllers/Home.php(16): view('form')
+ 6 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Home->index()
+ 7 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-22 22:05:16 --> Call to a member function listErrors() on null
+in APPPATH/Controllers/Home.php on line 94.
+ 1 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Home->submit()
+ 2 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-22 22:13:30 --> Undefined variable: validation
+in APPPATH/Views/form.php on line 27.
+ 1 APPPATH/Views/form.php(27): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: validation', 'APPPATH/Views/form.php', 27, [...])
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/form.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render('form', [], true)
+ 5 APPPATH/Controllers/Home.php(33): view('form')
+ 6 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Home->index()
+ 7 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-22 22:16:13 --> Undefined variable: validation
+in APPPATH/Views/form.php on line 27.
+ 1 APPPATH/Views/form.php(27): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: validation', 'APPPATH/Views/form.php', 27, [])
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/form.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render('form', [], true)
+ 5 APPPATH/Controllers/Home.php(15): view('form')
+ 6 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Home->index()
+ 7 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-22 22:16:21 --> Undefined variable: validation
+in APPPATH/Views/form.php on line 27.
+ 1 APPPATH/Views/form.php(27): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: validation', 'APPPATH/Views/form.php', 27, [])
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/form.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render('form', [], true)
+ 5 APPPATH/Controllers/Home.php(15): view('form')
+ 6 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Home->index()
+ 7 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-22 22:17:10 --> Trying to get property 'document' of non-object
+in APPPATH/Controllers/Home.php on line 79.
+ 1 APPPATH/Controllers/Home.php(79): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'document\' of non-object', 'APPPATH/Controllers/Home.php', 79, [...])
+ 2 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Home->submit()
+ 3 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-11-22 22:19:50 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '001/10/2022' at line 1 in /home/u1606672/public_html/form/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /home/u1606672/public_html/form/system/Database/MySQLi/Connection.php(292): mysqli->query('SELECT email FR...', 0)
+#1 /home/u1606672/public_html/form/system/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT email FR...')
+#2 /home/u1606672/public_html/form/system/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT email FR...')
+#3 /home/u1606672/public_html/form/app/Controllers/Home.php(79): CodeIgniter\Database\BaseConnection->query('SELECT email FR...')
+#4 /home/u1606672/public_html/form/system/CodeIgniter.php(927): App\Controllers\Home->submit()
+#5 /home/u1606672/public_html/form/system/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 /home/u1606672/public_html/form/system/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /home/u1606672/public_html/form/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-11-22 22:19:50 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '001/10/2022' at line 1
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 292.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(292): mysqli->query('SELECT email FROM submissions WHERE proofNumber = GS 001/10/2022', 0)
+ 2 SYSTEMPATH/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT email FROM submissions WHERE proofNumber = GS 001/10/2022')
+ 3 SYSTEMPATH/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT email FROM submissions WHERE proofNumber = GS 001/10/2022')
+ 4 APPPATH/Controllers/Home.php(79): CodeIgniter\Database\BaseConnection->query('SELECT email FROM submissions WHERE proofNumber = GS 001/10/2022')
+ 5 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Home->submit()
+ 6 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 7 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-22 22:21:27 --> Undefined variable: document
+in APPPATH/Views/form_output.php on line 7.
+ 1 APPPATH/Views/form_output.php(7): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: document', 'APPPATH/Views/form_output.php', 7, [...])
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/form_output.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render('form_output', [], true)
+ 5 APPPATH/Controllers/Home.php(109): view('form_output', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Home->submit()
+ 7 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-22 22:21:55 --> Array to string conversion
+in APPPATH/Controllers/Home.php on line 103.
+ 1 APPPATH/Controllers/Home.php(103): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Array to string conversion', 'APPPATH/Controllers/Home.php', 103, [...])
+ 2 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Home->submit()
+ 3 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-22 22:22:56 --> Cannot pass parameter 1 by reference
+in APPPATH/Controllers/Home.php on line 101.
+ 1 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Home->submit()
+ 2 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()

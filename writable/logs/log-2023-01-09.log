@@ -1,0 +1,11 @@
+CRITICAL - 2023-01-09 16:02:23 --> Undefined index: moreDescription
+in APPPATH/Views/export_item.php on line 126.
+ 1 APPPATH/Views/export_item.php(126): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: moreDescription', 'APPPATH/Views/export_item.php', 126, [...])
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/export_item.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render('export_item', [], true)
+ 5 APPPATH/Controllers/Exports.php(339): view('export_item', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Exports->item()
+ 7 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Exports))
+ 8 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()

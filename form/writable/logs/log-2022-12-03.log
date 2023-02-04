@@ -1,0 +1,27 @@
+CRITICAL - 2022-12-03 14:53:50 --> Not Found
+in APPPATH/Controllers/Home.php on line 66.
+ 1 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Home->view()
+ 2 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-03 14:59:49 --> Undefined variable: type
+in APPPATH/Controllers/Home.php on line 276.
+ 1 APPPATH/Controllers/Home.php(276): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: type', 'APPPATH/Controllers/Home.php', 276, [...])
+ 2 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Home->approve()
+ 3 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-03 15:26:02 --> Undefined variable: type
+in APPPATH/Controllers/Home.php on line 403.
+ 1 APPPATH/Controllers/Home.php(403): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: type', 'APPPATH/Controllers/Home.php', 403, [...])
+ 2 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Home->disapprove()
+ 3 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-03 17:00:46 --> Undefined variable: projects
+in APPPATH/Controllers/Home.php on line 567.
+ 1 APPPATH/Controllers/Home.php(567): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: projects', 'APPPATH/Controllers/Home.php', 567, [...])
+ 2 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Home->projects()
+ 3 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()

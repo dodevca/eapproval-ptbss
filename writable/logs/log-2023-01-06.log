@@ -1,0 +1,275 @@
+CRITICAL - 2023-01-06 00:09:18 --> Undefined index: $refcode
+in APPPATH/Controllers/Exports.php on line 381.
+ 1 APPPATH/Controllers/Exports.php(381): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: $refcode', 'APPPATH/Controllers/Exports.php', 381, [...])
+ 2 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Exports->getitem()
+ 3 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Exports))
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-06 00:09:38 --> Undefined index: refcode
+in APPPATH/Controllers/Exports.php on line 379.
+ 1 APPPATH/Controllers/Exports.php(379): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: refcode', 'APPPATH/Controllers/Exports.php', 379, [...])
+ 2 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Exports->getitem()
+ 3 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Exports))
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-06 00:11:02 --> Undefined index: total
+in APPPATH/Controllers/Exports.php on line 383.
+ 1 APPPATH/Controllers/Exports.php(383): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: total', 'APPPATH/Controllers/Exports.php', 383, [...])
+ 2 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Exports->getitem()
+ 3 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Exports))
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-06 00:23:30 --> Undefined index: total
+in APPPATH/Controllers/Exports.php on line 386.
+ 1 APPPATH/Controllers/Exports.php(386): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: total', 'APPPATH/Controllers/Exports.php', 386, [...])
+ 2 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Exports->getitem()
+ 3 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Exports))
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-06 00:24:12 --> Undefined offset: 1
+in APPPATH/Controllers/Exports.php on line 390.
+ 1 APPPATH/Controllers/Exports.php(390): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offset: 1', 'APPPATH/Controllers/Exports.php', 390, [...])
+ 2 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Exports->getitem()
+ 3 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Exports))
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-06 00:25:42 --> Undefined offset: 1
+in APPPATH/Controllers/Exports.php on line 390.
+ 1 APPPATH/Controllers/Exports.php(390): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offset: 1', 'APPPATH/Controllers/Exports.php', 390, [...])
+ 2 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Exports->getitem()
+ 3 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Exports))
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-06 00:41:40 --> Illegal string offset 'proofNumber'
+in APPPATH/Controllers/Exports.php on line 382.
+ 1 APPPATH/Controllers/Exports.php(382): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Illegal string offset \'proofNumber\'', 'APPPATH/Controllers/Exports.php', 382, [...])
+ 2 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Exports->getitem()
+ 3 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Exports))
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-06 00:42:31 --> Illegal string offset 'proofNumber'
+in APPPATH/Controllers/Exports.php on line 382.
+ 1 APPPATH/Controllers/Exports.php(382): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Illegal string offset \'proofNumber\'', 'APPPATH/Controllers/Exports.php', 382, [...])
+ 2 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Exports->getitem()
+ 3 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Exports))
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-06 00:46:54 --> Undefined variable: type
+in APPPATH/Views/export_approved.php on line 17.
+ 1 APPPATH/Views/export_approved.php(17): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: type', 'APPPATH/Views/export_approved.php', 17, [...])
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/export_approved.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render('export_approved', [], true)
+ 5 APPPATH/Controllers/Exports.php(439): view('export_approved', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Exports->getitem()
+ 7 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Exports))
+ 8 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-06 00:47:17 --> Undefined index: type
+in APPPATH/Views/export_item.php on line 34.
+ 1 APPPATH/Views/export_item.php(34): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: type', 'APPPATH/Views/export_item.php', 34, [...])
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/export_item.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render('export_item', [], true)
+ 5 APPPATH/Controllers/Exports.php(439): view('export_item', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Exports->getitem()
+ 7 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Exports))
+ 8 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-06 00:49:06 --> Undefined index: type
+in APPPATH/Views/export_item.php on line 34.
+ 1 APPPATH/Views/export_item.php(34): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: type', 'APPPATH/Views/export_item.php', 34, [...])
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/export_item.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render('export_item', [], true)
+ 5 APPPATH/Controllers/Exports.php(443): view('export_item', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Exports->getitem()
+ 7 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Exports))
+ 8 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-06 00:50:24 --> Undefined index: type
+in APPPATH/Views/export_item.php on line 34.
+ 1 APPPATH/Views/export_item.php(34): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: type', 'APPPATH/Views/export_item.php', 34, [...])
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/export_item.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render('export_item', [], true)
+ 5 APPPATH/Controllers/Exports.php(443): view('export_item', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Exports->getitem()
+ 7 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Exports))
+ 8 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-06 00:51:01 --> Undefined index: type
+in APPPATH/Views/export_item.php on line 34.
+ 1 APPPATH/Views/export_item.php(34): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: type', 'APPPATH/Views/export_item.php', 34, [...])
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/export_item.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render('export_item', [], true)
+ 5 APPPATH/Controllers/Exports.php(443): view('export_item', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Exports->getitem()
+ 7 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Exports))
+ 8 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-06 00:57:57 --> syntax error, unexpected 'refcode' (T_STRING), expecting ';' or ','
+in APPPATH/Views/export_item.php on line 66.
+ 1 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render('export_item', [], true)
+ 3 APPPATH/Controllers/Exports.php(341): view('export_item', [...])
+ 4 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Exports->item()
+ 5 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Exports))
+ 6 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-06 00:58:38 --> syntax error, unexpected 'refcode' (T_STRING), expecting ';' or ','
+in APPPATH/Views/export_item.php on line 66.
+ 1 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render('export_item', [], true)
+ 3 APPPATH/Controllers/Exports.php(341): view('export_item', [...])
+ 4 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Exports->item()
+ 5 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Exports))
+ 6 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-06 01:17:15 --> Undefined index: contractNumber
+in APPPATH/Views/export_item.php on line 105.
+ 1 APPPATH/Views/export_item.php(105): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: contractNumber', 'APPPATH/Views/export_item.php', 105, [...])
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/export_item.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render('export_item', [], true)
+ 5 APPPATH/Controllers/Exports.php(341): view('export_item', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Exports->item()
+ 7 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Exports))
+ 8 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-06 01:23:30 --> Undefined variable: result
+in APPPATH/Views/export_item.php on line 105.
+ 1 APPPATH/Views/export_item.php(105): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: result', 'APPPATH/Views/export_item.php', 105, [...])
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/export_item.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render('export_item', [], true)
+ 5 APPPATH/Controllers/Exports.php(341): view('export_item', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Exports->item()
+ 7 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Exports))
+ 8 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-06 01:24:39 --> Undefined variable: result
+in APPPATH/Views/export_item.php on line 89.
+ 1 APPPATH/Views/export_item.php(89): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: result', 'APPPATH/Views/export_item.php', 89, [...])
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/export_item.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render('export_item', [], true)
+ 5 APPPATH/Controllers/Exports.php(341): view('export_item', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Exports->item()
+ 7 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Exports))
+ 8 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-06 01:29:51 --> Undefined variable: fileName
+in APPPATH/Views/export_item.php on line 170.
+ 1 APPPATH/Views/export_item.php(170): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: fileName', 'APPPATH/Views/export_item.php', 170, [...])
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/export_item.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render('export_item', [], true)
+ 5 APPPATH/Controllers/Exports.php(341): view('export_item', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Exports->item()
+ 7 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Exports))
+ 8 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-01-06 10:32:18 --> mysqli_sql_exception: Duplicate entry 'Rasyid Amir Laugi' for key 'code' in /home/u1606672/public_html/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /home/u1606672/public_html/system/Database/MySQLi/Connection.php(292): mysqli->query('REPLACE INTO `r...', 0)
+#1 /home/u1606672/public_html/system/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('REPLACE INTO `r...')
+#2 /home/u1606672/public_html/system/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('REPLACE INTO `r...')
+#3 /home/u1606672/public_html/system/Database/BaseBuilder.php(2002): CodeIgniter\Database\BaseConnection->query('REPLACE INTO `r...', Array, false)
+#4 /home/u1606672/public_html/app/Controllers/Settings.php(854): CodeIgniter\Database\BaseBuilder->replace(Array)
+#5 /home/u1606672/public_html/system/CodeIgniter.php(927): App\Controllers\Settings->setrefcode()
+#6 /home/u1606672/public_html/system/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Settings))
+#7 /home/u1606672/public_html/system/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/u1606672/public_html/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-01-06 10:32:18 --> Duplicate entry 'Rasyid Amir Laugi' for key 'code'
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 292.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(292): mysqli->query('REPLACE INTO `refcode` (`code`, `description`) VALUES (\'Rasyid Amir Laugi\', \'Operator\')', 0)
+ 2 SYSTEMPATH/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('REPLACE INTO `refcode` (`code`, `description`) VALUES (\'Rasyid Amir Laugi\', \'Operator\')')
+ 3 SYSTEMPATH/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('REPLACE INTO `refcode` (`code`, `description`) VALUES (\'Rasyid Amir Laugi\', \'Operator\')')
+ 4 SYSTEMPATH/Database/BaseBuilder.php(2002): CodeIgniter\Database\BaseConnection->query('REPLACE INTO `refcode` (`code`, `description`) VALUES (:code:, :description:)', [...], false)
+ 5 APPPATH/Controllers/Settings.php(854): CodeIgniter\Database\BaseBuilder->replace([...])
+ 6 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Settings->setrefcode()
+ 7 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Settings))
+ 8 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-01-06 10:33:29 --> mysqli_sql_exception: Duplicate entry 'Rasyid Amir Laugi' for key 'code' in /home/u1606672/public_html/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /home/u1606672/public_html/system/Database/MySQLi/Connection.php(292): mysqli->query('REPLACE INTO `r...', 0)
+#1 /home/u1606672/public_html/system/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('REPLACE INTO `r...')
+#2 /home/u1606672/public_html/system/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('REPLACE INTO `r...')
+#3 /home/u1606672/public_html/system/Database/BaseBuilder.php(2002): CodeIgniter\Database\BaseConnection->query('REPLACE INTO `r...', Array, false)
+#4 /home/u1606672/public_html/app/Controllers/Settings.php(854): CodeIgniter\Database\BaseBuilder->replace(Array)
+#5 /home/u1606672/public_html/system/CodeIgniter.php(927): App\Controllers\Settings->setrefcode()
+#6 /home/u1606672/public_html/system/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Settings))
+#7 /home/u1606672/public_html/system/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/u1606672/public_html/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-01-06 10:33:29 --> Duplicate entry 'Rasyid Amir Laugi' for key 'code'
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 292.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(292): mysqli->query('REPLACE INTO `refcode` (`code`, `description`) VALUES (\'Rasyid Amir Laugi\', \'Operator\')', 0)
+ 2 SYSTEMPATH/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('REPLACE INTO `refcode` (`code`, `description`) VALUES (\'Rasyid Amir Laugi\', \'Operator\')')
+ 3 SYSTEMPATH/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('REPLACE INTO `refcode` (`code`, `description`) VALUES (\'Rasyid Amir Laugi\', \'Operator\')')
+ 4 SYSTEMPATH/Database/BaseBuilder.php(2002): CodeIgniter\Database\BaseConnection->query('REPLACE INTO `refcode` (`code`, `description`) VALUES (:code:, :description:)', [...], false)
+ 5 APPPATH/Controllers/Settings.php(854): CodeIgniter\Database\BaseBuilder->replace([...])
+ 6 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Settings->setrefcode()
+ 7 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Settings))
+ 8 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-01-06 10:35:42 --> mysqli_sql_exception: Duplicate entry 'Tyson' for key 'code' in /home/u1606672/public_html/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /home/u1606672/public_html/system/Database/MySQLi/Connection.php(292): mysqli->query('REPLACE INTO `r...', 0)
+#1 /home/u1606672/public_html/system/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('REPLACE INTO `r...')
+#2 /home/u1606672/public_html/system/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('REPLACE INTO `r...')
+#3 /home/u1606672/public_html/system/Database/BaseBuilder.php(2002): CodeIgniter\Database\BaseConnection->query('REPLACE INTO `r...', Array, false)
+#4 /home/u1606672/public_html/app/Controllers/Settings.php(854): CodeIgniter\Database\BaseBuilder->replace(Array)
+#5 /home/u1606672/public_html/system/CodeIgniter.php(927): App\Controllers\Settings->setrefcode()
+#6 /home/u1606672/public_html/system/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Settings))
+#7 /home/u1606672/public_html/system/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/u1606672/public_html/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-01-06 10:35:42 --> Duplicate entry 'Tyson' for key 'code'
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 292.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(292): mysqli->query('REPLACE INTO `refcode` (`code`, `description`) VALUES (\'Tyson\', \'Rigger\')', 0)
+ 2 SYSTEMPATH/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('REPLACE INTO `refcode` (`code`, `description`) VALUES (\'Tyson\', \'Rigger\')')
+ 3 SYSTEMPATH/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('REPLACE INTO `refcode` (`code`, `description`) VALUES (\'Tyson\', \'Rigger\')')
+ 4 SYSTEMPATH/Database/BaseBuilder.php(2002): CodeIgniter\Database\BaseConnection->query('REPLACE INTO `refcode` (`code`, `description`) VALUES (:code:, :description:)', [...], false)
+ 5 APPPATH/Controllers/Settings.php(854): CodeIgniter\Database\BaseBuilder->replace([...])
+ 6 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Settings->setrefcode()
+ 7 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Settings))
+ 8 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-06 15:33:32 --> Undefined index: dateSubmitted
+in APPPATH/Controllers/Exports.php on line 319.
+ 1 APPPATH/Controllers/Exports.php(319): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: dateSubmitted', 'APPPATH/Controllers/Exports.php', 319, [...])
+ 2 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Exports->item()
+ 3 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Exports))
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-06 15:37:43 --> syntax error, unexpected ':'
+in APPPATH/Views/export_item.php on line 89.
+ 1 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render('export_item', [], true)
+ 3 APPPATH/Controllers/Exports.php(345): view('export_item', [...])
+ 4 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Exports->item()
+ 5 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Exports))
+ 6 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-06 19:33:12 --> Not Found
+in APPPATH/Controllers/Views.php on line 101.
+ 1 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Views->index('GS-031-10-2022')
+ 2 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Views))
+ 3 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-06 19:58:04 --> Undefined variable: items
+in APPPATH/Views/view.php on line 361.
+ 1 APPPATH/Views/view.php(361): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: items', 'APPPATH/Views/view.php', 361, [...])
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/view.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render('view', [], true)
+ 5 APPPATH/Controllers/Views.php(107): view('view', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Views->index('GS003-01-2023')
+ 7 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Views))
+ 8 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()

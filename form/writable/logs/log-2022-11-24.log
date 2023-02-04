@@ -1,0 +1,251 @@
+CRITICAL - 2022-11-24 01:58:43 --> count(): Parameter must be an array or an object that implements Countable
+in APPPATH/Models/Mail_sender.php on line 20.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'count(): Parameter must be an array or an object that implements Countable', 'APPPATH/Models/Mail_sender.php', 20, [...])
+ 2 APPPATH/Models/Mail_sender.php(20): count('rio25.ra@gmail.com')
+ 3 APPPATH/Controllers/Home.php(107): App\Models\Mail_sender->sendToApprover('rio25.ra@gmail.com', 'Admin', 'Meminta Persetujuan Anda - GS 11/24/2022', [...])
+ 4 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Home->submit()
+ 5 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-11-24 02:02:59 --> mysqli_sql_exception: Table 'u1606672_bss.hierarchy' doesn't exist in /home/u1606672/public_html/form/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /home/u1606672/public_html/form/system/Database/MySQLi/Connection.php(292): mysqli->query('SELECT name, si...', 0)
+#1 /home/u1606672/public_html/form/system/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT name, si...')
+#2 /home/u1606672/public_html/form/system/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT name, si...')
+#3 /home/u1606672/public_html/form/app/Controllers/Home.php(132): CodeIgniter\Database\BaseConnection->query('SELECT name, si...')
+#4 /home/u1606672/public_html/form/system/CodeIgniter.php(927): App\Controllers\Home->approve()
+#5 /home/u1606672/public_html/form/system/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 /home/u1606672/public_html/form/system/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /home/u1606672/public_html/form/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-11-24 02:02:59 --> Table 'u1606672_bss.hierarchy' doesn't exist
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 292.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(292): mysqli->query('SELECT name, sign FROM hierarchy WHERE email = \'networkhaik@gmail.com\' AND hierarchy = \'Admin\'', 0)
+ 2 SYSTEMPATH/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT name, sign FROM hierarchy WHERE email = \'networkhaik@gmail.com\' AND hierarchy = \'Admin\'')
+ 3 SYSTEMPATH/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT name, sign FROM hierarchy WHERE email = \'networkhaik@gmail.com\' AND hierarchy = \'Admin\'')
+ 4 APPPATH/Controllers/Home.php(132): CodeIgniter\Database\BaseConnection->query('SELECT name, sign FROM hierarchy WHERE email = \'networkhaik@gmail.com\' AND hierarchy = \'Admin\'')
+ 5 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Home->approve()
+ 6 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 7 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-24 02:05:36 --> Undefined property: CodeIgniter\Database\MySQLi\Result::$name
+in APPPATH/Controllers/Home.php on line 173.
+ 1 APPPATH/Controllers/Home.php(173): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined property: CodeIgniter\\Database\\MySQLi\\Result::$name', 'APPPATH/Controllers/Home.php', 173, [...])
+ 2 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Home->approve()
+ 3 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-24 02:10:52 --> Undefined variable: nextApproval
+in APPPATH/Controllers/Home.php on line 181.
+ 1 APPPATH/Controllers/Home.php(181): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: nextApproval', 'APPPATH/Controllers/Home.php', 181, [...])
+ 2 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Home->approve()
+ 3 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-24 02:23:13 --> Undefined variable: hierarchy
+in APPPATH/Views/mail.php on line 108.
+ 1 APPPATH/Views/mail.php(108): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: hierarchy', 'APPPATH/Views/mail.php', 108, [...])
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/mail.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render('mail', [], true)
+ 5 APPPATH/Models/Mail_sender.php(29): view('mail', [...])
+ 6 APPPATH/Controllers/Home.php(106): App\Models\Mail_sender->sendToApprover([...], 'Admin', 'Meminta Persetujuan Anda - GS 11/24/2022', [...])
+ 7 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Home->submit()
+ 8 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 9 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-24 02:30:00 --> Undefined variable: approval
+in APPPATH/Views/mail.php on line 108.
+ 1 APPPATH/Views/mail.php(108): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: approval', 'APPPATH/Views/mail.php', 108, [...])
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/mail.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render('mail', [], true)
+ 5 APPPATH/Models/Mail_sender.php(27): view('mail', [...])
+ 6 APPPATH/Controllers/Home.php(106): App\Models\Mail_sender->sendToApprover([...], 'Admin', 'Meminta Persetujuan Anda - GS 11/24/2022', [...])
+ 7 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Home->submit()
+ 8 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 9 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-11-24 02:37:34 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'Panggato WHERE submission = 'GS-1-24-2022' AND Admin = '0'' at line 1 in /home/u1606672/public_html/form/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /home/u1606672/public_html/form/system/Database/MySQLi/Connection.php(292): mysqli->query('UPDATE submissi...', 0)
+#1 /home/u1606672/public_html/form/system/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE submissi...')
+#2 /home/u1606672/public_html/form/system/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE submissi...')
+#3 /home/u1606672/public_html/form/app/Controllers/Home.php(198): CodeIgniter\Database\BaseConnection->query('UPDATE submissi...')
+#4 /home/u1606672/public_html/form/system/CodeIgniter.php(927): App\Controllers\Home->approve()
+#5 /home/u1606672/public_html/form/system/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 /home/u1606672/public_html/form/system/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /home/u1606672/public_html/form/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-11-24 02:37:34 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'Panggato WHERE submission = 'GS-1-24-2022' AND Admin = '0'' at line 1
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 292.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(292): mysqli->query('UPDATE submissions SET Admin = Handry Panggato WHERE submission = \'GS-1-24-2022\' AND Admin = \'0\'', 0)
+ 2 SYSTEMPATH/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE submissions SET Admin = Handry Panggato WHERE submission = \'GS-1-24-2022\' AND Admin = \'0\'')
+ 3 SYSTEMPATH/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE submissions SET Admin = Handry Panggato WHERE submission = \'GS-1-24-2022\' AND Admin = \'0\'')
+ 4 APPPATH/Controllers/Home.php(198): CodeIgniter\Database\BaseConnection->query('UPDATE submissions SET Admin = Handry Panggato WHERE submission = \'GS-1-24-2022\' AND Admin = \'0\'')
+ 5 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Home->approve()
+ 6 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 7 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-24 02:47:00 --> Undefined variable: i
+in APPPATH/Models/Mail_sender.php on line 25.
+ 1 APPPATH/Models/Mail_sender.php(25): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: i', 'APPPATH/Models/Mail_sender.php', 25, [...])
+ 2 APPPATH/Controllers/Home.php(203): App\Models\Mail_sender->sendToApprover([...], 'Supervisor_II', 'Meminta Persetujuan Anda - GS 11/24/2022', [...])
+ 3 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Home->approve()
+ 4 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 5 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-24 03:19:23 --> Undefined index: email
+in APPPATH/Views/mail.php on line 149.
+ 1 APPPATH/Views/mail.php(149): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: email', 'APPPATH/Views/mail.php', 149, [...])
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/mail.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render('mail', [], true)
+ 5 APPPATH/Controllers/Home.php(221): view('mail', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Home->approve()
+ 7 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-24 03:22:17 --> Undefined index: email
+in APPPATH/Views/mail.php on line 149.
+ 1 APPPATH/Views/mail.php(149): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: email', 'APPPATH/Views/mail.php', 149, [...])
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/mail.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render('mail', [], true)
+ 5 APPPATH/Controllers/Home.php(221): view('mail', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Home->approve()
+ 7 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-24 03:24:53 --> Undefined variable: sender
+in APPPATH/Views/mail.php on line 8.
+ 1 APPPATH/Views/mail.php(8): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: sender', 'APPPATH/Views/mail.php', 8, [...])
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/mail.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render('mail', [], true)
+ 5 APPPATH/Controllers/Home.php(222): view('mail', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Home->approve()
+ 7 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-24 03:28:51 --> Undefined variable: sender
+in APPPATH/Views/mail.php on line 8.
+ 1 APPPATH/Views/mail.php(8): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: sender', 'APPPATH/Views/mail.php', 8, [...])
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/mail.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render('mail', [], true)
+ 5 APPPATH/Controllers/Home.php(222): view('mail', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Home->approve()
+ 7 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-24 04:10:23 --> Undefined variable: to
+in APPPATH/Controllers/Home.php on line 302.
+ 1 APPPATH/Controllers/Home.php(302): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: to', 'APPPATH/Controllers/Home.php', 302, [...])
+ 2 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Home->disapprove()
+ 3 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-24 04:12:39 --> Undefined variable: approval
+in APPPATH/Views/mail.php on line 101.
+ 1 APPPATH/Views/mail.php(101): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: approval', 'APPPATH/Views/mail.php', 101, [...])
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/mail.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render('mail', [], true)
+ 5 APPPATH/Models/Mail_sender.php(27): view('mail', [...])
+ 6 APPPATH/Controllers/Home.php(106): App\Models\Mail_sender->sendToApprover([...], 'Admin', 'Menunggu Persetujuan Anda - GS 011/926/2022', [...])
+ 7 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Home->submit()
+ 8 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 9 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-24 16:23:23 --> Undefined variable: document
+in APPPATH/Views/approval.php on line 7.
+ 1 APPPATH/Views/approval.php(7): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: document', 'APPPATH/Views/approval.php', 7, [...])
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/approval.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render('approval', [], true)
+ 5 APPPATH/Controllers/Home.php(230): view('approval', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Home->approve()
+ 7 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-24 17:23:12 --> Undefined variable: document
+in APPPATH/Views/approval.php on line 7.
+ 1 APPPATH/Views/approval.php(7): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: document', 'APPPATH/Views/approval.php', 7, [...])
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/approval.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render('approval', [], true)
+ 5 APPPATH/Controllers/Home.php(230): view('approval', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Home->approve()
+ 7 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-11-24 17:41:17 --> mysqli_sql_exception: Illegal mix of collations (latin1_swedish_ci,IMPLICIT) and (utf8_general_ci,COERCIBLE) for operation '=' in /home/u1606672/public_html/form/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /home/u1606672/public_html/form/system/Database/MySQLi/Connection.php(292): mysqli->query('SELECT name, si...', 0)
+#1 /home/u1606672/public_html/form/system/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT name, si...')
+#2 /home/u1606672/public_html/form/system/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT name, si...')
+#3 /home/u1606672/public_html/form/app/Controllers/Home.php(138): CodeIgniter\Database\BaseConnection->query('SELECT name, si...')
+#4 /home/u1606672/public_html/form/system/CodeIgniter.php(927): App\Controllers\Home->approve()
+#5 /home/u1606672/public_html/form/system/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 /home/u1606672/public_html/form/system/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /home/u1606672/public_html/form/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-11-24 17:41:17 --> Uncaught ErrorException: realpath() expects parameter 1 to be a valid path, string given in /home/u1606672/public_html/form/system/Common.php:90
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'realpath() expe...', '/home/u1606672/...', 90, Array)
+#1 /home/u1606672/public_html/form/system/Common.php(90): realpath('SELECT name, si...')
+#2 /home/u1606672/public_html/form/system/Debug/Exceptions.php(516): clean_path('SELECT name, si...')
+#3 [internal function]: CodeIgniter\Debug\Exceptions::CodeIgniter\Debug\{closure}('SELECT name, si...')
+#4 /home/u1606672/public_html/form/system/Debug/Exceptions.php(521): array_map(Object(Closure), Array)
+#5 /home/u1606672/public_html/form/system/Debug/Exceptions.php(115): CodeIgniter\Debug\Exceptions::renderBacktrace(Array)
+#6 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(mysqli_sql_exception))
+#7 {main}
+  thrown
+in SYSTEMPATH/Common.php on line 90.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+ERROR - 2022-11-24 18:13:33 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'is NOT NULL' at line 1 in /home/u1606672/public_html/form/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /home/u1606672/public_html/form/system/Database/MySQLi/Connection.php(292): mysqli->query('UPDATE submissi...', 0)
+#1 /home/u1606672/public_html/form/system/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE submissi...')
+#2 /home/u1606672/public_html/form/system/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE submissi...')
+#3 /home/u1606672/public_html/form/app/Controllers/Home.php(319): CodeIgniter\Database\BaseConnection->query('UPDATE submissi...')
+#4 /home/u1606672/public_html/form/system/CodeIgniter.php(927): App\Controllers\Home->disapprove()
+#5 /home/u1606672/public_html/form/system/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 /home/u1606672/public_html/form/system/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /home/u1606672/public_html/form/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-11-24 18:13:33 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'is NOT NULL' at line 1
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 292.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(292): mysqli->query('UPDATE submissions SET disapproval = \'1\' WHERE submission = \'GS-1-23-2022\' AND Admin is NULL AND  is NOT NULL', 0)
+ 2 SYSTEMPATH/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE submissions SET disapproval = \'1\' WHERE submission = \'GS-1-23-2022\' AND Admin is NULL AND  is NOT NULL')
+ 3 SYSTEMPATH/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE submissions SET disapproval = \'1\' WHERE submission = \'GS-1-23-2022\' AND Admin is NULL AND  is NOT NULL')
+ 4 APPPATH/Controllers/Home.php(319): CodeIgniter\Database\BaseConnection->query('UPDATE submissions SET disapproval = \'1\' WHERE submission = \'GS-1-23-2022\' AND Admin is NULL AND  is NOT NULL')
+ 5 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Home->disapprove()
+ 6 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 7 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-11-24 19:25:18 --> mysqli_sql_exception: Illegal mix of collations (latin1_swedish_ci,IMPLICIT) and (utf8_general_ci,COERCIBLE) for operation '=' in /home/u1606672/public_html/form/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /home/u1606672/public_html/form/system/Database/MySQLi/Connection.php(292): mysqli->query('SELECT name, si...', 0)
+#1 /home/u1606672/public_html/form/system/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT name, si...')
+#2 /home/u1606672/public_html/form/system/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT name, si...')
+#3 /home/u1606672/public_html/form/app/Controllers/Home.php(261): CodeIgniter\Database\BaseConnection->query('SELECT name, si...')
+#4 /home/u1606672/public_html/form/system/CodeIgniter.php(927): App\Controllers\Home->disapprove()
+#5 /home/u1606672/public_html/form/system/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 /home/u1606672/public_html/form/system/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /home/u1606672/public_html/form/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-11-24 19:25:18 --> Uncaught ErrorException: realpath() expects parameter 1 to be a valid path, string given in /home/u1606672/public_html/form/system/Common.php:90
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'realpath() expe...', '/home/u1606672/...', 90, Array)
+#1 /home/u1606672/public_html/form/system/Common.php(90): realpath('SELECT name, si...')
+#2 /home/u1606672/public_html/form/system/Debug/Exceptions.php(516): clean_path('SELECT name, si...')
+#3 [internal function]: CodeIgniter\Debug\Exceptions::CodeIgniter\Debug\{closure}('SELECT name, si...')
+#4 /home/u1606672/public_html/form/system/Debug/Exceptions.php(521): array_map(Object(Closure), Array)
+#5 /home/u1606672/public_html/form/system/Debug/Exceptions.php(115): CodeIgniter\Debug\Exceptions::renderBacktrace(Array)
+#6 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(mysqli_sql_exception))
+#7 {main}
+  thrown
+in SYSTEMPATH/Common.php on line 90.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()

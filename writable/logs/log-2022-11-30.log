@@ -1,0 +1,508 @@
+CRITICAL - 2022-11-30 00:15:45 --> Undefined offset: 1
+in APPPATH/Controllers/Settings.php on line 100.
+ 1 APPPATH/Controllers/Settings.php(100): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offset: 1', 'APPPATH/Controllers/Settings.php', 100, [...])
+ 2 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Settings->setesign()
+ 3 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Settings))
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-30 00:17:49 --> Undefined variable: newName
+in APPPATH/Controllers/Settings.php on line 103.
+ 1 APPPATH/Controllers/Settings.php(103): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: newName', 'APPPATH/Controllers/Settings.php', 103, [...])
+ 2 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Settings->setesign()
+ 3 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Settings))
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-30 00:18:01 --> Undefined offset: 1
+in APPPATH/Controllers/Settings.php on line 100.
+ 1 APPPATH/Controllers/Settings.php(100): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offset: 1', 'APPPATH/Controllers/Settings.php', 100, [...])
+ 2 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Settings->setesign()
+ 3 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Settings))
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-30 00:20:26 --> Undefined offset: 1
+in APPPATH/Controllers/Settings.php on line 100.
+ 1 APPPATH/Controllers/Settings.php(100): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offset: 1', 'APPPATH/Controllers/Settings.php', 100, [...])
+ 2 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Settings->setesign()
+ 3 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Settings))
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-30 01:05:52 --> Undefined variable: hierachies
+in APPPATH/Views/hierarchy.php on line 34.
+ 1 APPPATH/Views/hierarchy.php(34): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: hierachies', 'APPPATH/Views/hierarchy.php', 34, [...])
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/hierarchy.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render('hierarchy', [], true)
+ 5 APPPATH/Controllers/Settings.php(209): view('hierarchy', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Settings->hierarchies()
+ 7 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Settings))
+ 8 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-30 01:06:05 --> Undefined variable: hierachies
+in APPPATH/Views/hierarchy.php on line 55.
+ 1 APPPATH/Views/hierarchy.php(55): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: hierachies', 'APPPATH/Views/hierarchy.php', 55, [...])
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/hierarchy.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render('hierarchy', [], true)
+ 5 APPPATH/Controllers/Settings.php(209): view('hierarchy', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Settings->hierarchies()
+ 7 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Settings))
+ 8 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-30 01:06:07 --> Undefined variable: hierachies
+in APPPATH/Views/hierarchy.php on line 55.
+ 1 APPPATH/Views/hierarchy.php(55): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: hierachies', 'APPPATH/Views/hierarchy.php', 55, [...])
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/hierarchy.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render('hierarchy', [], true)
+ 5 APPPATH/Controllers/Settings.php(209): view('hierarchy', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Settings->hierarchies()
+ 7 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Settings))
+ 8 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-30 01:42:00 --> Undefined index: message
+in APPPATH/Controllers/Settings.php on line 277.
+ 1 APPPATH/Controllers/Settings.php(277): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: message', 'APPPATH/Controllers/Settings.php', 277, [...])
+ 2 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Settings->sethierarchies()
+ 3 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Settings))
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-30 01:46:41 --> syntax error, unexpected '}', expecting end of file
+in APPPATH/Controllers/Settings.php on line 289.
+ 1 SYSTEMPATH/Autoloader/Autoloader.php(259): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH/Controllers/Settings.php')
+ 2 SYSTEMPATH/Autoloader/Autoloader.php(237): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Settings')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Settings')
+ 4 [internal function]: spl_autoload_call('App\\Controllers\\Settings')
+ 5 SYSTEMPATH/CodeIgniter.php(877): class_exists('\\App\\Controllers\\Settings', true)
+ 6 SYSTEMPATH/CodeIgniter.php(469): CodeIgniter\CodeIgniter->startController()
+ 7 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-30 01:52:47 --> Array to string conversion
+in APPPATH/Controllers/Settings.php on line 280.
+ 1 APPPATH/Controllers/Settings.php(280): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Array to string conversion', 'APPPATH/Controllers/Settings.php', 280, [...])
+ 2 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Settings->sethierarchies()
+ 3 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Settings))
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-30 01:53:05 --> Use of undefined constant insert - assumed 'insert' (this will throw an Error in a future version of PHP)
+in APPPATH/Controllers/Settings.php on line 251.
+ 1 APPPATH/Controllers/Settings.php(251): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Use of undefined constant insert - assumed \'insert\' (this will throw an Error in a future version of PHP)', 'APPPATH/Controllers/Settings.php', 251, [...])
+ 2 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Settings->sethierarchies()
+ 3 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Settings))
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-30 01:53:38 --> Use of undefined constant insert - assumed 'insert' (this will throw an Error in a future version of PHP)
+in APPPATH/Controllers/Settings.php on line 251.
+ 1 APPPATH/Controllers/Settings.php(251): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Use of undefined constant insert - assumed \'insert\' (this will throw an Error in a future version of PHP)', 'APPPATH/Controllers/Settings.php', 251, [...])
+ 2 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Settings->sethierarchies()
+ 3 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Settings))
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-11-30 01:53:49 --> mysqli_sql_exception: Column 'hierarchy' cannot be null in /home/u1606672/public_html/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /home/u1606672/public_html/system/Database/MySQLi/Connection.php(292): mysqli->query('INSERT INTO `hi...', 0)
+#1 /home/u1606672/public_html/system/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `hi...')
+#2 /home/u1606672/public_html/system/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `hi...')
+#3 /home/u1606672/public_html/system/Database/BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `hi...', Array, false)
+#4 /home/u1606672/public_html/app/Controllers/Settings.php(259): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 /home/u1606672/public_html/system/CodeIgniter.php(927): App\Controllers\Settings->sethierarchies()
+#6 /home/u1606672/public_html/system/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Settings))
+#7 /home/u1606672/public_html/system/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/u1606672/public_html/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-11-30 01:53:49 --> Column 'hierarchy' cannot be null
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 292.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(292): mysqli->query('INSERT INTO `hierarchies` (`email`, `name`, `hierarchy`, `sign`) VALUES (\'twelvedotio@gmail.com\', \'Rio Ananda\', NULL, \'dHdlbHZlZG90aW9AZ21haWwuY29t\')', 0)
+ 2 SYSTEMPATH/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `hierarchies` (`email`, `name`, `hierarchy`, `sign`) VALUES (\'twelvedotio@gmail.com\', \'Rio Ananda\', NULL, \'dHdlbHZlZG90aW9AZ21haWwuY29t\')')
+ 3 SYSTEMPATH/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `hierarchies` (`email`, `name`, `hierarchy`, `sign`) VALUES (\'twelvedotio@gmail.com\', \'Rio Ananda\', NULL, \'dHdlbHZlZG90aW9AZ21haWwuY29t\')')
+ 4 SYSTEMPATH/Database/BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `hierarchies` (`email`, `name`, `hierarchy`, `sign`) VALUES (:email:, :name:, :hierarchy:, :sign:)', [...], false)
+ 5 APPPATH/Controllers/Settings.php(259): CodeIgniter\Database\BaseBuilder->insert([...])
+ 6 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Settings->sethierarchies()
+ 7 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Settings))
+ 8 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-11-30 01:54:08 --> mysqli_sql_exception: Column 'hierarchy' cannot be null in /home/u1606672/public_html/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /home/u1606672/public_html/system/Database/MySQLi/Connection.php(292): mysqli->query('INSERT INTO `hi...', 0)
+#1 /home/u1606672/public_html/system/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `hi...')
+#2 /home/u1606672/public_html/system/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `hi...')
+#3 /home/u1606672/public_html/system/Database/BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `hi...', Array, false)
+#4 /home/u1606672/public_html/app/Controllers/Settings.php(259): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 /home/u1606672/public_html/system/CodeIgniter.php(927): App\Controllers\Settings->sethierarchies()
+#6 /home/u1606672/public_html/system/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Settings))
+#7 /home/u1606672/public_html/system/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/u1606672/public_html/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-11-30 01:54:08 --> Column 'hierarchy' cannot be null
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 292.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(292): mysqli->query('INSERT INTO `hierarchies` (`email`, `name`, `hierarchy`, `sign`) VALUES (\'twelvedotio@gmail.com\', \'Rio Ananda\', NULL, \'dHdlbHZlZG90aW9AZ21haWwuY29t\')', 0)
+ 2 SYSTEMPATH/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `hierarchies` (`email`, `name`, `hierarchy`, `sign`) VALUES (\'twelvedotio@gmail.com\', \'Rio Ananda\', NULL, \'dHdlbHZlZG90aW9AZ21haWwuY29t\')')
+ 3 SYSTEMPATH/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `hierarchies` (`email`, `name`, `hierarchy`, `sign`) VALUES (\'twelvedotio@gmail.com\', \'Rio Ananda\', NULL, \'dHdlbHZlZG90aW9AZ21haWwuY29t\')')
+ 4 SYSTEMPATH/Database/BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `hierarchies` (`email`, `name`, `hierarchy`, `sign`) VALUES (:email:, :name:, :hierarchy:, :sign:)', [...], false)
+ 5 APPPATH/Controllers/Settings.php(259): CodeIgniter\Database\BaseBuilder->insert([...])
+ 6 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Settings->sethierarchies()
+ 7 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Settings))
+ 8 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-30 02:12:33 --> Undefined index: 
+in APPPATH/Views/view.php on line 159.
+ 1 APPPATH/Views/view.php(159): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: ', 'APPPATH/Views/view.php', 159, [...])
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/view.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render('view', [], true)
+ 5 APPPATH/Controllers/Views.php(97): view('view', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Views->index('GS-001-1-2024')
+ 7 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Views))
+ 8 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-30 02:12:36 --> Undefined index: 
+in APPPATH/Views/view.php on line 159.
+ 1 APPPATH/Views/view.php(159): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: ', 'APPPATH/Views/view.php', 159, [...])
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/view.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render('view', [], true)
+ 5 APPPATH/Controllers/Views.php(97): view('view', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Views->index('GS-001-1-2024')
+ 7 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Views))
+ 8 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-30 02:18:46 --> Undefined variable: db
+in APPPATH/Controllers/Settings.php on line 67.
+ 1 APPPATH/Controllers/Settings.php(67): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: db', 'APPPATH/Controllers/Settings.php', 67, [...])
+ 2 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Settings->setesign()
+ 3 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Settings))
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-30 02:55:41 --> Not Found
+in APPPATH/Controllers/Views.php on line 91.
+ 1 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Views->index('GS 001', '11', '2024')
+ 2 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Views))
+ 3 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-30 02:58:38 --> Call to undefined function form_open_multipart()
+in APPPATH/Views/edit.php on line 27.
+ 1 SYSTEMPATH/View/View.php(213): include()
+ 2 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render('edit', [], true)
+ 4 APPPATH/Controllers/Views.php(198): view('edit', [...])
+ 5 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Views->edit('GS-001-1-2024')
+ 6 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Views))
+ 7 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-30 03:23:42 --> Call to a member function titlefy() on null
+in APPPATH/Controllers/Views.php on line 236.
+ 1 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Views->save()
+ 2 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Views))
+ 3 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-30 03:24:01 --> Undefined variable: userModels
+in APPPATH/Controllers/Views.php on line 236.
+ 1 APPPATH/Controllers/Views.php(236): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: userModels', 'APPPATH/Controllers/Views.php', 236, [...])
+ 2 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Views->save()
+ 3 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Views))
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-30 03:25:43 --> Undefined index: attachment
+in APPPATH/Controllers/Views.php on line 274.
+ 1 APPPATH/Controllers/Views.php(274): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: attachment', 'APPPATH/Controllers/Views.php', 274, [...])
+ 2 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Views->save()
+ 3 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Views))
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-11-30 03:25:55 --> mysqli_sql_exception: Duplicate entry 'GS 001/11/2024' for key 'proofNumber' in /home/u1606672/public_html/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /home/u1606672/public_html/system/Database/MySQLi/Connection.php(292): mysqli->query('UPDATE `submiss...', 0)
+#1 /home/u1606672/public_html/system/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `submiss...')
+#2 /home/u1606672/public_html/system/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `submiss...')
+#3 /home/u1606672/public_html/system/Database/BaseBuilder.php(2079): CodeIgniter\Database\BaseConnection->query('UPDATE `submiss...', Array, false)
+#4 /home/u1606672/public_html/app/Controllers/Views.php(274): CodeIgniter\Database\BaseBuilder->update(Array)
+#5 /home/u1606672/public_html/system/CodeIgniter.php(927): App\Controllers\Views->save()
+#6 /home/u1606672/public_html/system/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Views))
+#7 /home/u1606672/public_html/system/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/u1606672/public_html/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-11-30 03:25:55 --> Duplicate entry 'GS 001/11/2024' for key 'proofNumber'
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 292.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(292): mysqli->query('UPDATE `submissions` SET `date` = \'2022-11-21\', `proofNumber` = \'GS 001/11/2024\', `projectCode` = \'PP004\', `contractNumber` = \'S180253/JOBT/TPD\', `customer` = \'Dep\', `recipient` = \'Wib\', `category` = \'1\', `items` = \'[{\\"description\\":\\"Dampar\\",\\"amount\\":\\"2\\",\\"unitPrice\\":30000,\\"unit\\":\\"Barang\\",\\"totalPrice\\":60000}]\', `total` = 60000, `submission` = \'GS-001-1-2024\'', 0)
+ 2 SYSTEMPATH/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `submissions` SET `date` = \'2022-11-21\', `proofNumber` = \'GS 001/11/2024\', `projectCode` = \'PP004\', `contractNumber` = \'S180253/JOBT/TPD\', `customer` = \'Dep\', `recipient` = \'Wib\', `category` = \'1\', `items` = \'[{\\"description\\":\\"Dampar\\",\\"amount\\":\\"2\\",\\"unitPrice\\":30000,\\"unit\\":\\"Barang\\",\\"totalPrice\\":60000}]\', `total` = 60000, `submission` = \'GS-001-1-2024\'')
+ 3 SYSTEMPATH/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `submissions` SET `date` = \'2022-11-21\', `proofNumber` = \'GS 001/11/2024\', `projectCode` = \'PP004\', `contractNumber` = \'S180253/JOBT/TPD\', `customer` = \'Dep\', `recipient` = \'Wib\', `category` = \'1\', `items` = \'[{\\"description\\":\\"Dampar\\",\\"amount\\":\\"2\\",\\"unitPrice\\":30000,\\"unit\\":\\"Barang\\",\\"totalPrice\\":60000}]\', `total` = 60000, `submission` = \'GS-001-1-2024\'')
+ 4 SYSTEMPATH/Database/BaseBuilder.php(2079): CodeIgniter\Database\BaseConnection->query('UPDATE `submissions` SET `date` = :date:, `proofNumber` = :proofNumber:, `projectCode` = :projectCode:, `contractNumber` = :contractNumber:, `customer` = :customer:, `recipient` = :recipient:, `category` = :category:, `items` = :items:, `total` = :total:, `submission` = :submission:', [...], false)
+ 5 APPPATH/Controllers/Views.php(274): CodeIgniter\Database\BaseBuilder->update([...])
+ 6 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Views->save()
+ 7 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Views))
+ 8 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-11-30 03:28:13 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '001/11/2024' at line 2 in /home/u1606672/public_html/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /home/u1606672/public_html/system/Database/MySQLi/Connection.php(292): mysqli->query('UPDATE `submiss...', 0)
+#1 /home/u1606672/public_html/system/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `submiss...')
+#2 /home/u1606672/public_html/system/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `submiss...')
+#3 /home/u1606672/public_html/system/Database/BaseBuilder.php(2079): CodeIgniter\Database\BaseConnection->query('UPDATE `submiss...', Array, false)
+#4 /home/u1606672/public_html/app/Controllers/Views.php(274): CodeIgniter\Database\BaseBuilder->update(Array, 'proofNumber = G...')
+#5 /home/u1606672/public_html/system/CodeIgniter.php(927): App\Controllers\Views->save()
+#6 /home/u1606672/public_html/system/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Views))
+#7 /home/u1606672/public_html/system/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/u1606672/public_html/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-11-30 03:28:13 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '001/11/2024' at line 2
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 292.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(292): mysqli->query('UPDATE `submissions` SET `date` = \'2022-11-21\', `proofNumber` = \'GS 001/11/2024\', `projectCode` = \'PP004\', `contractNumber` = \'S180253/JOBT/TPD\', `customer` = \'Dep\', `recipient` = \'Wib\', `category` = \'1\', `items` = \'[{\\"description\\":\\"Dampar\\",\\"amount\\":\\"2\\",\\"unitPrice\\":30000,\\"unit\\":\\"Barang\\",\\"totalPrice\\":60000}]\', `total` = 60000, `submission` = \'GS-001-1-2024\'
+WHERE `proofNumber` = GS 001/11/2024', 0)
+ 2 SYSTEMPATH/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `submissions` SET `date` = \'2022-11-21\', `proofNumber` = \'GS 001/11/2024\', `projectCode` = \'PP004\', `contractNumber` = \'S180253/JOBT/TPD\', `customer` = \'Dep\', `recipient` = \'Wib\', `category` = \'1\', `items` = \'[{\\"description\\":\\"Dampar\\",\\"amount\\":\\"2\\",\\"unitPrice\\":30000,\\"unit\\":\\"Barang\\",\\"totalPrice\\":60000}]\', `total` = 60000, `submission` = \'GS-001-1-2024\'
+WHERE `proofNumber` = GS 001/11/2024')
+ 3 SYSTEMPATH/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `submissions` SET `date` = \'2022-11-21\', `proofNumber` = \'GS 001/11/2024\', `projectCode` = \'PP004\', `contractNumber` = \'S180253/JOBT/TPD\', `customer` = \'Dep\', `recipient` = \'Wib\', `category` = \'1\', `items` = \'[{\\"description\\":\\"Dampar\\",\\"amount\\":\\"2\\",\\"unitPrice\\":30000,\\"unit\\":\\"Barang\\",\\"totalPrice\\":60000}]\', `total` = 60000, `submission` = \'GS-001-1-2024\'
+WHERE `proofNumber` = GS 001/11/2024')
+ 4 SYSTEMPATH/Database/BaseBuilder.php(2079): CodeIgniter\Database\BaseConnection->query('UPDATE `submissions` SET `date` = :date:, `proofNumber` = :proofNumber:, `projectCode` = :projectCode:, `contractNumber` = :contractNumber:, `customer` = :customer:, `recipient` = :recipient:, `category` = :category:, `items` = :items:, `total` = :total:, `submission` = :submission:
+WHERE `proofNumber` = GS 001/11/2024', [...], false)
+ 5 APPPATH/Controllers/Views.php(274): CodeIgniter\Database\BaseBuilder->update([...], 'proofNumber = GS 001/11/2024')
+ 6 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Views->save()
+ 7 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Views))
+ 8 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-30 06:48:20 --> Call to undefined function form_open()
+in APPPATH/Views/login.php on line 33.
+ 1 SYSTEMPATH/View/View.php(213): include()
+ 2 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render('login', [], true)
+ 4 APPPATH/Controllers/Submissions.php(331): view('login')
+ 5 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Submissions->disapproved()
+ 6 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Submissions))
+ 7 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-30 07:52:44 --> A non-numeric value encountered
+in APPPATH/Views/submission.php on line 82.
+ 1 APPPATH/Views/submission.php(82): CodeIgniter\Debug\Exceptions->errorHandler(2, 'A non-numeric value encountered', 'APPPATH/Views/submission.php', 82, [...])
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/submission.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render('submission', [], true)
+ 5 APPPATH/Controllers/Submissions.php(207): view('submission', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Submissions->returned()
+ 7 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Submissions))
+ 8 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-30 07:52:47 --> A non-numeric value encountered
+in APPPATH/Views/submission.php on line 82.
+ 1 APPPATH/Views/submission.php(82): CodeIgniter\Debug\Exceptions->errorHandler(2, 'A non-numeric value encountered', 'APPPATH/Views/submission.php', 82, [...])
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/submission.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render('submission', [], true)
+ 5 APPPATH/Controllers/Submissions.php(207): view('submission', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Submissions->returned()
+ 7 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Submissions))
+ 8 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-30 07:53:28 --> A non-numeric value encountered
+in APPPATH/Views/submission.php on line 82.
+ 1 APPPATH/Views/submission.php(82): CodeIgniter\Debug\Exceptions->errorHandler(2, 'A non-numeric value encountered', 'APPPATH/Views/submission.php', 82, [...])
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/submission.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render('submission', [], true)
+ 5 APPPATH/Controllers/Submissions.php(104): view('submission', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Submissions->pending()
+ 7 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Submissions))
+ 8 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-30 07:55:52 --> A non-numeric value encountered
+in APPPATH/Views/submission.php on line 82.
+ 1 APPPATH/Views/submission.php(82): CodeIgniter\Debug\Exceptions->errorHandler(2, 'A non-numeric value encountered', 'APPPATH/Views/submission.php', 82, [...])
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/submission.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render('submission', [], true)
+ 5 APPPATH/Controllers/Submissions.php(106): view('submission', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Submissions->pending()
+ 7 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Submissions))
+ 8 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-30 07:57:49 --> Undefined variable: prev
+in APPPATH/Views/submission.php on line 82.
+ 1 APPPATH/Views/submission.php(82): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: prev', 'APPPATH/Views/submission.php', 82, [...])
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/submission.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render('submission', [], true)
+ 5 APPPATH/Controllers/Submissions.php(106): view('submission', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Submissions->pending()
+ 7 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Submissions))
+ 8 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-30 07:57:59 --> Undefined variable: prev
+in APPPATH/Views/submission.php on line 82.
+ 1 APPPATH/Views/submission.php(82): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: prev', 'APPPATH/Views/submission.php', 82, [...])
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/submission.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render('submission', [], true)
+ 5 APPPATH/Controllers/Submissions.php(106): view('submission', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Submissions->pending()
+ 7 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Submissions))
+ 8 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-30 07:59:40 --> A non-numeric value encountered
+in APPPATH/Views/submission.php on line 88.
+ 1 APPPATH/Views/submission.php(88): CodeIgniter\Debug\Exceptions->errorHandler(2, 'A non-numeric value encountered', 'APPPATH/Views/submission.php', 88, [...])
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/submission.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render('submission', [], true)
+ 5 APPPATH/Controllers/Submissions.php(106): view('submission', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Submissions->pending()
+ 7 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Submissions))
+ 8 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-30 07:59:44 --> A non-numeric value encountered
+in APPPATH/Views/submission.php on line 88.
+ 1 APPPATH/Views/submission.php(88): CodeIgniter\Debug\Exceptions->errorHandler(2, 'A non-numeric value encountered', 'APPPATH/Views/submission.php', 88, [...])
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/submission.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render('submission', [], true)
+ 5 APPPATH/Controllers/Submissions.php(106): view('submission', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Submissions->pending()
+ 7 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Submissions))
+ 8 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-30 08:04:13 --> Undefined variable: prev
+in APPPATH/Views/submission.php on line 82.
+ 1 APPPATH/Views/submission.php(82): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: prev', 'APPPATH/Views/submission.php', 82, [...])
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/submission.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render('submission', [], true)
+ 5 APPPATH/Controllers/Submissions.php(104): view('submission', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Submissions->pending()
+ 7 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Submissions))
+ 8 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-30 08:04:52 --> Undefined index: sort
+in APPPATH/Views/submission.php on line 82.
+ 1 APPPATH/Views/submission.php(82): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: sort', 'APPPATH/Views/submission.php', 82, [...])
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/submission.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render('submission', [], true)
+ 5 APPPATH/Controllers/Submissions.php(108): view('submission', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Submissions->pending()
+ 7 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Submissions))
+ 8 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-30 08:04:57 --> Undefined index: sort
+in APPPATH/Views/submission.php on line 82.
+ 1 APPPATH/Views/submission.php(82): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: sort', 'APPPATH/Views/submission.php', 82, [...])
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/submission.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render('submission', [], true)
+ 5 APPPATH/Controllers/Submissions.php(108): view('submission', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Submissions->pending()
+ 7 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Submissions))
+ 8 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-30 08:25:13 --> Undefined variable: length
+in APPPATH/Views/submission.php on line 52.
+ 1 APPPATH/Views/submission.php(52): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: length', 'APPPATH/Views/submission.php', 52, [...])
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/submission.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render('submission', [], true)
+ 5 APPPATH/Controllers/Submissions.php(108): view('submission', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Submissions->pending()
+ 7 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Submissions))
+ 8 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-30 08:25:54 --> Undefined variable: submissions
+in APPPATH/Controllers/Submissions.php on line 105.
+ 1 APPPATH/Controllers/Submissions.php(105): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: submissions', 'APPPATH/Controllers/Submissions.php', 105, [...])
+ 2 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Submissions->pending()
+ 3 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Submissions))
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-30 08:25:56 --> Undefined variable: submissions
+in APPPATH/Controllers/Submissions.php on line 105.
+ 1 APPPATH/Controllers/Submissions.php(105): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: submissions', 'APPPATH/Controllers/Submissions.php', 105, [...])
+ 2 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Submissions->pending()
+ 3 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Submissions))
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-30 08:25:57 --> Undefined variable: submissions
+in APPPATH/Controllers/Submissions.php on line 105.
+ 1 APPPATH/Controllers/Submissions.php(105): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: submissions', 'APPPATH/Controllers/Submissions.php', 105, [...])
+ 2 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Submissions->pending()
+ 3 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Submissions))
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-30 08:25:58 --> Undefined variable: submissions
+in APPPATH/Controllers/Submissions.php on line 105.
+ 1 APPPATH/Controllers/Submissions.php(105): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: submissions', 'APPPATH/Controllers/Submissions.php', 105, [...])
+ 2 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Submissions->pending()
+ 3 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Submissions))
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-30 08:25:59 --> Undefined variable: submissions
+in APPPATH/Controllers/Submissions.php on line 105.
+ 1 APPPATH/Controllers/Submissions.php(105): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: submissions', 'APPPATH/Controllers/Submissions.php', 105, [...])
+ 2 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Submissions->pending()
+ 3 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Submissions))
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-30 08:28:27 --> Illegal string offset 'submission'
+in APPPATH/Views/submission.php on line 56.
+ 1 APPPATH/Views/submission.php(56): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Illegal string offset \'submission\'', 'APPPATH/Views/submission.php', 56, [...])
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/submission.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render('submission', [], true)
+ 5 APPPATH/Controllers/Submissions.php(324): view('submission', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Submissions->approved()
+ 7 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Submissions))
+ 8 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-30 08:57:44 --> Call to undefined function form_open()
+in APPPATH/Views/login.php on line 33.
+ 1 SYSTEMPATH/View/View.php(213): include()
+ 2 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render('login', [], true)
+ 4 APPPATH/Controllers/Submissions.php(345): view('login')
+ 5 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Submissions->disapproved()
+ 6 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Submissions))
+ 7 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-30 09:09:51 --> Call to undefined function form_open()
+in APPPATH/Views/login.php on line 33.
+ 1 SYSTEMPATH/View/View.php(213): include()
+ 2 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render('login', [], true)
+ 4 APPPATH/Controllers/Submissions.php(345): view('login')
+ 5 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Submissions->disapproved()
+ 6 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Submissions))
+ 7 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-30 09:09:58 --> Call to undefined function form_open()
+in APPPATH/Views/login.php on line 33.
+ 1 SYSTEMPATH/View/View.php(213): include()
+ 2 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render('login', [], true)
+ 4 APPPATH/Controllers/Submissions.php(345): view('login')
+ 5 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Submissions->disapproved()
+ 6 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Submissions))
+ 7 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-30 09:10:01 --> Call to undefined function form_open()
+in APPPATH/Views/login.php on line 33.
+ 1 SYSTEMPATH/View/View.php(213): include()
+ 2 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render('login', [], true)
+ 4 APPPATH/Controllers/Submissions.php(345): view('login')
+ 5 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Submissions->disapproved()
+ 6 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Submissions))
+ 7 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-30 09:10:25 --> Call to undefined function form_open()
+in APPPATH/Views/login.php on line 33.
+ 1 SYSTEMPATH/View/View.php(213): include()
+ 2 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render('login', [], true)
+ 4 APPPATH/Controllers/Submissions.php(22): view('login')
+ 5 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Submissions->pending()
+ 6 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Submissions))
+ 7 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-30 09:10:27 --> Call to undefined function form_open()
+in APPPATH/Views/login.php on line 33.
+ 1 SYSTEMPATH/View/View.php(213): include()
+ 2 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render('login', [], true)
+ 4 APPPATH/Controllers/Submissions.php(236): view('login')
+ 5 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Submissions->approved()
+ 6 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Submissions))
+ 7 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()

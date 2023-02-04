@@ -1,0 +1,20 @@
+CRITICAL - 2022-12-01 22:17:36 --> syntax error, unexpected 'if' (T_IF)
+in APPPATH/Views/submission.php on line 42.
+ 1 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render('submission', [], true)
+ 3 APPPATH/Controllers/Submissions.php(110): view('submission', [...])
+ 4 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Submissions->pending()
+ 5 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Submissions))
+ 6 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-01 23:13:36 --> Undefined variable: accounts
+in APPPATH/Views/setting.php on line 7.
+ 1 APPPATH/Views/setting.php(7): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: accounts', 'APPPATH/Views/setting.php', 7, [])
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/setting.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render('setting', [], true)
+ 5 APPPATH/Controllers/Settings.php(12): view('setting')
+ 6 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Settings->index()
+ 7 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Settings))
+ 8 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()

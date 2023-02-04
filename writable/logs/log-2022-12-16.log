@@ -1,0 +1,127 @@
+CRITICAL - 2022-12-16 21:08:00 --> Undefined index: disaproval
+in APPPATH/Views/view.php on line 105.
+ 1 APPPATH/Views/view.php(105): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: disaproval', 'APPPATH/Views/view.php', 105, [...])
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/view.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render('view', [], true)
+ 5 APPPATH/Controllers/Views.php(107): view('view', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Views->index('GS05-12-2022')
+ 7 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Views))
+ 8 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-16 21:09:40 --> Undefined variable: items
+in APPPATH/Views/view.php on line 359.
+ 1 APPPATH/Views/view.php(359): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: items', 'APPPATH/Views/view.php', 359, [...])
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/view.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render('view', [], true)
+ 5 APPPATH/Controllers/Views.php(107): view('view', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Views->index('GS05-12-2022')
+ 7 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Views))
+ 8 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-16 21:09:43 --> Undefined variable: items
+in APPPATH/Views/view.php on line 359.
+ 1 APPPATH/Views/view.php(359): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: items', 'APPPATH/Views/view.php', 359, [...])
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/view.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render('view', [], true)
+ 5 APPPATH/Controllers/Views.php(107): view('view', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Views->index('GS05-12-2022')
+ 7 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Views))
+ 8 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-16 21:09:45 --> Undefined variable: items
+in APPPATH/Views/view.php on line 359.
+ 1 APPPATH/Views/view.php(359): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: items', 'APPPATH/Views/view.php', 359, [...])
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/view.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render('view', [], true)
+ 5 APPPATH/Controllers/Views.php(107): view('view', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Views->index('GS05-12-2022')
+ 7 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Views))
+ 8 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-16 21:10:43 --> Undefined variable: items
+in APPPATH/Views/view.php on line 359.
+ 1 APPPATH/Views/view.php(359): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: items', 'APPPATH/Views/view.php', 359, [...])
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/view.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render('view', [], true)
+ 5 APPPATH/Controllers/Views.php(107): view('view', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Views->index('GS05-12-2022')
+ 7 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Views))
+ 8 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-16 21:10:48 --> Undefined variable: total
+in APPPATH/Views/view.php on line 365.
+ 1 APPPATH/Views/view.php(365): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: total', 'APPPATH/Views/view.php', 365, [...])
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/view.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render('view', [], true)
+ 5 APPPATH/Controllers/Views.php(107): view('view', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Views->index('GS05-12-2022')
+ 7 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Views))
+ 8 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-16 21:12:25 --> Undefined variable: items
+in APPPATH/Views/download.php on line 92.
+ 1 APPPATH/Views/download.php(92): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: items', 'APPPATH/Views/download.php', 92, [...])
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/download.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render('download', [], true)
+ 5 APPPATH/Controllers/Downloads.php(74): view('download', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Downloads->index('GS05-12-2022')
+ 7 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Downloads))
+ 8 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-16 21:13:28 --> Undefined variable: items
+in APPPATH/Views/download.php on line 92.
+ 1 APPPATH/Views/download.php(92): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: items', 'APPPATH/Views/download.php', 92, [...])
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/download.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render('download', [], true)
+ 5 APPPATH/Controllers/Downloads.php(74): view('download', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Downloads->index('GS05-12-2022')
+ 7 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Downloads))
+ 8 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-16 21:13:29 --> Undefined variable: items
+in APPPATH/Views/download.php on line 92.
+ 1 APPPATH/Views/download.php(92): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: items', 'APPPATH/Views/download.php', 92, [...])
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/download.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render('download', [], true)
+ 5 APPPATH/Controllers/Downloads.php(74): view('download', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Downloads->index('GS05-12-2022')
+ 7 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Downloads))
+ 8 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-16 21:13:30 --> Undefined variable: items
+in APPPATH/Views/download.php on line 92.
+ 1 APPPATH/Views/download.php(92): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: items', 'APPPATH/Views/download.php', 92, [...])
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/download.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render('download', [], true)
+ 5 APPPATH/Controllers/Downloads.php(74): view('download', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Downloads->index('GS05-12-2022')
+ 7 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Downloads))
+ 8 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-16 21:36:56 --> Undefined variable: categories
+in APPPATH/Views/edit.php on line 82.
+ 1 APPPATH/Views/edit.php(82): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: categories', 'APPPATH/Views/edit.php', 82, [...])
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/edit.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render('edit', [], true)
+ 5 APPPATH/Controllers/Views.php(214): view('edit', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Views->edit('GS05-12-2022')
+ 7 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Views))
+ 8 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-16 22:37:22 --> Not Found
+in APPPATH/Controllers/Views.php on line 101.
+ 1 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Views->index('GS-200331-10-2022')
+ 2 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Views))
+ 3 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()

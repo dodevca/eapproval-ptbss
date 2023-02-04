@@ -1,0 +1,298 @@
+CRITICAL - 2023-01-02 03:11:18 --> Cannot redeclare App\Controllers\Settings::categories()
+in APPPATH/Controllers/Settings.php on line 751.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-01-02 03:11:41 --> Cannot redeclare App\Controllers\Settings::categories()
+in APPPATH/Controllers/Settings.php on line 751.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-01-02 03:11:42 --> Cannot redeclare App\Controllers\Settings::categories()
+in APPPATH/Controllers/Settings.php on line 751.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-01-02 03:11:43 --> Undefined variable: categories
+in APPPATH/Views/refcode.php on line 42.
+ 1 APPPATH/Views/refcode.php(42): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: categories', 'APPPATH/Views/refcode.php', 42, [...])
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/refcode.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render('refcode', [], true)
+ 5 APPPATH/Controllers/Settings.php(800): view('refcode', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Settings->refcode()
+ 7 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Settings))
+ 8 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-02 03:13:56 --> Undefined variable: categories
+in APPPATH/Views/refcode.php on line 76.
+ 1 APPPATH/Views/refcode.php(76): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: categories', 'APPPATH/Views/refcode.php', 76, [...])
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/refcode.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render('refcode', [], true)
+ 5 APPPATH/Controllers/Settings.php(800): view('refcode', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Settings->refcode()
+ 7 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Settings))
+ 8 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-02 03:15:34 --> Undefined variable: document
+in APPPATH/Views/refcode.php on line 77.
+ 1 APPPATH/Views/refcode.php(77): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: document', 'APPPATH/Views/refcode.php', 77, [...])
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/refcode.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render('refcode', [], true)
+ 5 APPPATH/Controllers/Settings.php(809): view('refcode', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Settings->refcode()
+ 7 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Settings))
+ 8 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-02 03:15:35 --> Undefined variable: document
+in APPPATH/Views/refcode.php on line 77.
+ 1 APPPATH/Views/refcode.php(77): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: document', 'APPPATH/Views/refcode.php', 77, [...])
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/refcode.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render('refcode', [], true)
+ 5 APPPATH/Controllers/Settings.php(809): view('refcode', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Settings->refcode()
+ 7 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Settings))
+ 8 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-02 03:15:54 --> Undefined variable: category
+in APPPATH/Views/refcode.php on line 77.
+ 1 APPPATH/Views/refcode.php(77): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: category', 'APPPATH/Views/refcode.php', 77, [...])
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/refcode.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render('refcode', [], true)
+ 5 APPPATH/Controllers/Settings.php(809): view('refcode', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Settings->refcode()
+ 7 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Settings))
+ 8 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-02 03:15:54 --> Undefined variable: category
+in APPPATH/Views/refcode.php on line 77.
+ 1 APPPATH/Views/refcode.php(77): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: category', 'APPPATH/Views/refcode.php', 77, [...])
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/refcode.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render('refcode', [], true)
+ 5 APPPATH/Controllers/Settings.php(809): view('refcode', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Settings->refcode()
+ 7 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Settings))
+ 8 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-02 03:15:55 --> Undefined variable: category
+in APPPATH/Views/refcode.php on line 77.
+ 1 APPPATH/Views/refcode.php(77): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: category', 'APPPATH/Views/refcode.php', 77, [...])
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/refcode.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render('refcode', [], true)
+ 5 APPPATH/Controllers/Settings.php(809): view('refcode', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Settings->refcode()
+ 7 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Settings))
+ 8 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-02 03:15:55 --> Undefined variable: category
+in APPPATH/Views/refcode.php on line 77.
+ 1 APPPATH/Views/refcode.php(77): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: category', 'APPPATH/Views/refcode.php', 77, [...])
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/refcode.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render('refcode', [], true)
+ 5 APPPATH/Controllers/Settings.php(809): view('refcode', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Settings->refcode()
+ 7 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Settings))
+ 8 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-02 03:17:14 --> Undefined variable: category
+in APPPATH/Views/refcode.php on line 77.
+ 1 APPPATH/Views/refcode.php(77): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: category', 'APPPATH/Views/refcode.php', 77, [...])
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/refcode.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render('refcode', [], true)
+ 5 APPPATH/Controllers/Settings.php(809): view('refcode', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Settings->refcode()
+ 7 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Settings))
+ 8 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-02 03:17:15 --> Undefined variable: category
+in APPPATH/Views/refcode.php on line 77.
+ 1 APPPATH/Views/refcode.php(77): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: category', 'APPPATH/Views/refcode.php', 77, [...])
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/refcode.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render('refcode', [], true)
+ 5 APPPATH/Controllers/Settings.php(809): view('refcode', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Settings->refcode()
+ 7 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Settings))
+ 8 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-02 03:17:15 --> Undefined variable: category
+in APPPATH/Views/refcode.php on line 77.
+ 1 APPPATH/Views/refcode.php(77): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: category', 'APPPATH/Views/refcode.php', 77, [...])
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/refcode.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render('refcode', [], true)
+ 5 APPPATH/Controllers/Settings.php(809): view('refcode', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Settings->refcode()
+ 7 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Settings))
+ 8 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-02 03:17:57 --> array_multisort(): Array sizes are inconsistent
+in SYSTEMPATH/Helpers/array_helper.php on line 191.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'array_multisort(): Array sizes are inconsistent', 'SYSTEMPATH/Helpers/array_helper.php', 191, [...])
+ 2 SYSTEMPATH/Helpers/array_helper.php(191): array_multisort([], 4, [...])
+ 3 APPPATH/Controllers/Settings.php(794): array_sort_by_multiple_keys([...], [...])
+ 4 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Settings->refcode()
+ 5 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Settings))
+ 6 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-02 03:17:58 --> array_multisort(): Array sizes are inconsistent
+in SYSTEMPATH/Helpers/array_helper.php on line 191.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'array_multisort(): Array sizes are inconsistent', 'SYSTEMPATH/Helpers/array_helper.php', 191, [...])
+ 2 SYSTEMPATH/Helpers/array_helper.php(191): array_multisort([], 4, [...])
+ 3 APPPATH/Controllers/Settings.php(794): array_sort_by_multiple_keys([...], [...])
+ 4 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Settings->refcode()
+ 5 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Settings))
+ 6 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-02 03:19:38 --> array_multisort(): Array sizes are inconsistent
+in SYSTEMPATH/Helpers/array_helper.php on line 191.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'array_multisort(): Array sizes are inconsistent', 'SYSTEMPATH/Helpers/array_helper.php', 191, [...])
+ 2 SYSTEMPATH/Helpers/array_helper.php(191): array_multisort([], 4, [...])
+ 3 APPPATH/Controllers/Settings.php(794): array_sort_by_multiple_keys([...], [...])
+ 4 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Settings->refcode()
+ 5 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Settings))
+ 6 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-02 03:19:39 --> array_multisort(): Array sizes are inconsistent
+in SYSTEMPATH/Helpers/array_helper.php on line 191.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'array_multisort(): Array sizes are inconsistent', 'SYSTEMPATH/Helpers/array_helper.php', 191, [...])
+ 2 SYSTEMPATH/Helpers/array_helper.php(191): array_multisort([], 4, [...])
+ 3 APPPATH/Controllers/Settings.php(794): array_sort_by_multiple_keys([...], [...])
+ 4 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Settings->refcode()
+ 5 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Settings))
+ 6 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-02 03:19:39 --> array_multisort(): Array sizes are inconsistent
+in SYSTEMPATH/Helpers/array_helper.php on line 191.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'array_multisort(): Array sizes are inconsistent', 'SYSTEMPATH/Helpers/array_helper.php', 191, [...])
+ 2 SYSTEMPATH/Helpers/array_helper.php(191): array_multisort([], 4, [...])
+ 3 APPPATH/Controllers/Settings.php(794): array_sort_by_multiple_keys([...], [...])
+ 4 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Settings->refcode()
+ 5 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Settings))
+ 6 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-02 03:19:39 --> array_multisort(): Array sizes are inconsistent
+in SYSTEMPATH/Helpers/array_helper.php on line 191.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'array_multisort(): Array sizes are inconsistent', 'SYSTEMPATH/Helpers/array_helper.php', 191, [...])
+ 2 SYSTEMPATH/Helpers/array_helper.php(191): array_multisort([], 4, [...])
+ 3 APPPATH/Controllers/Settings.php(794): array_sort_by_multiple_keys([...], [...])
+ 4 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Settings->refcode()
+ 5 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Settings))
+ 6 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-02 03:19:40 --> array_multisort(): Array sizes are inconsistent
+in SYSTEMPATH/Helpers/array_helper.php on line 191.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'array_multisort(): Array sizes are inconsistent', 'SYSTEMPATH/Helpers/array_helper.php', 191, [...])
+ 2 SYSTEMPATH/Helpers/array_helper.php(191): array_multisort([], 4, [...])
+ 3 APPPATH/Controllers/Settings.php(794): array_sort_by_multiple_keys([...], [...])
+ 4 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Settings->refcode()
+ 5 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Settings))
+ 6 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-02 03:19:40 --> array_multisort(): Array sizes are inconsistent
+in SYSTEMPATH/Helpers/array_helper.php on line 191.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'array_multisort(): Array sizes are inconsistent', 'SYSTEMPATH/Helpers/array_helper.php', 191, [...])
+ 2 SYSTEMPATH/Helpers/array_helper.php(191): array_multisort([], 4, [...])
+ 3 APPPATH/Controllers/Settings.php(794): array_sort_by_multiple_keys([...], [...])
+ 4 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Settings->refcode()
+ 5 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Settings))
+ 6 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-02 03:24:45 --> Undefined index: category
+in APPPATH/Controllers/Settings.php on line 803.
+ 1 APPPATH/Controllers/Settings.php(803): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: category', 'APPPATH/Controllers/Settings.php', 803, [...])
+ 2 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Settings->refcode()
+ 3 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Settings))
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-02 03:27:02 --> Array to string conversion
+in APPPATH/Views/refcode.php on line 48.
+ 1 APPPATH/Views/refcode.php(48): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Array to string conversion', 'APPPATH/Views/refcode.php', 48, [...])
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/refcode.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render('refcode', [], true)
+ 5 APPPATH/Controllers/Settings.php(812): view('refcode', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Settings->refcode()
+ 7 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Settings))
+ 8 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-02 03:27:02 --> Array to string conversion
+in APPPATH/Views/refcode.php on line 48.
+ 1 APPPATH/Views/refcode.php(48): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Array to string conversion', 'APPPATH/Views/refcode.php', 48, [...])
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/refcode.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render('refcode', [], true)
+ 5 APPPATH/Controllers/Settings.php(812): view('refcode', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Settings->refcode()
+ 7 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Settings))
+ 8 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-02 03:27:03 --> Array to string conversion
+in APPPATH/Views/refcode.php on line 48.
+ 1 APPPATH/Views/refcode.php(48): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Array to string conversion', 'APPPATH/Views/refcode.php', 48, [...])
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/refcode.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render('refcode', [], true)
+ 5 APPPATH/Controllers/Settings.php(812): view('refcode', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Settings->refcode()
+ 7 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Settings))
+ 8 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-02 03:27:04 --> Array to string conversion
+in APPPATH/Views/refcode.php on line 48.
+ 1 APPPATH/Views/refcode.php(48): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Array to string conversion', 'APPPATH/Views/refcode.php', 48, [...])
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/refcode.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render('refcode', [], true)
+ 5 APPPATH/Controllers/Settings.php(812): view('refcode', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Settings->refcode()
+ 7 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Settings))
+ 8 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-02 03:27:05 --> Array to string conversion
+in APPPATH/Views/refcode.php on line 48.
+ 1 APPPATH/Views/refcode.php(48): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Array to string conversion', 'APPPATH/Views/refcode.php', 48, [...])
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/refcode.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render('refcode', [], true)
+ 5 APPPATH/Controllers/Settings.php(814): view('refcode', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Settings->refcode()
+ 7 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Settings))
+ 8 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-02 03:27:08 --> Array to string conversion
+in APPPATH/Views/refcode.php on line 48.
+ 1 APPPATH/Views/refcode.php(48): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Array to string conversion', 'APPPATH/Views/refcode.php', 48, [...])
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/refcode.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render('refcode', [], true)
+ 5 APPPATH/Controllers/Settings.php(814): view('refcode', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Settings->refcode()
+ 7 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Settings))
+ 8 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-02 03:27:09 --> Array to string conversion
+in APPPATH/Views/refcode.php on line 48.
+ 1 APPPATH/Views/refcode.php(48): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Array to string conversion', 'APPPATH/Views/refcode.php', 48, [...])
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/refcode.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render('refcode', [], true)
+ 5 APPPATH/Controllers/Settings.php(814): view('refcode', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Settings->refcode()
+ 7 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Settings))
+ 8 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-01-02 05:10:19 --> mysqli_sql_exception: Duplicate entry 'Sdsadae4fG5' for key 'code' in /home/u1606672/public_html/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /home/u1606672/public_html/system/Database/MySQLi/Connection.php(292): mysqli->query('REPLACE INTO `r...', 0)
+#1 /home/u1606672/public_html/system/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('REPLACE INTO `r...')
+#2 /home/u1606672/public_html/system/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('REPLACE INTO `r...')
+#3 /home/u1606672/public_html/system/Database/BaseBuilder.php(2002): CodeIgniter\Database\BaseConnection->query('REPLACE INTO `r...', Array, false)
+#4 /home/u1606672/public_html/app/Controllers/Settings.php(854): CodeIgniter\Database\BaseBuilder->replace(Array)
+#5 /home/u1606672/public_html/system/CodeIgniter.php(927): App\Controllers\Settings->setrefcode()
+#6 /home/u1606672/public_html/system/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Settings))
+#7 /home/u1606672/public_html/system/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/u1606672/public_html/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}

@@ -1,0 +1,131 @@
+CRITICAL - 2022-11-27 21:05:16 --> syntax error, unexpected 'else' (T_ELSE), expecting function (T_FUNCTION) or const (T_CONST)
+in APPPATH/Controllers/Home.php on line 128.
+ 1 SYSTEMPATH/Autoloader/Autoloader.php(259): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH/Controllers/Home.php')
+ 2 SYSTEMPATH/Autoloader/Autoloader.php(237): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Home')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Home')
+ 4 [internal function]: spl_autoload_call('App\\Controllers\\Home')
+ 5 SYSTEMPATH/CodeIgniter.php(877): class_exists('\\App\\Controllers\\Home', true)
+ 6 SYSTEMPATH/CodeIgniter.php(469): CodeIgniter\CodeIgniter->startController()
+ 7 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-27 21:05:27 --> syntax error, unexpected 'else' (T_ELSE), expecting function (T_FUNCTION) or const (T_CONST)
+in APPPATH/Controllers/Home.php on line 128.
+ 1 SYSTEMPATH/Autoloader/Autoloader.php(259): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH/Controllers/Home.php')
+ 2 SYSTEMPATH/Autoloader/Autoloader.php(237): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Home')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Home')
+ 4 [internal function]: spl_autoload_call('App\\Controllers\\Home')
+ 5 SYSTEMPATH/CodeIgniter.php(877): class_exists('\\App\\Controllers\\Home', true)
+ 6 SYSTEMPATH/CodeIgniter.php(469): CodeIgniter\CodeIgniter->startController()
+ 7 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-11-27 21:13:20 --> mysqli_sql_exception: Illegal mix of collations (latin1_swedish_ci,IMPLICIT) and (utf8_general_ci,COERCIBLE) for operation '=' in /home/u1606672/public_html/form/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /home/u1606672/public_html/form/system/Database/MySQLi/Connection.php(292): mysqli->query('SELECT * FROM s...', 0)
+#1 /home/u1606672/public_html/form/system/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM s...')
+#2 /home/u1606672/public_html/form/system/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM s...')
+#3 /home/u1606672/public_html/form/app/Controllers/Home.php(30): CodeIgniter\Database\BaseConnection->query('SELECT * FROM s...')
+#4 /home/u1606672/public_html/form/system/CodeIgniter.php(927): App\Controllers\Home->view()
+#5 /home/u1606672/public_html/form/system/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 /home/u1606672/public_html/form/system/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /home/u1606672/public_html/form/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-11-27 21:13:20 --> Illegal mix of collations (latin1_swedish_ci,IMPLICIT) and (utf8_general_ci,COERCIBLE) for operation '='
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 292.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(292): mysqli->query('SELECT * FROM submissions WHERE submission = \'GS-001-10-2023\' AND email = \'·¥½çh¶* ™¨¥r‰\'', 0)
+ 2 SYSTEMPATH/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM submissions WHERE submission = \'GS-001-10-2023\' AND email = \'·¥½çh¶* ™¨¥r‰\'')
+ 3 SYSTEMPATH/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM submissions WHERE submission = \'GS-001-10-2023\' AND email = \'·¥½çh¶* ™¨¥r‰\'')
+ 4 APPPATH/Controllers/Home.php(30): CodeIgniter\Database\BaseConnection->query('SELECT * FROM submissions WHERE submission = \'GS-001-10-2023\' AND email = \'·¥½çh¶* ™¨¥r‰\'')
+ 5 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Home->view()
+ 6 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 7 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-11-27 21:13:29 --> mysqli_sql_exception: Illegal mix of collations (latin1_swedish_ci,IMPLICIT) and (utf8_general_ci,COERCIBLE) for operation '=' in /home/u1606672/public_html/form/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /home/u1606672/public_html/form/system/Database/MySQLi/Connection.php(292): mysqli->query('SELECT * FROM s...', 0)
+#1 /home/u1606672/public_html/form/system/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM s...')
+#2 /home/u1606672/public_html/form/system/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM s...')
+#3 /home/u1606672/public_html/form/app/Controllers/Home.php(30): CodeIgniter\Database\BaseConnection->query('SELECT * FROM s...')
+#4 /home/u1606672/public_html/form/system/CodeIgniter.php(927): App\Controllers\Home->view()
+#5 /home/u1606672/public_html/form/system/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 /home/u1606672/public_html/form/system/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /home/u1606672/public_html/form/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-11-27 21:13:29 --> Illegal mix of collations (latin1_swedish_ci,IMPLICIT) and (utf8_general_ci,COERCIBLE) for operation '='
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 292.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(292): mysqli->query('SELECT * FROM submissions WHERE submission = \'GS-001-10-2023\' AND email = \'·¥½çh¶* ™¨¥r‰\'', 0)
+ 2 SYSTEMPATH/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM submissions WHERE submission = \'GS-001-10-2023\' AND email = \'·¥½çh¶* ™¨¥r‰\'')
+ 3 SYSTEMPATH/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM submissions WHERE submission = \'GS-001-10-2023\' AND email = \'·¥½çh¶* ™¨¥r‰\'')
+ 4 APPPATH/Controllers/Home.php(30): CodeIgniter\Database\BaseConnection->query('SELECT * FROM submissions WHERE submission = \'GS-001-10-2023\' AND email = \'·¥½çh¶* ™¨¥r‰\'')
+ 5 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Home->view()
+ 6 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 7 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-27 21:17:13 --> Undefined variable: app
+in APPPATH/Controllers/Home.php on line 47.
+ 1 APPPATH/Controllers/Home.php(47): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: app', 'APPPATH/Controllers/Home.php', 47, [...])
+ 2 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Home->view()
+ 3 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-27 22:24:48 --> Undefined index: QXBwbGljYW50
+in APPPATH/Views/mail.php on line 14.
+ 1 APPPATH/Views/mail.php(14): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: QXBwbGljYW50', 'APPPATH/Views/mail.php', 14, [...])
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/mail.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render('mail', [], true)
+ 5 APPPATH/Models/Mail_sender.php(50): view('mail', [...])
+ 6 APPPATH/Controllers/Home.php(157): App\Models\Mail_sender->sendToApplicant('twelvedotio@gmail.com', 'Applicant', 'Pengajuan Permintaan Pembayaran  - GS 001/10/2022', [...])
+ 7 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Home->submit()
+ 8 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 9 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-27 22:26:33 --> Undefined index: Applicant
+in APPPATH/Views/mail.php on line 14.
+ 1 APPPATH/Views/mail.php(14): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: Applicant', 'APPPATH/Views/mail.php', 14, [...])
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/mail.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render('mail', [], true)
+ 5 APPPATH/Models/Mail_sender.php(50): view('mail', [...])
+ 6 APPPATH/Controllers/Home.php(157): App\Models\Mail_sender->sendToApplicant('twelvedotio@gmail.com', 'Applicant', 'Pengajuan Permintaan Pembayaran  - GS 001/10/2022', [...])
+ 7 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Home->submit()
+ 8 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 9 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-27 22:32:37 --> Undefined index: Applicant
+in APPPATH/Views/mail.php on line 15.
+ 1 APPPATH/Views/mail.php(15): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: Applicant', 'APPPATH/Views/mail.php', 15, [...])
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/mail.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render('mail', [], true)
+ 5 APPPATH/Models/Mail_sender.php(50): view('mail', [...])
+ 6 APPPATH/Controllers/Home.php(242): App\Models\Mail_sender->sendToApplicant('twelvedotio@gmail.com', 'Applicant', 'GS 001/10/2022 - Permintaan Pembayaran Anda Disetujui Oleh Admin', [...])
+ 7 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Home->approve()
+ 8 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 9 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-27 22:39:01 --> Undefined index: Admin
+in APPPATH/Controllers/Home.php on line 237.
+ 1 APPPATH/Controllers/Home.php(237): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: Admin', 'APPPATH/Controllers/Home.php', 237, [...])
+ 2 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Home->approve()
+ 3 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-27 22:47:01 --> Undefined index: Admin
+in APPPATH/Controllers/Home.php on line 365.
+ 1 APPPATH/Controllers/Home.php(365): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: Admin', 'APPPATH/Controllers/Home.php', 365, [...])
+ 2 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Home->disapprove()
+ 3 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-27 22:50:10 --> Undefined variable: approved
+in APPPATH/Views/mail.php on line 30.
+ 1 APPPATH/Views/mail.php(30): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: approved', 'APPPATH/Views/mail.php', 30, [...])
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/mail.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render('mail', [], true)
+ 5 APPPATH/Models/Mail_sender.php(50): view('mail', [...])
+ 6 APPPATH/Controllers/Home.php(371): App\Models\Mail_sender->sendToApplicant('twelvedotio@gmail.com', 'Applicant', 'GS 001/10/2022 - Permintaan Pembayaran Anda Ditolak Oleh Admin', [...])
+ 7 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Home->disapprove()
+ 8 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 9 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()

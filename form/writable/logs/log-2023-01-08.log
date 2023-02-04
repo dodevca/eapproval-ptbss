@@ -1,0 +1,71 @@
+CRITICAL - 2023-01-08 14:01:35 --> preg_replace(): Unknown modifier 'g'
+in APPPATH/Controllers/Home.php on line 375.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'preg_replace(): Unknown modifier \'g\'', 'APPPATH/Controllers/Home.php', 375, [...])
+ 2 APPPATH/Controllers/Home.php(375): preg_replace('/\\./g', 'ROOTPATH/public', '4')
+ 3 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Home->submit()
+ 4 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 5 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-08 14:02:01 --> Undefined variable: i
+in APPPATH/Controllers/Home.php on line 375.
+ 1 APPPATH/Controllers/Home.php(375): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: i', 'APPPATH/Controllers/Home.php', 375, [...])
+ 2 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Home->submit()
+ 3 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-08 14:02:20 --> preg_replace(): Unknown modifier 'g'
+in APPPATH/Controllers/Home.php on line 375.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'preg_replace(): Unknown modifier \'g\'', 'APPPATH/Controllers/Home.php', 375, [...])
+ 2 APPPATH/Controllers/Home.php(375): preg_replace('/\\./g', 'ROOTPATH/public', '400.000')
+ 3 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Home->submit()
+ 4 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 5 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-08 15:52:35 --> Not Found
+in APPPATH/Controllers/Home.php on line 325.
+ 1 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Home->view()
+ 2 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-08 15:52:37 --> Not Found
+in APPPATH/Controllers/Home.php on line 325.
+ 1 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Home->view()
+ 2 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-08 15:52:51 --> Not Found
+in APPPATH/Controllers/Home.php on line 325.
+ 1 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Home->view()
+ 2 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-08 15:52:52 --> Not Found
+in APPPATH/Controllers/Home.php on line 325.
+ 1 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Home->view()
+ 2 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-08 15:52:53 --> Not Found
+in APPPATH/Controllers/Home.php on line 325.
+ 1 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Home->view()
+ 2 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-08 15:53:22 --> Not Found
+in APPPATH/Controllers/Home.php on line 325.
+ 1 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Home->view()
+ 2 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-08 15:54:23 --> Not Found
+in APPPATH/Controllers/Home.php on line 325.
+ 1 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Home->view()
+ 2 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-08 15:58:19 --> Not Found
+in APPPATH/Controllers/Home.php on line 325.
+ 1 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Home->view()
+ 2 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()

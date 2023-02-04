@@ -1,0 +1,34 @@
+ERROR - 2023-01-20 09:02:58 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ''GS003/01/2023''' at line 1 in /home/u1606672/public_html/form/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /home/u1606672/public_html/form/system/Database/MySQLi/Connection.php(292): mysqli->query('SELECT email FR...', 0)
+#1 /home/u1606672/public_html/form/system/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT email FR...')
+#2 /home/u1606672/public_html/form/system/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT email FR...')
+#3 /home/u1606672/public_html/form/app/Controllers/Home.php(425): CodeIgniter\Database\BaseConnection->query('SELECT email FR...')
+#4 /home/u1606672/public_html/form/system/CodeIgniter.php(927): App\Controllers\Home->submit()
+#5 /home/u1606672/public_html/form/system/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 /home/u1606672/public_html/form/system/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /home/u1606672/public_html/form/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2023-01-20 09:02:58 --> Call to a member function getResult() on bool
+in APPPATH/Controllers/Home.php on line 426.
+ 1 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Home->submit()
+ 2 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-01-20 09:55:34 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ''GS003/01/2023''' at line 1 in /home/u1606672/public_html/form/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /home/u1606672/public_html/form/system/Database/MySQLi/Connection.php(292): mysqli->query('SELECT email FR...', 0)
+#1 /home/u1606672/public_html/form/system/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT email FR...')
+#2 /home/u1606672/public_html/form/system/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT email FR...')
+#3 /home/u1606672/public_html/form/app/Controllers/Home.php(425): CodeIgniter\Database\BaseConnection->query('SELECT email FR...')
+#4 /home/u1606672/public_html/form/system/CodeIgniter.php(927): App\Controllers\Home->submit()
+#5 /home/u1606672/public_html/form/system/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 /home/u1606672/public_html/form/system/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /home/u1606672/public_html/form/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2023-01-20 09:55:34 --> Call to a member function getResult() on bool
+in APPPATH/Controllers/Home.php on line 426.
+ 1 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Home->submit()
+ 2 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()

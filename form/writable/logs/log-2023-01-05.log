@@ -1,0 +1,17 @@
+ERROR - 2023-01-05 08:12:39 --> mysqli_sql_exception: Illegal mix of collations (latin1_swedish_ci,IMPLICIT) and (utf8_general_ci,COERCIBLE) for operation '=' in /home/u1606672/public_html/form/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /home/u1606672/public_html/form/system/Database/MySQLi/Connection.php(292): mysqli->query('SELECT * FROM s...', 0)
+#1 /home/u1606672/public_html/form/system/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM s...')
+#2 /home/u1606672/public_html/form/system/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM s...')
+#3 /home/u1606672/public_html/form/app/Controllers/Home.php(248): CodeIgniter\Database\BaseConnection->query('SELECT * FROM s...')
+#4 /home/u1606672/public_html/form/system/CodeIgniter.php(927): App\Controllers\Home->view()
+#5 /home/u1606672/public_html/form/system/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 /home/u1606672/public_html/form/system/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /home/u1606672/public_html/form/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2023-01-05 08:12:39 --> Call to a member function getResult() on bool
+in APPPATH/Controllers/Home.php on line 249.
+ 1 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Home->view()
+ 2 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()

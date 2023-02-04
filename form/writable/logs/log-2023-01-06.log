@@ -1,0 +1,37 @@
+CRITICAL - 2023-01-06 19:18:43 --> Trying to access array offset on value of type null
+in APPPATH/Controllers/Home.php on line 381.
+ 1 APPPATH/Controllers/Home.php(381): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to access array offset on value of type null', 'APPPATH/Controllers/Home.php', 381, [...])
+ 2 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Home->submit()
+ 3 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-06 19:30:08 --> Not Found
+in APPPATH/Controllers/Home.php on line 321.
+ 1 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Home->view()
+ 2 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-06 20:18:29 --> sort() expects parameter 1 to be array, null given
+in APPPATH/Controllers/Home.php on line 283.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'sort() expects parameter 1 to be array, null given', 'APPPATH/Controllers/Home.php', 283, [...])
+ 2 APPPATH/Controllers/Home.php(283): sort(null)
+ 3 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Home->income()
+ 4 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 5 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-06 20:18:31 --> sort() expects parameter 1 to be array, null given
+in APPPATH/Controllers/Home.php on line 283.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'sort() expects parameter 1 to be array, null given', 'APPPATH/Controllers/Home.php', 283, [...])
+ 2 APPPATH/Controllers/Home.php(283): sort(null)
+ 3 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Home->income()
+ 4 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 5 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-06 20:19:01 --> sort() expects parameter 1 to be array, null given
+in APPPATH/Controllers/Home.php on line 283.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'sort() expects parameter 1 to be array, null given', 'APPPATH/Controllers/Home.php', 283, [...])
+ 2 APPPATH/Controllers/Home.php(283): sort(null)
+ 3 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Home->income()
+ 4 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 5 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
