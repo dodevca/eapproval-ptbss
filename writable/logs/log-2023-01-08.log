@@ -1,0 +1,70 @@
+CRITICAL - 2023-01-08 08:06:14 --> Not Found
+in APPPATH/Controllers/Views.php on line 101.
+ 1 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Views->index('GS01-01-2023')
+ 2 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Views))
+ 3 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-08 14:26:34 --> implode(): Invalid arguments passed
+in APPPATH/Controllers/Views.php on line 379.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'implode(): Invalid arguments passed', 'APPPATH/Controllers/Views.php', 379, [...])
+ 2 APPPATH/Controllers/Views.php(379): implode(', ', null)
+ 3 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Views->save()
+ 4 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Views))
+ 5 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-08 14:28:40 --> array_push() expects parameter 1 to be array, null given
+in APPPATH/Controllers/Views.php on line 361.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'array_push() expects parameter 1 to be array, null given', 'APPPATH/Controllers/Views.php', 361, [...])
+ 2 APPPATH/Controllers/Views.php(361): array_push(null, '1673162920_8a54ed2c95ac0085c8e9.png')
+ 3 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Views->save()
+ 4 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Views))
+ 5 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-08 15:00:11 --> Undefined index: contractNumber
+in APPPATH/Views/export_item.php on line 41.
+ 1 APPPATH/Views/export_item.php(41): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: contractNumber', 'APPPATH/Views/export_item.php', 41, [...])
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/export_item.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render('export_item', [], true)
+ 5 APPPATH/Controllers/Exports.php(339): view('export_item', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Exports->item()
+ 7 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Exports))
+ 8 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-08 21:37:57 --> Undefined variable: currentPage
+in APPPATH/Views/partials/sidenav.php on line 6.
+ 1 APPPATH/Views/partials/sidenav.php(6): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: currentPage', 'APPPATH/Views/partials/sidenav.php', 6, [...])
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/partials/sidenav.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/View/View.php(431): CodeIgniter\View\View->render('partials/sidenav', null, true)
+ 5 APPPATH/Views/export_item.php(17): CodeIgniter\View\View->include('partials/sidenav')
+ 6 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/export_item.php')
+ 7 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render('export_item', [], true)
+ 9 APPPATH/Controllers/Downloads.php(188): view('export_item', [...])
+10 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Downloads->item()
+11 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Downloads))
+12 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-08 21:47:45 --> Undefined variable: document
+in APPPATH/Views/download_item.php on line 25.
+ 1 APPPATH/Views/download_item.php(25): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: document', 'APPPATH/Views/download_item.php', 25, [...])
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/download_item.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render('download_item', [], true)
+ 5 APPPATH/Controllers/Downloads.php(188): view('download_item', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Downloads->item()
+ 7 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Downloads))
+ 8 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-08 21:48:40 --> Undefined variable: document
+in APPPATH/Views/download_item.php on line 25.
+ 1 APPPATH/Views/download_item.php(25): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: document', 'APPPATH/Views/download_item.php', 25, [...])
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/download_item.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render('download_item', [], true)
+ 5 APPPATH/Controllers/Downloads.php(188): view('download_item', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Downloads->item()
+ 7 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Downloads))
+ 8 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()

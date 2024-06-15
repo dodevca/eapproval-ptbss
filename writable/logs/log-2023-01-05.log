@@ -1,0 +1,512 @@
+CRITICAL - 2023-01-05 01:37:59 --> Call to undefined function form_open()
+in APPPATH/Views/login.php on line 35.
+ 1 SYSTEMPATH/View/View.php(213): include()
+ 2 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render('login', [], true)
+ 4 APPPATH/Controllers/Submissions.php(246): view('login')
+ 5 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Submissions->approved()
+ 6 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Submissions))
+ 7 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-05 01:38:36 --> Not Found
+in APPPATH/Controllers/Views.php on line 208.
+ 1 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Views->edit('GS-001-10-2022')
+ 2 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Views))
+ 3 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-05 01:38:49 --> Call to undefined function form_open()
+in APPPATH/Views/login.php on line 35.
+ 1 SYSTEMPATH/View/View.php(213): include()
+ 2 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render('login', [], true)
+ 4 APPPATH/Controllers/Submissions.php(246): view('login')
+ 5 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Submissions->approved()
+ 6 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Submissions))
+ 7 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-05 01:46:54 --> Not Found
+in APPPATH/Controllers/Views.php on line 101.
+ 1 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Views->index('GS-001-10-2022')
+ 2 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Views))
+ 3 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-05 01:56:23 --> count(): Parameter must be an array or an object that implements Countable
+in APPPATH/Views/export.php on line 161.
+ 1 APPPATH/Views/export.php(161): CodeIgniter\Debug\Exceptions->errorHandler(2, 'count(): Parameter must be an array or an object that implements Countable', 'APPPATH/Views/export.php', 161, [...])
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/export.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render('export', [], true)
+ 5 APPPATH/Controllers/Exports.php(45): view('export', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Exports->index()
+ 7 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Exports))
+ 8 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-05 01:56:25 --> count(): Parameter must be an array or an object that implements Countable
+in APPPATH/Views/export.php on line 161.
+ 1 APPPATH/Views/export.php(161): CodeIgniter\Debug\Exceptions->errorHandler(2, 'count(): Parameter must be an array or an object that implements Countable', 'APPPATH/Views/export.php', 161, [...])
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/export.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render('export', [], true)
+ 5 APPPATH/Controllers/Exports.php(45): view('export', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Exports->index()
+ 7 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Exports))
+ 8 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-05 01:58:48 --> count(): Parameter must be an array or an object that implements Countable
+in APPPATH/Views/export.php on line 161.
+ 1 APPPATH/Views/export.php(161): CodeIgniter\Debug\Exceptions->errorHandler(2, 'count(): Parameter must be an array or an object that implements Countable', 'APPPATH/Views/export.php', 161, [...])
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/export.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render('export', [], true)
+ 5 APPPATH/Controllers/Exports.php(45): view('export', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Exports->index()
+ 7 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Exports))
+ 8 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-05 02:38:43 --> Call to undefined function form_open()
+in APPPATH/Views/export_item.php on line 28.
+ 1 SYSTEMPATH/View/View.php(213): include()
+ 2 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render('export_item', [], true)
+ 4 APPPATH/Controllers/Exports.php(244): view('export_item', [...])
+ 5 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Exports->item()
+ 6 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Exports))
+ 7 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-05 02:39:10 --> Call to undefined function form_open()
+in APPPATH/Views/export_item.php on line 28.
+ 1 SYSTEMPATH/View/View.php(213): include()
+ 2 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render('export_item', [], true)
+ 4 APPPATH/Controllers/Exports.php(244): view('export_item', [...])
+ 5 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Exports->item()
+ 6 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Exports))
+ 7 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-05 02:41:50 --> Call to undefined function form_open()
+in APPPATH/Views/export_item.php on line 28.
+ 1 SYSTEMPATH/View/View.php(213): include()
+ 2 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render('export_item', [], true)
+ 4 APPPATH/Controllers/Exports.php(244): view('export_item', [...])
+ 5 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Exports->item()
+ 6 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Exports))
+ 7 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-05 02:42:42 --> Call to undefined function form_open()
+in APPPATH/Views/export_item.php on line 28.
+ 1 SYSTEMPATH/View/View.php(213): include()
+ 2 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render('export_item', [], true)
+ 4 APPPATH/Controllers/Exports.php(244): view('export_item', [...])
+ 5 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Exports->item()
+ 6 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Exports))
+ 7 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-05 02:42:43 --> Call to undefined function form_open()
+in APPPATH/Views/export_item.php on line 28.
+ 1 SYSTEMPATH/View/View.php(213): include()
+ 2 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render('export_item', [], true)
+ 4 APPPATH/Controllers/Exports.php(244): view('export_item', [...])
+ 5 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Exports->item()
+ 6 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Exports))
+ 7 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-05 02:47:45 --> Undefined variable: document
+in APPPATH/Views/export_item.php on line 41.
+ 1 APPPATH/Views/export_item.php(41): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: document', 'APPPATH/Views/export_item.php', 41, [...])
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/export_item.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render('export_item', [], true)
+ 5 APPPATH/Controllers/Exports.php(246): view('export_item', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Exports->item()
+ 7 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Exports))
+ 8 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-05 03:04:38 --> Undefined index: type
+in APPPATH/Views/export_item.php on line 36.
+ 1 APPPATH/Views/export_item.php(36): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: type', 'APPPATH/Views/export_item.php', 36, [...])
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/export_item.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render('export_item', [], true)
+ 5 APPPATH/Controllers/Exports.php(255): view('export_item', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Exports->item()
+ 7 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Exports))
+ 8 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-05 03:29:00 --> Undefined index: period
+in APPPATH/Controllers/Exports.php on line 293.
+ 1 APPPATH/Controllers/Exports.php(293): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: period', 'APPPATH/Controllers/Exports.php', 293, [...])
+ 2 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Exports->item()
+ 3 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Exports))
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-05 03:31:30 --> Undefined index: period
+in APPPATH/Views/edit.php on line 133.
+ 1 APPPATH/Views/edit.php(133): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: period', 'APPPATH/Views/edit.php', 133, [...])
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/edit.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render('edit', [], true)
+ 5 APPPATH/Controllers/Views.php(225): view('edit', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Views->edit('019-BSS-JOB-FLD-XI-2022')
+ 7 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Views))
+ 8 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-05 03:31:35 --> Undefined index: period
+in APPPATH/Views/edit.php on line 133.
+ 1 APPPATH/Views/edit.php(133): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: period', 'APPPATH/Views/edit.php', 133, [...])
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/edit.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render('edit', [], true)
+ 5 APPPATH/Controllers/Views.php(225): view('edit', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Views->edit('019-BSS-JOB-FLD-XI-2022')
+ 7 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Views))
+ 8 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-05 07:39:02 --> count(): Parameter must be an array or an object that implements Countable
+in APPPATH/Views/export_item.php on line 44.
+ 1 APPPATH/Views/export_item.php(44): CodeIgniter\Debug\Exceptions->errorHandler(2, 'count(): Parameter must be an array or an object that implements Countable', 'APPPATH/Views/export_item.php', 44, [...])
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/export_item.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render('export_item', [], true)
+ 5 APPPATH/Controllers/Exports.php(301): view('export_item', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Exports->item()
+ 7 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Exports))
+ 8 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-05 07:39:09 --> count(): Parameter must be an array or an object that implements Countable
+in APPPATH/Views/export_item.php on line 44.
+ 1 APPPATH/Views/export_item.php(44): CodeIgniter\Debug\Exceptions->errorHandler(2, 'count(): Parameter must be an array or an object that implements Countable', 'APPPATH/Views/export_item.php', 44, [...])
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/export_item.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render('export_item', [], true)
+ 5 APPPATH/Controllers/Exports.php(301): view('export_item', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Exports->item()
+ 7 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Exports))
+ 8 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-01-05 09:11:05 --> mysqli_sql_exception: Duplicate entry 'Spare Part' for key 'code' in /home/u1606672/public_html/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /home/u1606672/public_html/system/Database/MySQLi/Connection.php(292): mysqli->query('REPLACE INTO `r...', 0)
+#1 /home/u1606672/public_html/system/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('REPLACE INTO `r...')
+#2 /home/u1606672/public_html/system/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('REPLACE INTO `r...')
+#3 /home/u1606672/public_html/system/Database/BaseBuilder.php(2002): CodeIgniter\Database\BaseConnection->query('REPLACE INTO `r...', Array, false)
+#4 /home/u1606672/public_html/app/Controllers/Settings.php(854): CodeIgniter\Database\BaseBuilder->replace(Array)
+#5 /home/u1606672/public_html/system/CodeIgniter.php(927): App\Controllers\Settings->setrefcode()
+#6 /home/u1606672/public_html/system/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Settings))
+#7 /home/u1606672/public_html/system/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/u1606672/public_html/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2023-01-05 09:11:19 --> mysqli_sql_exception: Duplicate entry 'Tambal Ban' for key 'code' in /home/u1606672/public_html/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /home/u1606672/public_html/system/Database/MySQLi/Connection.php(292): mysqli->query('REPLACE INTO `r...', 0)
+#1 /home/u1606672/public_html/system/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('REPLACE INTO `r...')
+#2 /home/u1606672/public_html/system/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('REPLACE INTO `r...')
+#3 /home/u1606672/public_html/system/Database/BaseBuilder.php(2002): CodeIgniter\Database\BaseConnection->query('REPLACE INTO `r...', Array, false)
+#4 /home/u1606672/public_html/app/Controllers/Settings.php(854): CodeIgniter\Database\BaseBuilder->replace(Array)
+#5 /home/u1606672/public_html/system/CodeIgniter.php(927): App\Controllers\Settings->setrefcode()
+#6 /home/u1606672/public_html/system/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Settings))
+#7 /home/u1606672/public_html/system/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/u1606672/public_html/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2023-01-05 10:28:25 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'ud%' GROUP BY description LIMIT 5' at line 1 in /home/u1606672/public_html/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /home/u1606672/public_html/system/Database/MySQLi/Connection.php(292): mysqli->query('SELECT descript...', 0)
+#1 /home/u1606672/public_html/system/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT descript...')
+#2 /home/u1606672/public_html/system/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT descript...')
+#3 /home/u1606672/public_html/app/Controllers/Home.php(307): CodeIgniter\Database\BaseConnection->query('SELECT descript...')
+#4 /home/u1606672/public_html/system/CodeIgniter.php(927): App\Controllers\Home->query()
+#5 /home/u1606672/public_html/system/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 /home/u1606672/public_html/system/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /home/u1606672/public_html/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2023-01-05 10:28:25 --> Call to a member function getResult() on bool
+in APPPATH/Controllers/Home.php on line 308.
+ 1 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Home->query()
+ 2 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-01-05 10:28:26 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'ud'' at line 1 in /home/u1606672/public_html/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /home/u1606672/public_html/system/Database/MySQLi/Connection.php(292): mysqli->query('SELECT code FRO...', 0)
+#1 /home/u1606672/public_html/system/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT code FRO...')
+#2 /home/u1606672/public_html/system/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT code FRO...')
+#3 /home/u1606672/public_html/app/Controllers/Home.php(343): CodeIgniter\Database\BaseConnection->query('SELECT code FRO...')
+#4 /home/u1606672/public_html/system/CodeIgniter.php(927): App\Controllers\Home->refcode()
+#5 /home/u1606672/public_html/system/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 /home/u1606672/public_html/system/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /home/u1606672/public_html/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2023-01-05 10:28:26 --> Call to a member function getResult() on bool
+in APPPATH/Controllers/Home.php on line 344.
+ 1 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Home->refcode()
+ 2 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-01-05 13:59:00 --> mysqli_sql_exception: Duplicate entry 'Sutrisno' for key 'code' in /home/u1606672/public_html/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /home/u1606672/public_html/system/Database/MySQLi/Connection.php(292): mysqli->query('REPLACE INTO `r...', 0)
+#1 /home/u1606672/public_html/system/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('REPLACE INTO `r...')
+#2 /home/u1606672/public_html/system/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('REPLACE INTO `r...')
+#3 /home/u1606672/public_html/system/Database/BaseBuilder.php(2002): CodeIgniter\Database\BaseConnection->query('REPLACE INTO `r...', Array, false)
+#4 /home/u1606672/public_html/app/Controllers/Settings.php(854): CodeIgniter\Database\BaseBuilder->replace(Array)
+#5 /home/u1606672/public_html/system/CodeIgniter.php(927): App\Controllers\Settings->setrefcode()
+#6 /home/u1606672/public_html/system/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Settings))
+#7 /home/u1606672/public_html/system/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/u1606672/public_html/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2023-01-05 14:07:20 --> mysqli_sql_exception: Duplicate entry 'Risman Awang' for key 'code' in /home/u1606672/public_html/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /home/u1606672/public_html/system/Database/MySQLi/Connection.php(292): mysqli->query('REPLACE INTO `r...', 0)
+#1 /home/u1606672/public_html/system/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('REPLACE INTO `r...')
+#2 /home/u1606672/public_html/system/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('REPLACE INTO `r...')
+#3 /home/u1606672/public_html/system/Database/BaseBuilder.php(2002): CodeIgniter\Database\BaseConnection->query('REPLACE INTO `r...', Array, false)
+#4 /home/u1606672/public_html/app/Controllers/Settings.php(854): CodeIgniter\Database\BaseBuilder->replace(Array)
+#5 /home/u1606672/public_html/system/CodeIgniter.php(927): App\Controllers\Settings->setrefcode()
+#6 /home/u1606672/public_html/system/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Settings))
+#7 /home/u1606672/public_html/system/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/u1606672/public_html/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2023-01-05 14:07:39 --> mysqli_sql_exception: Duplicate entry 'Supri Jabu' for key 'code' in /home/u1606672/public_html/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /home/u1606672/public_html/system/Database/MySQLi/Connection.php(292): mysqli->query('REPLACE INTO `r...', 0)
+#1 /home/u1606672/public_html/system/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('REPLACE INTO `r...')
+#2 /home/u1606672/public_html/system/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('REPLACE INTO `r...')
+#3 /home/u1606672/public_html/system/Database/BaseBuilder.php(2002): CodeIgniter\Database\BaseConnection->query('REPLACE INTO `r...', Array, false)
+#4 /home/u1606672/public_html/app/Controllers/Settings.php(854): CodeIgniter\Database\BaseBuilder->replace(Array)
+#5 /home/u1606672/public_html/system/CodeIgniter.php(927): App\Controllers\Settings->setrefcode()
+#6 /home/u1606672/public_html/system/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Settings))
+#7 /home/u1606672/public_html/system/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/u1606672/public_html/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2023-01-05 14:10:26 --> mysqli_sql_exception: Duplicate entry 'Aminudin Sangkota' for key 'code' in /home/u1606672/public_html/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /home/u1606672/public_html/system/Database/MySQLi/Connection.php(292): mysqli->query('REPLACE INTO `r...', 0)
+#1 /home/u1606672/public_html/system/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('REPLACE INTO `r...')
+#2 /home/u1606672/public_html/system/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('REPLACE INTO `r...')
+#3 /home/u1606672/public_html/system/Database/BaseBuilder.php(2002): CodeIgniter\Database\BaseConnection->query('REPLACE INTO `r...', Array, false)
+#4 /home/u1606672/public_html/app/Controllers/Settings.php(854): CodeIgniter\Database\BaseBuilder->replace(Array)
+#5 /home/u1606672/public_html/system/CodeIgniter.php(927): App\Controllers\Settings->setrefcode()
+#6 /home/u1606672/public_html/system/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Settings))
+#7 /home/u1606672/public_html/system/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/u1606672/public_html/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2023-01-05 14:11:18 --> mysqli_sql_exception: Duplicate entry 'Harianto Tean' for key 'code' in /home/u1606672/public_html/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /home/u1606672/public_html/system/Database/MySQLi/Connection.php(292): mysqli->query('REPLACE INTO `r...', 0)
+#1 /home/u1606672/public_html/system/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('REPLACE INTO `r...')
+#2 /home/u1606672/public_html/system/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('REPLACE INTO `r...')
+#3 /home/u1606672/public_html/system/Database/BaseBuilder.php(2002): CodeIgniter\Database\BaseConnection->query('REPLACE INTO `r...', Array, false)
+#4 /home/u1606672/public_html/app/Controllers/Settings.php(854): CodeIgniter\Database\BaseBuilder->replace(Array)
+#5 /home/u1606672/public_html/system/CodeIgniter.php(927): App\Controllers\Settings->setrefcode()
+#6 /home/u1606672/public_html/system/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Settings))
+#7 /home/u1606672/public_html/system/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/u1606672/public_html/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2023-01-05 14:11:35 --> mysqli_sql_exception: Duplicate entry 'Rasyid Amir Laugi' for key 'code' in /home/u1606672/public_html/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /home/u1606672/public_html/system/Database/MySQLi/Connection.php(292): mysqli->query('REPLACE INTO `r...', 0)
+#1 /home/u1606672/public_html/system/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('REPLACE INTO `r...')
+#2 /home/u1606672/public_html/system/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('REPLACE INTO `r...')
+#3 /home/u1606672/public_html/system/Database/BaseBuilder.php(2002): CodeIgniter\Database\BaseConnection->query('REPLACE INTO `r...', Array, false)
+#4 /home/u1606672/public_html/app/Controllers/Settings.php(854): CodeIgniter\Database\BaseBuilder->replace(Array)
+#5 /home/u1606672/public_html/system/CodeIgniter.php(927): App\Controllers\Settings->setrefcode()
+#6 /home/u1606672/public_html/system/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Settings))
+#7 /home/u1606672/public_html/system/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/u1606672/public_html/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2023-01-05 14:13:18 --> mysqli_sql_exception: Duplicate entry 'Mito H. Laode' for key 'code' in /home/u1606672/public_html/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /home/u1606672/public_html/system/Database/MySQLi/Connection.php(292): mysqli->query('REPLACE INTO `r...', 0)
+#1 /home/u1606672/public_html/system/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('REPLACE INTO `r...')
+#2 /home/u1606672/public_html/system/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('REPLACE INTO `r...')
+#3 /home/u1606672/public_html/system/Database/BaseBuilder.php(2002): CodeIgniter\Database\BaseConnection->query('REPLACE INTO `r...', Array, false)
+#4 /home/u1606672/public_html/app/Controllers/Settings.php(854): CodeIgniter\Database\BaseBuilder->replace(Array)
+#5 /home/u1606672/public_html/system/CodeIgniter.php(927): App\Controllers\Settings->setrefcode()
+#6 /home/u1606672/public_html/system/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Settings))
+#7 /home/u1606672/public_html/system/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/u1606672/public_html/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2023-01-05 14:13:47 --> mysqli_sql_exception: Duplicate entry 'Sukran B. Agama' for key 'code' in /home/u1606672/public_html/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /home/u1606672/public_html/system/Database/MySQLi/Connection.php(292): mysqli->query('REPLACE INTO `r...', 0)
+#1 /home/u1606672/public_html/system/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('REPLACE INTO `r...')
+#2 /home/u1606672/public_html/system/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('REPLACE INTO `r...')
+#3 /home/u1606672/public_html/system/Database/BaseBuilder.php(2002): CodeIgniter\Database\BaseConnection->query('REPLACE INTO `r...', Array, false)
+#4 /home/u1606672/public_html/app/Controllers/Settings.php(854): CodeIgniter\Database\BaseBuilder->replace(Array)
+#5 /home/u1606672/public_html/system/CodeIgniter.php(927): App\Controllers\Settings->setrefcode()
+#6 /home/u1606672/public_html/system/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Settings))
+#7 /home/u1606672/public_html/system/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/u1606672/public_html/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2023-01-05 14:14:36 --> mysqli_sql_exception: Duplicate entry 'Tyson' for key 'code' in /home/u1606672/public_html/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /home/u1606672/public_html/system/Database/MySQLi/Connection.php(292): mysqli->query('REPLACE INTO `r...', 0)
+#1 /home/u1606672/public_html/system/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('REPLACE INTO `r...')
+#2 /home/u1606672/public_html/system/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('REPLACE INTO `r...')
+#3 /home/u1606672/public_html/system/Database/BaseBuilder.php(2002): CodeIgniter\Database\BaseConnection->query('REPLACE INTO `r...', Array, false)
+#4 /home/u1606672/public_html/app/Controllers/Settings.php(854): CodeIgniter\Database\BaseBuilder->replace(Array)
+#5 /home/u1606672/public_html/system/CodeIgniter.php(927): App\Controllers\Settings->setrefcode()
+#6 /home/u1606672/public_html/system/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Settings))
+#7 /home/u1606672/public_html/system/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/u1606672/public_html/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2023-01-05 14:19:51 --> mysqli_sql_exception: Duplicate entry 'Risman Awang' for key 'code' in /home/u1606672/public_html/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /home/u1606672/public_html/system/Database/MySQLi/Connection.php(292): mysqli->query('REPLACE INTO `r...', 0)
+#1 /home/u1606672/public_html/system/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('REPLACE INTO `r...')
+#2 /home/u1606672/public_html/system/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('REPLACE INTO `r...')
+#3 /home/u1606672/public_html/system/Database/BaseBuilder.php(2002): CodeIgniter\Database\BaseConnection->query('REPLACE INTO `r...', Array, false)
+#4 /home/u1606672/public_html/app/Controllers/Settings.php(854): CodeIgniter\Database\BaseBuilder->replace(Array)
+#5 /home/u1606672/public_html/system/CodeIgniter.php(927): App\Controllers\Settings->setrefcode()
+#6 /home/u1606672/public_html/system/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Settings))
+#7 /home/u1606672/public_html/system/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/u1606672/public_html/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2023-01-05 14:20:07 --> mysqli_sql_exception: Duplicate entry 'Supri Jabu' for key 'code' in /home/u1606672/public_html/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /home/u1606672/public_html/system/Database/MySQLi/Connection.php(292): mysqli->query('REPLACE INTO `r...', 0)
+#1 /home/u1606672/public_html/system/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('REPLACE INTO `r...')
+#2 /home/u1606672/public_html/system/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('REPLACE INTO `r...')
+#3 /home/u1606672/public_html/system/Database/BaseBuilder.php(2002): CodeIgniter\Database\BaseConnection->query('REPLACE INTO `r...', Array, false)
+#4 /home/u1606672/public_html/app/Controllers/Settings.php(854): CodeIgniter\Database\BaseBuilder->replace(Array)
+#5 /home/u1606672/public_html/system/CodeIgniter.php(927): App\Controllers\Settings->setrefcode()
+#6 /home/u1606672/public_html/system/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Settings))
+#7 /home/u1606672/public_html/system/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/u1606672/public_html/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2023-01-05 14:20:46 --> mysqli_sql_exception: Duplicate entry 'Mito H. Laode' for key 'code' in /home/u1606672/public_html/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /home/u1606672/public_html/system/Database/MySQLi/Connection.php(292): mysqli->query('REPLACE INTO `r...', 0)
+#1 /home/u1606672/public_html/system/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('REPLACE INTO `r...')
+#2 /home/u1606672/public_html/system/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('REPLACE INTO `r...')
+#3 /home/u1606672/public_html/system/Database/BaseBuilder.php(2002): CodeIgniter\Database\BaseConnection->query('REPLACE INTO `r...', Array, false)
+#4 /home/u1606672/public_html/app/Controllers/Settings.php(854): CodeIgniter\Database\BaseBuilder->replace(Array)
+#5 /home/u1606672/public_html/system/CodeIgniter.php(927): App\Controllers\Settings->setrefcode()
+#6 /home/u1606672/public_html/system/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Settings))
+#7 /home/u1606672/public_html/system/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/u1606672/public_html/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2023-01-05 14:58:36 --> mysqli_sql_exception: Duplicate entry 'Aminudin Sangkota' for key 'code' in /home/u1606672/public_html/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /home/u1606672/public_html/system/Database/MySQLi/Connection.php(292): mysqli->query('REPLACE INTO `r...', 0)
+#1 /home/u1606672/public_html/system/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('REPLACE INTO `r...')
+#2 /home/u1606672/public_html/system/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('REPLACE INTO `r...')
+#3 /home/u1606672/public_html/system/Database/BaseBuilder.php(2002): CodeIgniter\Database\BaseConnection->query('REPLACE INTO `r...', Array, false)
+#4 /home/u1606672/public_html/app/Controllers/Settings.php(854): CodeIgniter\Database\BaseBuilder->replace(Array)
+#5 /home/u1606672/public_html/system/CodeIgniter.php(927): App\Controllers\Settings->setrefcode()
+#6 /home/u1606672/public_html/system/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Settings))
+#7 /home/u1606672/public_html/system/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/u1606672/public_html/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2023-01-05 15:05:27 --> mysqli_sql_exception: Duplicate entry 'Harianto Tean' for key 'code' in /home/u1606672/public_html/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /home/u1606672/public_html/system/Database/MySQLi/Connection.php(292): mysqli->query('REPLACE INTO `r...', 0)
+#1 /home/u1606672/public_html/system/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('REPLACE INTO `r...')
+#2 /home/u1606672/public_html/system/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('REPLACE INTO `r...')
+#3 /home/u1606672/public_html/system/Database/BaseBuilder.php(2002): CodeIgniter\Database\BaseConnection->query('REPLACE INTO `r...', Array, false)
+#4 /home/u1606672/public_html/app/Controllers/Settings.php(854): CodeIgniter\Database\BaseBuilder->replace(Array)
+#5 /home/u1606672/public_html/system/CodeIgniter.php(927): App\Controllers\Settings->setrefcode()
+#6 /home/u1606672/public_html/system/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Settings))
+#7 /home/u1606672/public_html/system/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/u1606672/public_html/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-01-05 23:00:53 --> count(): Parameter must be an array or an object that implements Countable
+in APPPATH/Views/export_item.php on line 63.
+ 1 APPPATH/Views/export_item.php(63): CodeIgniter\Debug\Exceptions->errorHandler(2, 'count(): Parameter must be an array or an object that implements Countable', 'APPPATH/Views/export_item.php', 63, [...])
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/export_item.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render('export_item', [], true)
+ 5 APPPATH/Controllers/Exports.php(301): view('export_item', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Exports->item()
+ 7 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Exports))
+ 8 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-05 23:02:39 --> Undefined index: category
+in APPPATH/Controllers/Exports.php on line 284.
+ 1 APPPATH/Controllers/Exports.php(284): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: category', 'APPPATH/Controllers/Exports.php', 284, [...])
+ 2 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Exports->item()
+ 3 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Exports))
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-05 23:37:01 --> syntax error, unexpected '}'
+in APPPATH/Controllers/Exports.php on line 373.
+ 1 SYSTEMPATH/Autoloader/Autoloader.php(259): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH/Controllers/Exports.php')
+ 2 SYSTEMPATH/Autoloader/Autoloader.php(237): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Exports')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Exports')
+ 4 [internal function]: spl_autoload_call('App\\Controllers\\Exports')
+ 5 SYSTEMPATH/CodeIgniter.php(877): class_exists('\\App\\Controllers\\Exports', true)
+ 6 SYSTEMPATH/CodeIgniter.php(469): CodeIgniter\CodeIgniter->startController()
+ 7 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-05 23:37:39 --> Undefined variable: month
+in APPPATH/Controllers/Exports.php on line 351.
+ 1 APPPATH/Controllers/Exports.php(351): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: month', 'APPPATH/Controllers/Exports.php', 351, [...])
+ 2 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Exports->getitem()
+ 3 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Exports))
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-01-05 23:38:02 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'Pembayaran AND contractNumber = S210156/JOBT/FLD AND category = Jasa Sewa Ala...' at line 1 in /home/u1606672/public_html/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /home/u1606672/public_html/system/Database/MySQLi/Connection.php(292): mysqli->query('SELECT dateSubm...', 0)
+#1 /home/u1606672/public_html/system/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT dateSubm...')
+#2 /home/u1606672/public_html/system/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT dateSubm...')
+#3 /home/u1606672/public_html/app/Controllers/Exports.php(363): CodeIgniter\Database\BaseConnection->query('SELECT dateSubm...')
+#4 /home/u1606672/public_html/system/CodeIgniter.php(927): App\Controllers\Exports->getitem()
+#5 /home/u1606672/public_html/system/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Exports))
+#6 /home/u1606672/public_html/system/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /home/u1606672/public_html/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2023-01-05 23:38:02 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'Pembayaran AND contractNumber = S210156/JOBT/FLD AND category = Jasa Sewa Ala...' at line 1
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 292.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(292): mysqli->query('SELECT dateSubmitted, proofNumber, items FROM submissions WHERE items is NOT NULL AND type = Permintaan Pembayaran AND contractNumber = S210156/JOBT/FLD AND category = Jasa Sewa Alat Berat AND YEAR(dateSubmitted) = 2023', 0)
+ 2 SYSTEMPATH/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT dateSubmitted, proofNumber, items FROM submissions WHERE items is NOT NULL AND type = Permintaan Pembayaran AND contractNumber = S210156/JOBT/FLD AND category = Jasa Sewa Alat Berat AND YEAR(dateSubmitted) = 2023')
+ 3 SYSTEMPATH/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT dateSubmitted, proofNumber, items FROM submissions WHERE items is NOT NULL AND type = Permintaan Pembayaran AND contractNumber = S210156/JOBT/FLD AND category = Jasa Sewa Alat Berat AND YEAR(dateSubmitted) = 2023')
+ 4 APPPATH/Controllers/Exports.php(363): CodeIgniter\Database\BaseConnection->query('SELECT dateSubmitted, proofNumber, items FROM submissions WHERE items is NOT NULL AND type = Permintaan Pembayaran AND contractNumber = S210156/JOBT/FLD AND category = Jasa Sewa Alat Berat AND YEAR(dateSubmitted) = 2023')
+ 5 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Exports->getitem()
+ 6 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Exports))
+ 7 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-05 23:40:50 --> Undefined property: CodeIgniter\HTTP\IncomingRequest::$getPost
+in APPPATH/Controllers/Exports.php on line 341.
+ 1 APPPATH/Controllers/Exports.php(341): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined property: CodeIgniter\\HTTP\\IncomingRequest::$getPost', 'APPPATH/Controllers/Exports.php', 341, [...])
+ 2 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Exports->getitem()
+ 3 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Exports))
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-01-05 23:43:41 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'Permintaan Pembayaran S210156/JOBT/FLD Jasa Sewa Alat Berat 2023' at line 1 in /home/u1606672/public_html/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /home/u1606672/public_html/system/Database/MySQLi/Connection.php(292): mysqli->query('SELECT dateSubm...', 0)
+#1 /home/u1606672/public_html/system/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT dateSubm...')
+#2 /home/u1606672/public_html/system/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT dateSubm...')
+#3 /home/u1606672/public_html/app/Controllers/Exports.php(368): CodeIgniter\Database\BaseConnection->query('SELECT dateSubm...')
+#4 /home/u1606672/public_html/system/CodeIgniter.php(927): App\Controllers\Exports->getitem()
+#5 /home/u1606672/public_html/system/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Exports))
+#6 /home/u1606672/public_html/system/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /home/u1606672/public_html/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2023-01-05 23:43:41 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'Permintaan Pembayaran S210156/JOBT/FLD Jasa Sewa Alat Berat 2023' at line 1
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 292.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(292): mysqli->query('SELECT dateSubmitted, proofNumber, items FROM submissions WHERE items is NOT NULL Permintaan Pembayaran S210156/JOBT/FLD Jasa Sewa Alat Berat 2023', 0)
+ 2 SYSTEMPATH/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT dateSubmitted, proofNumber, items FROM submissions WHERE items is NOT NULL Permintaan Pembayaran S210156/JOBT/FLD Jasa Sewa Alat Berat 2023')
+ 3 SYSTEMPATH/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT dateSubmitted, proofNumber, items FROM submissions WHERE items is NOT NULL Permintaan Pembayaran S210156/JOBT/FLD Jasa Sewa Alat Berat 2023')
+ 4 APPPATH/Controllers/Exports.php(368): CodeIgniter\Database\BaseConnection->query('SELECT dateSubmitted, proofNumber, items FROM submissions WHERE items is NOT NULL Permintaan Pembayaran S210156/JOBT/FLD Jasa Sewa Alat Berat 2023')
+ 5 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Exports->getitem()
+ 6 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Exports))
+ 7 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-05 23:54:37 --> Undefined index: description
+in APPPATH/Controllers/Exports.php on line 377.
+ 1 APPPATH/Controllers/Exports.php(377): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: description', 'APPPATH/Controllers/Exports.php', 377, [...])
+ 2 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Exports->getitem()
+ 3 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Exports))
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-05 23:54:53 --> Undefined index: descriptions
+in APPPATH/Controllers/Exports.php on line 377.
+ 1 APPPATH/Controllers/Exports.php(377): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: descriptions', 'APPPATH/Controllers/Exports.php', 377, [...])
+ 2 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Exports->getitem()
+ 3 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Exports))
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()

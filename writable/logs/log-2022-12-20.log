@@ -1,0 +1,89 @@
+CRITICAL - 2022-12-20 01:41:13 --> Undefined variable: submission
+in APPPATH/Controllers/Views.php on line 251.
+ 1 APPPATH/Controllers/Views.php(251): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: submission', 'APPPATH/Controllers/Views.php', 251, [...])
+ 2 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Views->removeAttach()
+ 3 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Views))
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-20 01:45:32 --> array_diff(): Expected parameter 2 to be an array, string given
+in APPPATH/Controllers/Views.php on line 260.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'array_diff(): Expected parameter 2 to be an array, string given', 'APPPATH/Controllers/Views.php', 260, [...])
+ 2 APPPATH/Controllers/Views.php(260): array_diff([...], '1671472905_78bba04cb7b0be329958.png')
+ 3 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Views->removeAttach()
+ 4 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Views))
+ 5 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-12-20 01:52:30 --> mysqli_sql_exception: Operand should contain 1 column(s) in /home/u1606672/public_html/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /home/u1606672/public_html/system/Database/MySQLi/Connection.php(292): mysqli->query('UPDATE `submiss...', 0)
+#1 /home/u1606672/public_html/system/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `submiss...')
+#2 /home/u1606672/public_html/system/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `submiss...')
+#3 /home/u1606672/public_html/system/Database/BaseBuilder.php(2079): CodeIgniter\Database\BaseConnection->query('UPDATE `submiss...', Array, false)
+#4 /home/u1606672/public_html/app/Controllers/Views.php(267): CodeIgniter\Database\BaseBuilder->update(Array, Array)
+#5 /home/u1606672/public_html/system/CodeIgniter.php(927): App\Controllers\Views->removeAttach()
+#6 /home/u1606672/public_html/system/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Views))
+#7 /home/u1606672/public_html/system/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/u1606672/public_html/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-12-20 01:52:30 --> Operand should contain 1 column(s)
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 292.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(292): mysqli->query('UPDATE `submissions` SET `attachment` = (\'1671472905_6a586e264de16deb89ff.png\',\'1671472905_33d7779d91ff04a48334.png\')
+WHERE `submission` = \'GS-001-10-2022\'', 0)
+ 2 SYSTEMPATH/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `submissions` SET `attachment` = (\'1671472905_6a586e264de16deb89ff.png\',\'1671472905_33d7779d91ff04a48334.png\')
+WHERE `submission` = \'GS-001-10-2022\'')
+ 3 SYSTEMPATH/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `submissions` SET `attachment` = (\'1671472905_6a586e264de16deb89ff.png\',\'1671472905_33d7779d91ff04a48334.png\')
+WHERE `submission` = \'GS-001-10-2022\'')
+ 4 SYSTEMPATH/Database/BaseBuilder.php(2079): CodeIgniter\Database\BaseConnection->query('UPDATE `submissions` SET `attachment` = :attachment:
+WHERE `submission` = :submission:', [...], false)
+ 5 APPPATH/Controllers/Views.php(267): CodeIgniter\Database\BaseBuilder->update([...], [...])
+ 6 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Views->removeAttach()
+ 7 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Views))
+ 8 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-20 02:03:59 --> Undefined variable: getDoc
+in APPPATH/Controllers/Views.php on line 331.
+ 1 APPPATH/Controllers/Views.php(331): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: getDoc', 'APPPATH/Controllers/Views.php', 331, [...])
+ 2 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Views->save()
+ 3 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Views))
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-20 02:04:40 --> Undefined property: stdClass::$attachment
+in APPPATH/Controllers/Views.php on line 333.
+ 1 APPPATH/Controllers/Views.php(333): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined property: stdClass::$attachment', 'APPPATH/Controllers/Views.php', 333, [...])
+ 2 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Views->save()
+ 3 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Views))
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-20 02:05:26 --> Undefined variable: attachments2
+in APPPATH/Controllers/Views.php on line 353.
+ 1 APPPATH/Controllers/Views.php(353): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: attachments2', 'APPPATH/Controllers/Views.php', 353, [...])
+ 2 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Views->save()
+ 3 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Views))
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-20 02:06:38 --> Undefined variable: attachments2
+in APPPATH/Controllers/Views.php on line 353.
+ 1 APPPATH/Controllers/Views.php(353): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: attachments2', 'APPPATH/Controllers/Views.php', 353, [...])
+ 2 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Views->save()
+ 3 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Views))
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-20 02:12:52 --> Array to string conversion
+in APPPATH/Controllers/Views.php on line 364.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(8, 'Array to string conversion', 'APPPATH/Controllers/Views.php', 364, [...])
+ 2 APPPATH/Controllers/Views.php(364): implode(', ', [...])
+ 3 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Views->save()
+ 4 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Views))
+ 5 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-20 11:50:01 --> Undefined variable: items
+in APPPATH/Views/download.php on line 91.
+ 1 APPPATH/Views/download.php(91): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: items', 'APPPATH/Views/download.php', 91, [...])
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/download.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render('download', [], true)
+ 5 APPPATH/Controllers/Downloads.php(74): view('download', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Downloads->index('GSS012-12-2022')
+ 7 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Downloads))
+ 8 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()

@@ -1,0 +1,60 @@
+ERROR - 2023-01-10 09:32:40 --> mysqli_sql_exception: Duplicate entry 'Sugeng Priyadi' for key 'code' in /home/u1606672/public_html/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /home/u1606672/public_html/system/Database/MySQLi/Connection.php(292): mysqli->query('REPLACE INTO `r...', 0)
+#1 /home/u1606672/public_html/system/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('REPLACE INTO `r...')
+#2 /home/u1606672/public_html/system/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('REPLACE INTO `r...')
+#3 /home/u1606672/public_html/system/Database/BaseBuilder.php(2002): CodeIgniter\Database\BaseConnection->query('REPLACE INTO `r...', Array, false)
+#4 /home/u1606672/public_html/app/Controllers/Settings.php(854): CodeIgniter\Database\BaseBuilder->replace(Array)
+#5 /home/u1606672/public_html/system/CodeIgniter.php(927): App\Controllers\Settings->setrefcode()
+#6 /home/u1606672/public_html/system/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Settings))
+#7 /home/u1606672/public_html/system/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/u1606672/public_html/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2023-01-10 09:33:35 --> mysqli_sql_exception: Duplicate entry 'Herdi Gazali' for key 'code' in /home/u1606672/public_html/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /home/u1606672/public_html/system/Database/MySQLi/Connection.php(292): mysqli->query('REPLACE INTO `r...', 0)
+#1 /home/u1606672/public_html/system/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('REPLACE INTO `r...')
+#2 /home/u1606672/public_html/system/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('REPLACE INTO `r...')
+#3 /home/u1606672/public_html/system/Database/BaseBuilder.php(2002): CodeIgniter\Database\BaseConnection->query('REPLACE INTO `r...', Array, false)
+#4 /home/u1606672/public_html/app/Controllers/Settings.php(854): CodeIgniter\Database\BaseBuilder->replace(Array)
+#5 /home/u1606672/public_html/system/CodeIgniter.php(927): App\Controllers\Settings->setrefcode()
+#6 /home/u1606672/public_html/system/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Settings))
+#7 /home/u1606672/public_html/system/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/u1606672/public_html/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2023-01-10 09:34:31 --> mysqli_sql_exception: Duplicate entry 'Elvira Sutrisno' for key 'code' in /home/u1606672/public_html/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /home/u1606672/public_html/system/Database/MySQLi/Connection.php(292): mysqli->query('REPLACE INTO `r...', 0)
+#1 /home/u1606672/public_html/system/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('REPLACE INTO `r...')
+#2 /home/u1606672/public_html/system/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('REPLACE INTO `r...')
+#3 /home/u1606672/public_html/system/Database/BaseBuilder.php(2002): CodeIgniter\Database\BaseConnection->query('REPLACE INTO `r...', Array, false)
+#4 /home/u1606672/public_html/app/Controllers/Settings.php(854): CodeIgniter\Database\BaseBuilder->replace(Array)
+#5 /home/u1606672/public_html/system/CodeIgniter.php(927): App\Controllers\Settings->setrefcode()
+#6 /home/u1606672/public_html/system/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Settings))
+#7 /home/u1606672/public_html/system/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/u1606672/public_html/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2023-01-10 09:35:23 --> mysqli_sql_exception: Duplicate entry 'Nur Afiata' for key 'code' in /home/u1606672/public_html/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /home/u1606672/public_html/system/Database/MySQLi/Connection.php(292): mysqli->query('REPLACE INTO `r...', 0)
+#1 /home/u1606672/public_html/system/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('REPLACE INTO `r...')
+#2 /home/u1606672/public_html/system/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('REPLACE INTO `r...')
+#3 /home/u1606672/public_html/system/Database/BaseBuilder.php(2002): CodeIgniter\Database\BaseConnection->query('REPLACE INTO `r...', Array, false)
+#4 /home/u1606672/public_html/app/Controllers/Settings.php(854): CodeIgniter\Database\BaseBuilder->replace(Array)
+#5 /home/u1606672/public_html/system/CodeIgniter.php(927): App\Controllers\Settings->setrefcode()
+#6 /home/u1606672/public_html/system/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Settings))
+#7 /home/u1606672/public_html/system/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/u1606672/public_html/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2023-01-10 09:36:16 --> mysqli_sql_exception: Duplicate entry 'Teguh Hartono' for key 'code' in /home/u1606672/public_html/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /home/u1606672/public_html/system/Database/MySQLi/Connection.php(292): mysqli->query('REPLACE INTO `r...', 0)
+#1 /home/u1606672/public_html/system/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('REPLACE INTO `r...')
+#2 /home/u1606672/public_html/system/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('REPLACE INTO `r...')
+#3 /home/u1606672/public_html/system/Database/BaseBuilder.php(2002): CodeIgniter\Database\BaseConnection->query('REPLACE INTO `r...', Array, false)
+#4 /home/u1606672/public_html/app/Controllers/Settings.php(854): CodeIgniter\Database\BaseBuilder->replace(Array)
+#5 /home/u1606672/public_html/system/CodeIgniter.php(927): App\Controllers\Settings->setrefcode()
+#6 /home/u1606672/public_html/system/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Settings))
+#7 /home/u1606672/public_html/system/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/u1606672/public_html/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}

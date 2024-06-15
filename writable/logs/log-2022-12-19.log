@@ -1,0 +1,45 @@
+CRITICAL - 2022-12-19 13:07:15 --> Undefined variable: ppn
+in APPPATH/Views/edit.php on line 132.
+ 1 APPPATH/Views/edit.php(132): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: ppn', 'APPPATH/Views/edit.php', 132, [...])
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/edit.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render('edit', [], true)
+ 5 APPPATH/Controllers/Views.php(223): view('edit', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Views->edit('GS01-12-2022')
+ 7 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Views))
+ 8 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-19 13:08:51 --> Undefined variable: ppn
+in APPPATH/Views/edit.php on line 132.
+ 1 APPPATH/Views/edit.php(132): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: ppn', 'APPPATH/Views/edit.php', 132, [...])
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/edit.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render('edit', [], true)
+ 5 APPPATH/Controllers/Views.php(223): view('edit', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Views->edit('GS02-12-2022')
+ 7 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Views))
+ 8 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-19 13:13:39 --> Undefined variable: ppn
+in APPPATH/Views/edit.php on line 132.
+ 1 APPPATH/Views/edit.php(132): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: ppn', 'APPPATH/Views/edit.php', 132, [...])
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/edit.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render('edit', [], true)
+ 5 APPPATH/Controllers/Views.php(223): view('edit', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Views->edit('GS02-12-2022')
+ 7 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Views))
+ 8 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-19 18:41:24 --> Not Found
+in APPPATH/Controllers/Views.php on line 208.
+ 1 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Views->edit('GS05-12-2022')
+ 2 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Views))
+ 3 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-19 18:41:27 --> Not Found
+in APPPATH/Controllers/Views.php on line 101.
+ 1 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Views->index('GS05-12-2022')
+ 2 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Views))
+ 3 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
