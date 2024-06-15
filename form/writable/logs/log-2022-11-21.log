@@ -1,0 +1,437 @@
+CRITICAL - 2022-11-21 15:00:42 --> Could not move file phpN4Ar87 to /home/u1606672/public_html/form//attachment/ (Directive 'allow_url_include' is deprecated)
+in SYSTEMPATH/HTTP/Files/UploadedFile.php on line 149.
+ 1 SYSTEMPATH/HTTP/Files/UploadedFile.php(149): CodeIgniter\HTTP\Exceptions\HTTPException::forMoveFailed('phpN4Ar87', 'ROOTPATH/attachment', 'Directive \'allow_url_include\' is deprecated')
+ 2 APPPATH/Controllers/Home.php(55): CodeIgniter\HTTP\Files\UploadedFile->move('ROOTPATH/attachment', ' GS 001/10/2022.png')
+ 3 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Home->submit()
+ 4 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 5 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-21 15:07:14 --> Could not move file phptQp6SQ to /home/u1606672/public_html/form//attachment/ (Directive 'allow_url_include' is deprecated)
+in SYSTEMPATH/HTTP/Files/UploadedFile.php on line 149.
+ 1 SYSTEMPATH/HTTP/Files/UploadedFile.php(149): CodeIgniter\HTTP\Exceptions\HTTPException::forMoveFailed('phptQp6SQ', 'ROOTPATH/attachment', 'Directive \'allow_url_include\' is deprecated')
+ 2 APPPATH/Controllers/Home.php(55): CodeIgniter\HTTP\Files\UploadedFile->move('ROOTPATH/attachment', ' GS 001/10/2022.png')
+ 3 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Home->submit()
+ 4 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 5 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-21 15:07:50 --> Could not move file phposMumX to /home/u1606672/public_html/form/attachment/ (Directive 'allow_url_include' is deprecated)
+in SYSTEMPATH/HTTP/Files/UploadedFile.php on line 149.
+ 1 SYSTEMPATH/HTTP/Files/UploadedFile.php(149): CodeIgniter\HTTP\Exceptions\HTTPException::forMoveFailed('phposMumX', 'ROOTPATH/attachment', 'Directive \'allow_url_include\' is deprecated')
+ 2 APPPATH/Controllers/Home.php(55): CodeIgniter\HTTP\Files\UploadedFile->move('ROOTPATH/attachment', ' GS 001/10/2022.png')
+ 3 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Home->submit()
+ 4 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 5 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-21 15:09:47 --> Could not move file phph1WvTi to /home/u1606672/public_html/form//public/attachments/ (Directive 'allow_url_include' is deprecated)
+in SYSTEMPATH/HTTP/Files/UploadedFile.php on line 149.
+ 1 SYSTEMPATH/HTTP/Files/UploadedFile.php(149): CodeIgniter\HTTP\Exceptions\HTTPException::forMoveFailed('phph1WvTi', 'FCPATH/attachments', 'Directive \'allow_url_include\' is deprecated')
+ 2 APPPATH/Controllers/Home.php(55): CodeIgniter\HTTP\Files\UploadedFile->move('FCPATH/attachments', ' GS 001/10/2022.png')
+ 3 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Home->submit()
+ 4 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 5 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-21 15:14:39 --> Could not move file phpLYUTC7 to /home/u1606672/public_html/form//public/attachments/ (Directive 'allow_url_include' is deprecated)
+in SYSTEMPATH/HTTP/Files/UploadedFile.php on line 149.
+ 1 SYSTEMPATH/HTTP/Files/UploadedFile.php(149): CodeIgniter\HTTP\Exceptions\HTTPException::forMoveFailed('phpLYUTC7', 'FCPATH/attachments', 'Directive \'allow_url_include\' is deprecated')
+ 2 APPPATH/Controllers/Home.php(55): CodeIgniter\HTTP\Files\UploadedFile->move('FCPATH/attachments', 'GS 001/10/2022.png')
+ 3 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Home->submit()
+ 4 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 5 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-21 15:17:01 --> Call to undefined function App\Controllers\baseurl()
+in APPPATH/Controllers/Home.php on line 57.
+ 1 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Home->submit()
+ 2 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-21 15:18:01 --> Use of undefined constant ROOTHPATH - assumed 'ROOTHPATH' (this will throw an Error in a future version of PHP)
+in APPPATH/Controllers/Home.php on line 54.
+ 1 APPPATH/Controllers/Home.php(54): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Use of undefined constant ROOTHPATH - assumed \'ROOTHPATH\' (this will throw an Error in a future version of PHP)', 'APPPATH/Controllers/Home.php', 54, [...])
+ 2 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Home->submit()
+ 3 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-21 15:20:49 --> Could not move file phpzX5u8R to /home/u1606672/public_html/form//public/attachments/ (Directive 'allow_url_include' is deprecated)
+in SYSTEMPATH/HTTP/Files/UploadedFile.php on line 149.
+ 1 SYSTEMPATH/HTTP/Files/UploadedFile.php(149): CodeIgniter\HTTP\Exceptions\HTTPException::forMoveFailed('phpzX5u8R', 'FCPATH/attachments', 'Directive \'allow_url_include\' is deprecated')
+ 2 APPPATH/Controllers/Home.php(56): CodeIgniter\HTTP\Files\UploadedFile->move('FCPATH/attachments', 'GS 001/10/2022')
+ 3 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Home->submit()
+ 4 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 5 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-21 15:21:31 --> Could not move file phpEhmh5e to /home/u1606672/public_html/form/public/attachments/ (Directive 'allow_url_include' is deprecated)
+in SYSTEMPATH/HTTP/Files/UploadedFile.php on line 149.
+ 1 SYSTEMPATH/HTTP/Files/UploadedFile.php(149): CodeIgniter\HTTP\Exceptions\HTTPException::forMoveFailed('phpEhmh5e', 'FCPATH/attachments', 'Directive \'allow_url_include\' is deprecated')
+ 2 APPPATH/Controllers/Home.php(56): CodeIgniter\HTTP\Files\UploadedFile->move('FCPATH/attachments', 'GS 001/10/2022')
+ 3 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Home->submit()
+ 4 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 5 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-21 15:21:55 --> Could not move file phpOBWr5H to /home/u1606672/public_html/form/public/attachments/ (Directive 'allow_url_include' is deprecated)
+in SYSTEMPATH/HTTP/Files/UploadedFile.php on line 149.
+ 1 SYSTEMPATH/HTTP/Files/UploadedFile.php(149): CodeIgniter\HTTP\Exceptions\HTTPException::forMoveFailed('phpOBWr5H', 'FCPATH/attachments', 'Directive \'allow_url_include\' is deprecated')
+ 2 APPPATH/Controllers/Home.php(56): CodeIgniter\HTTP\Files\UploadedFile->move('FCPATH/attachments', 'GS 001/10/2022.png')
+ 3 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Home->submit()
+ 4 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 5 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-21 15:25:22 --> Could not move file php4VRoOp to /home/u1606672/public_html/form/writable/public/attachments/ (Directive 'allow_url_include' is deprecated)
+in SYSTEMPATH/HTTP/Files/UploadedFile.php on line 149.
+ 1 SYSTEMPATH/HTTP/Files/UploadedFile.php(149): CodeIgniter\HTTP\Exceptions\HTTPException::forMoveFailed('php4VRoOp', 'ROOTPATH/writable/public/attachments', 'Directive \'allow_url_include\' is deprecated')
+ 2 APPPATH/Controllers/Home.php(56): CodeIgniter\HTTP\Files\UploadedFile->move('ROOTPATH/writable/public/attachments', 'GS 001/10/2022.png')
+ 3 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Home->submit()
+ 4 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 5 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-21 15:25:37 --> Could not move file phpIiOtsY to /home/u1606672/public_html/form/writable/public/attachments/ (Directive 'allow_url_include' is deprecated)
+in SYSTEMPATH/HTTP/Files/UploadedFile.php on line 149.
+ 1 SYSTEMPATH/HTTP/Files/UploadedFile.php(149): CodeIgniter\HTTP\Exceptions\HTTPException::forMoveFailed('phpIiOtsY', 'ROOTPATH/writable/public/attachments', 'Directive \'allow_url_include\' is deprecated')
+ 2 APPPATH/Controllers/Home.php(56): CodeIgniter\HTTP\Files\UploadedFile->move('ROOTPATH/writable/public/attachments', 'GS 001/10/2022')
+ 3 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Home->submit()
+ 4 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 5 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-21 15:29:08 --> Could not move file phpwvIlg7 to /home/u1606672/public_html/form/writable/uploads/attachments/ (Directive 'allow_url_include' is deprecated)
+in SYSTEMPATH/HTTP/Files/UploadedFile.php on line 149.
+ 1 SYSTEMPATH/HTTP/Files/UploadedFile.php(149): CodeIgniter\HTTP\Exceptions\HTTPException::forMoveFailed('phpwvIlg7', 'ROOTPATH/writable/uploads/attachments', 'Directive \'allow_url_include\' is deprecated')
+ 2 APPPATH/Controllers/Home.php(57): CodeIgniter\HTTP\Files\UploadedFile->move('ROOTPATH/writable/uploads/attachments', 'GS 001/10/2022')
+ 3 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Home->submit()
+ 4 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 5 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-21 15:29:28 --> Could not move file phpJi5b7C to /home/u1606672/public_html/form/writable/uploads/attachments/ (Directive 'allow_url_include' is deprecated)
+in SYSTEMPATH/HTTP/Files/UploadedFile.php on line 149.
+ 1 SYSTEMPATH/HTTP/Files/UploadedFile.php(149): CodeIgniter\HTTP\Exceptions\HTTPException::forMoveFailed('phpJi5b7C', 'ROOTPATH/writable/uploads/attachments', 'Directive \'allow_url_include\' is deprecated')
+ 2 APPPATH/Controllers/Home.php(57): CodeIgniter\HTTP\Files\UploadedFile->move('ROOTPATH/writable/uploads/attachments', 'GS 001/10/2022.png')
+ 3 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Home->submit()
+ 4 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 5 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-21 15:56:46 --> Undefined property: App\Controllers\Home::$load
+in APPPATH/Controllers/Home.php on line 17.
+ 1 APPPATH/Controllers/Home.php(17): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined property: App\\Controllers\\Home::$load', 'APPPATH/Controllers/Home.php', 17, [])
+ 2 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Home->submit()
+ 3 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-21 15:57:42 --> Undefined property: App\Controllers\Home::$load
+in APPPATH/Controllers/Home.php on line 17.
+ 1 APPPATH/Controllers/Home.php(17): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined property: App\\Controllers\\Home::$load', 'APPPATH/Controllers/Home.php', 17, [])
+ 2 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Home->submit()
+ 3 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-21 16:00:16 --> Cannot call constructor
+in APPPATH/Controllers/Home.php on line 17.
+ 1 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Home->submit()
+ 2 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-21 16:01:28 --> Namespace declaration statement has to be the very first statement or after any declare call in the script
+in APPPATH/Controllers/Home.php on line 4.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2022-11-21 16:02:03 --> Cannot call constructor
+in APPPATH/Controllers/Home.php on line 11.
+ 1 SYSTEMPATH/CodeIgniter.php(889): App\Controllers\Home->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(473): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-21 16:10:57 --> Cannot use object of type CodeIgniter\Router\RouteCollection as array
+in APPPATH/Config/Routes.php on line 40.
+ 1 SYSTEMPATH/CodeIgniter.php(789): require()
+ 2 SYSTEMPATH/CodeIgniter.php(430): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 3 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-21 16:12:11 --> Undefined property: App\Controllers\Home::$load
+in APPPATH/Controllers/Home.php on line 18.
+ 1 APPPATH/Controllers/Home.php(18): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined property: App\\Controllers\\Home::$load', 'APPPATH/Controllers/Home.php', 18, [])
+ 2 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Home->submit()
+ 3 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-21 16:18:36 --> Undefined property: App\Controllers\Home::$load
+in APPPATH/Controllers/Home.php on line 19.
+ 1 APPPATH/Controllers/Home.php(19): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined property: App\\Controllers\\Home::$load', 'APPPATH/Controllers/Home.php', 19, [])
+ 2 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Home->submit()
+ 3 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-21 16:18:50 --> Call to undefined function App\Controllers\slugify()
+in APPPATH/Controllers/Home.php on line 43.
+ 1 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Home->submit()
+ 2 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-21 16:19:51 --> Call to undefined function App\Controllers\slugify()
+in APPPATH/Controllers/Home.php on line 43.
+ 1 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Home->submit()
+ 2 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-21 16:21:11 --> Call to undefined function App\Models\get_instance()
+in APPPATH/Models/user_models.php on line 14.
+ 1 APPPATH/Controllers/Home.php(44): App\Models\User_models->slugify('GS 001/10/2022')
+ 2 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Home->submit()
+ 3 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-21 16:23:28 --> Call to undefined function App\Models\get_instance()
+in APPPATH/Models/user_models.php on line 14.
+ 1 APPPATH/Controllers/Home.php(44): App\Models\User_models->slugify('GS 001/10/2022')
+ 2 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Home->submit()
+ 3 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-21 16:24:32 --> You must set the database table to be used with your query.
+in SYSTEMPATH/Database/BaseConnection.php on line 845.
+ 1 SYSTEMPATH/Model.php(587): CodeIgniter\Database\BaseConnection->table(null)
+ 2 SYSTEMPATH/Model.php(735): CodeIgniter\Model->builder()
+ 3 APPPATH/Models/user_models.php(13): CodeIgniter\Model->__get('load')
+ 4 APPPATH/Controllers/Home.php(44): App\Models\User_models->slugify('GS 001/10/2022')
+ 5 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Home->submit()
+ 6 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 7 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-21 16:25:52 --> You must set the database table to be used with your query.
+in SYSTEMPATH/Database/BaseConnection.php on line 845.
+ 1 SYSTEMPATH/Model.php(587): CodeIgniter\Database\BaseConnection->table(null)
+ 2 SYSTEMPATH/Model.php(735): CodeIgniter\Model->builder()
+ 3 APPPATH/Models/user_models.php(12): CodeIgniter\Model->__get('load')
+ 4 APPPATH/Controllers/Home.php(44): App\Models\User_models->slugify('GS 001/10/2022')
+ 5 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Home->submit()
+ 6 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 7 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-21 16:28:26 --> You must set the database table to be used with your query.
+in SYSTEMPATH/Database/BaseConnection.php on line 845.
+ 1 SYSTEMPATH/Model.php(587): CodeIgniter\Database\BaseConnection->table(null)
+ 2 SYSTEMPATH/Model.php(735): CodeIgniter\Model->builder()
+ 3 APPPATH/Models/User_models.php(12): CodeIgniter\Model->__get('load')
+ 4 APPPATH/Controllers/Home.php(44): App\Models\User_models->slugify('GS 001/10/2022')
+ 5 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Home->submit()
+ 6 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 7 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-21 16:28:29 --> You must set the database table to be used with your query.
+in SYSTEMPATH/Database/BaseConnection.php on line 845.
+ 1 SYSTEMPATH/Model.php(587): CodeIgniter\Database\BaseConnection->table(null)
+ 2 SYSTEMPATH/Model.php(735): CodeIgniter\Model->builder()
+ 3 APPPATH/Models/User_models.php(12): CodeIgniter\Model->__get('load')
+ 4 APPPATH/Controllers/Home.php(44): App\Models\User_models->slugify('GS 001/10/2022')
+ 5 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Home->submit()
+ 6 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 7 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-21 16:29:09 --> You must set the database table to be used with your query.
+in SYSTEMPATH/Database/BaseConnection.php on line 845.
+ 1 SYSTEMPATH/Model.php(587): CodeIgniter\Database\BaseConnection->table(null)
+ 2 SYSTEMPATH/Model.php(735): CodeIgniter\Model->builder()
+ 3 APPPATH/Models/User_models.php(12): CodeIgniter\Model->__get('load')
+ 4 APPPATH/Controllers/Home.php(44): App\Models\User_models->slugify('GS 001/10/2022')
+ 5 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Home->submit()
+ 6 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 7 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-21 16:48:13 --> Undefined variable: document
+in APPPATH/Views/softcopy.php on line 24.
+ 1 APPPATH/Views/softcopy.php(24): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: document', 'APPPATH/Views/softcopy.php', 24, [])
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/softcopy.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render('softcopy', [], true)
+ 5 APPPATH/Controllers/Convert.php(13): view('softcopy')
+ 6 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Convert->download()
+ 7 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Convert))
+ 8 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-21 17:00:14 --> Undefined property: App\Controllers\Convert::$output
+in APPPATH/Controllers/Convert.php on line 39.
+ 1 APPPATH/Controllers/Convert.php(39): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined property: App\\Controllers\\Convert::$output', 'APPPATH/Controllers/Convert.php', 39, [])
+ 2 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Convert->view()
+ 3 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Convert))
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-21 17:03:42 --> Call to undefined function App\Controllers\library()
+in APPPATH/Controllers/Convert.php on line 41.
+ 1 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Convert->view()
+ 2 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Convert))
+ 3 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-21 17:05:27 --> Class 'App\Models\Dompdf' not found
+in APPPATH/Controllers/Convert.php on line 37.
+ 1 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Convert->view()
+ 2 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Convert))
+ 3 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-21 17:09:37 --> Class 'Dompdf\Dompdf' not found
+in APPPATH/Controllers/Convert.php on line 54.
+ 1 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Convert->view()
+ 2 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Convert))
+ 3 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-21 17:10:58 --> Class 'Dompdf\Dompdf' not found
+in APPPATH/Controllers/Convert.php on line 54.
+ 1 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Convert->view()
+ 2 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Convert))
+ 3 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-21 17:12:13 --> Class 'Dompdf\Dompdf' not found
+in APPPATH/Controllers/Convert.php on line 54.
+ 1 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Convert->view()
+ 2 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Convert))
+ 3 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-21 17:12:45 --> Class 'Dompdf\Cpdf' not found
+in APPPATH/Models/dompdf/src/Adapter/CPDF.php on line 177.
+ 1 APPPATH/Models/dompdf/src/CanvasFactory.php(56): Dompdf\Adapter\CPDF->__construct('letter', 'portrait', Object(Dompdf\Dompdf))
+ 2 APPPATH/Models/dompdf/src/Dompdf.php(274): Dompdf\CanvasFactory::get_instance(Object(Dompdf\Dompdf), 'letter', 'portrait')
+ 3 APPPATH/Controllers/Convert.php(54): Dompdf\Dompdf->__construct()
+ 4 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Convert->view()
+ 5 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Convert))
+ 6 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-21 17:14:59 --> Class 'Dompdf\Dompdf' not found
+in APPPATH/Controllers/Convert.php on line 56.
+ 1 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Convert->view()
+ 2 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Convert))
+ 3 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-21 17:16:16 --> Class 'Dompdf\Cpdf' not found
+in APPPATH/Models/dompdf/src/Adapter/CPDF.php on line 177.
+ 1 APPPATH/Models/dompdf/src/CanvasFactory.php(56): Dompdf\Adapter\CPDF->__construct('letter', 'portrait', Object(Dompdf\Dompdf))
+ 2 APPPATH/Models/dompdf/src/Dompdf.php(274): Dompdf\CanvasFactory::get_instance(Object(Dompdf\Dompdf), 'letter', 'portrait')
+ 3 APPPATH/Controllers/Convert.php(56): Dompdf\Dompdf->__construct()
+ 4 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Convert->view()
+ 5 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Convert))
+ 6 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-21 17:18:20 --> Use of undefined constant _MAP - assumed '_MAP' (this will throw an Error in a future version of PHP)
+in APPPATH/Controllers/Convert.php on line 56.
+ 1 APPPATH/Controllers/Convert.php(56): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Use of undefined constant _MAP - assumed \'_MAP\' (this will throw an Error in a future version of PHP)', 'APPPATH/Controllers/Convert.php', 56, [])
+ 2 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Convert->view()
+ 3 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Convert))
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-21 17:18:39 --> App\Controllers\Convert::view(): Failed opening required 'App/Models/dompdf/autoload.inc.php' (include_path='.:/opt/alt/php74/usr/share/pear')
+in APPPATH/Controllers/Convert.php on line 56.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2022-11-21 17:18:52 --> App\Controllers\Convert::view(): Failed opening required 'Models/dompdf/autoload.inc.php' (include_path='.:/opt/alt/php74/usr/share/pear')
+in APPPATH/Controllers/Convert.php on line 56.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2022-11-21 17:19:04 --> Class 'Dompdf\Cpdf' not found
+in APPPATH/Models/dompdf/src/Adapter/CPDF.php on line 177.
+ 1 APPPATH/Models/dompdf/src/CanvasFactory.php(56): Dompdf\Adapter\CPDF->__construct('letter', 'portrait', Object(Dompdf\Dompdf))
+ 2 APPPATH/Models/dompdf/src/Dompdf.php(274): Dompdf\CanvasFactory::get_instance(Object(Dompdf\Dompdf), 'letter', 'portrait')
+ 3 APPPATH/Controllers/Convert.php(56): Dompdf\Dompdf->__construct()
+ 4 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Convert->view()
+ 5 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Convert))
+ 6 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-21 17:23:45 --> Class 'Dompdf\Cpdf' not found
+in APPPATH/Models/dompdf/src/Adapter/CPDF.php on line 177.
+ 1 APPPATH/Models/dompdf/src/CanvasFactory.php(56): Dompdf\Adapter\CPDF->__construct('letter', 'portrait', Object(Dompdf\Dompdf))
+ 2 APPPATH/Models/dompdf/src/Dompdf.php(274): Dompdf\CanvasFactory::get_instance(Object(Dompdf\Dompdf), 'letter', 'portrait')
+ 3 APPPATH/Controllers/Convert.php(35): Dompdf\Dompdf->__construct()
+ 4 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Convert->view()
+ 5 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Convert))
+ 6 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-21 17:32:48 --> Class 'Dompdf\Cpdf' not found
+in APPPATH/ThirdParty/dompdf/src/Adapter/CPDF.php on line 181.
+ 1 APPPATH/ThirdParty/dompdf/src/CanvasFactory.php(57): Dompdf\Adapter\CPDF->__construct('letter', 'portrait', Object(Dompdf\Dompdf))
+ 2 APPPATH/ThirdParty/dompdf/src/Dompdf.php(276): Dompdf\CanvasFactory::get_instance(Object(Dompdf\Dompdf), 'letter', 'portrait')
+ 3 APPPATH/Controllers/Convert.php(35): Dompdf\Dompdf->__construct()
+ 4 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Convert->view()
+ 5 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Convert))
+ 6 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-21 17:37:26 --> Class 'App\Controllers\Dompdf' not found
+in APPPATH/Controllers/Convert.php on line 35.
+ 1 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Convert->view()
+ 2 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Convert))
+ 3 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-21 17:39:49 --> Class 'App\Controllers\Dompdf' not found
+in APPPATH/Controllers/Convert.php on line 36.
+ 1 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Convert->view()
+ 2 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Convert))
+ 3 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-21 17:40:49 --> Class 'App\ThirdParty\dompdf\Dompdf' not found
+in APPPATH/Controllers/Convert.php on line 36.
+ 1 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Convert->view()
+ 2 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Convert))
+ 3 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-21 17:41:41 --> Class 'Dompdf\Cpdf' not found
+in APPPATH/ThirdParty/dompdf/src/Adapter/CPDF.php on line 181.
+ 1 APPPATH/ThirdParty/dompdf/src/CanvasFactory.php(57): Dompdf\Adapter\CPDF->__construct('letter', 'portrait', Object(Dompdf\Dompdf))
+ 2 APPPATH/ThirdParty/dompdf/src/Dompdf.php(276): Dompdf\CanvasFactory::get_instance(Object(Dompdf\Dompdf), 'letter', 'portrait')
+ 3 APPPATH/Controllers/Convert.php(36): Dompdf\Dompdf->__construct()
+ 4 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Convert->view()
+ 5 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Convert))
+ 6 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-21 17:47:48 --> Class 'Dompdf\Dompdf' not found
+in APPPATH/Controllers/Convert.php on line 35.
+ 1 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Convert->view()
+ 2 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Convert))
+ 3 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-21 17:48:20 --> Class 'Dompdf\Dompdf' not found
+in APPPATH/Controllers/Convert.php on line 35.
+ 1 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Convert->view()
+ 2 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Convert))
+ 3 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-21 17:48:22 --> Class 'Dompdf\Dompdf' not found
+in APPPATH/Controllers/Convert.php on line 35.
+ 1 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Convert->view()
+ 2 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Convert))
+ 3 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-21 17:48:23 --> Class 'Dompdf\Dompdf' not found
+in APPPATH/Controllers/Convert.php on line 35.
+ 1 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Convert->view()
+ 2 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Convert))
+ 3 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-21 17:49:44 --> Class 'Dompdf\Dompdf' not found
+in APPPATH/Controllers/Convert.php on line 35.
+ 1 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Convert->view()
+ 2 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Convert))
+ 3 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-21 17:50:51 --> App\Controllers\Convert::view(): Failed opening required 'App/ThirdParty/dompdf/autoload.inc.php' (include_path='.:/opt/alt/php74/usr/share/pear')
+in APPPATH/Controllers/Convert.php on line 35.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2022-11-21 17:51:07 --> App\Controllers\Convert::view(): Failed opening required 'ThirdParty/dompdf/autoload.inc.php' (include_path='.:/opt/alt/php74/usr/share/pear')
+in APPPATH/Controllers/Convert.php on line 35.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2022-11-21 17:51:12 --> App\Controllers\Convert::view(): Failed opening required 'ThirdParty/dompdf/autoload.inc.php' (include_path='.:/opt/alt/php74/usr/share/pear')
+in APPPATH/Controllers/Convert.php on line 35.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2022-11-21 17:52:37 --> App\Controllers\Convert::view(): Failed opening required '/Home/u1606672/public_html/form/App/ThirdParty/dompdf/autoload.inc.php' (include_path='.:/opt/alt/php74/usr/share/pear')
+in APPPATH/Controllers/Convert.php on line 35.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2022-11-21 17:53:02 --> App\Controllers\Convert::view(): Failed opening required 'dompdf/autoload.inc.php' (include_path='.:/opt/alt/php74/usr/share/pear')
+in APPPATH/Controllers/Convert.php on line 35.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2022-11-21 17:54:24 --> App\Controllers\Convert::view(): Failed opening required '../ThirdParty/dompdf/autoload.inc.php' (include_path='.:/opt/alt/php74/usr/share/pear')
+in APPPATH/Controllers/Convert.php on line 35.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2022-11-21 17:54:28 --> App\Controllers\Convert::view(): Failed opening required '../ThirdParty/dompdf/autoload.inc.php' (include_path='.:/opt/alt/php74/usr/share/pear')
+in APPPATH/Controllers/Convert.php on line 35.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2022-11-21 17:54:30 --> App\Controllers\Convert::view(): Failed opening required '../ThirdParty/dompdf/autoload.inc.php' (include_path='.:/opt/alt/php74/usr/share/pear')
+in APPPATH/Controllers/Convert.php on line 35.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2022-11-21 17:54:36 --> App\Controllers\Convert::view(): Failed opening required '../../ThirdParty/dompdf/autoload.inc.php' (include_path='.:/opt/alt/php74/usr/share/pear')
+in APPPATH/Controllers/Convert.php on line 35.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2022-11-21 19:15:28 --> Use of undefined constant DEFAULT_PDF_PAPER_SIZE - assumed 'DEFAULT_PDF_PAPER_SIZE' (this will throw an Error in a future version of PHP)
+in APPPATH/Controllers/Convert.php on line 168.
+ 1 APPPATH/Controllers/Convert.php(168): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Use of undefined constant DEFAULT_PDF_PAPER_SIZE - assumed \'DEFAULT_PDF_PAPER_SIZE\' (this will throw an Error in a future version of PHP)', 'APPPATH/Controllers/Convert.php', 168, [...])
+ 2 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Convert->view()
+ 3 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Convert))
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()

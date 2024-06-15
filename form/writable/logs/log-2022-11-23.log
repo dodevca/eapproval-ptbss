@@ -1,0 +1,487 @@
+CRITICAL - 2022-11-23 00:24:19 --> Argument 3 passed to view() must be of the type array, bool given, called in /home/u1606672/public_html/form/app/Controllers/Home.php on line 104
+in SYSTEMPATH/Common.php on line 1120.
+ 1 APPPATH/Controllers/Home.php(104): view('softcopy', [...], true)
+ 2 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Home->submit()
+ 3 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-23 00:26:14 --> Call to undefined method CodeIgniter\Email\Email::protocol()
+in APPPATH/Controllers/Home.php on line 105.
+ 1 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Home->submit()
+ 2 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-23 00:27:29 --> Call to undefined method CodeIgniter\Email\Email::SMTPHost()
+in APPPATH/Controllers/Home.php on line 105.
+ 1 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Home->submit()
+ 2 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-23 00:29:39 --> Call to undefined method CodeIgniter\Email\Email::SMTPHost()
+in APPPATH/Controllers/Home.php on line 105.
+ 1 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Home->submit()
+ 2 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-23 00:29:53 --> Undefined variable: document
+in APPPATH/Views/softcopy.php on line 6.
+ 1 APPPATH/Views/softcopy.php(6): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: document', 'APPPATH/Views/softcopy.php', 6, [])
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/softcopy.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render('softcopy', [], true)
+ 5 APPPATH/Controllers/Home.php(115): view('softcopy')
+ 6 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Home->submit()
+ 7 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-23 00:31:23 --> Undefined variable: document
+in APPPATH/Views/softcopy.php on line 6.
+ 1 APPPATH/Views/softcopy.php(6): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: document', 'APPPATH/Views/softcopy.php', 6, [])
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/softcopy.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render('softcopy', [], true)
+ 5 APPPATH/Controllers/Home.php(115): view('softcopy')
+ 6 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Home->submit()
+ 7 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-23 13:24:39 --> Undefined variable: document
+in APPPATH/Views/mail.php on line 6.
+ 1 APPPATH/Views/mail.php(6): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: document', 'APPPATH/Views/mail.php', 6, [])
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/mail.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render('mail', [], true)
+ 5 APPPATH/Controllers/Home.php(15): view('mail')
+ 6 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Home->index()
+ 7 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-11-23 13:58:17 --> Email: sendWithSmtp throwed ErrorException: fsockopen(): SSL operation failed with code 1. OpenSSL Error messages:
+error:1408F10B:SSL routines:ssl3_get_record:wrong version number in /home/u1606672/public_html/form/system/Email/Email.php:1863
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'fsockopen(): SS...', '/home/u1606672/...', 1863, Array)
+#1 /home/u1606672/public_html/form/system/Email/Email.php(1863): fsockopen('tls://mail.devi...', 465, 0, NULL, 30)
+#2 /home/u1606672/public_html/form/system/Email/Email.php(1777): CodeIgniter\Email\Email->SMTPConnect()
+#3 /home/u1606672/public_html/form/system/Email/Email.php(1662): CodeIgniter\Email\Email->sendWithSmtp()
+#4 /home/u1606672/public_html/form/system/Email/Email.php(1560): CodeIgniter\Email\Email->spoolEmail()
+#5 /home/u1606672/public_html/form/app/Controllers/Home.php(110): CodeIgniter\Email\Email->send()
+#6 /home/u1606672/public_html/form/system/CodeIgniter.php(927): App\Controllers\Home->submit()
+#7 /home/u1606672/public_html/form/system/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 /home/u1606672/public_html/form/system/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /home/u1606672/public_html/form/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2022-11-23 13:58:17 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2022-11-23 13:58:17 --> 
+CRITICAL - 2022-11-23 18:41:16 --> Class 'App\Models\Mail_sender' not found
+in APPPATH/Controllers/Home.php on line 21.
+ 1 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Home->submit()
+ 2 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-23 18:41:37 --> Use of undefined constant BASEPATH - assumed 'BASEPATH' (this will throw an Error in a future version of PHP)
+in APPPATH/Controllers/Home.php on line 66.
+ 1 APPPATH/Controllers/Home.php(66): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Use of undefined constant BASEPATH - assumed \'BASEPATH\' (this will throw an Error in a future version of PHP)', 'APPPATH/Controllers/Home.php', 66, [...])
+ 2 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Home->submit()
+ 3 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-23 18:43:41 --> Undefined variable: email
+in APPPATH/Models/Mail_sender.php on line 31.
+ 1 APPPATH/Models/Mail_sender.php(31): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: email', 'APPPATH/Models/Mail_sender.php', 31, [...])
+ 2 APPPATH/Controllers/Home.php(102): App\Models\Mail_sender->sendToApplicant('twelvedotio@gmail.com', [...])
+ 3 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Home->submit()
+ 4 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 5 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-23 18:57:48 --> include(partials/nav): failed to open stream: No such file or directory
+in APPPATH/Views/form.php on line 14.
+ 1 APPPATH/Views/form.php(14): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include(partials/nav): failed to open stream: No such file or directory', 'APPPATH/Views/form.php', 14, [])
+ 2 APPPATH/Views/form.php(14): include()
+ 3 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/form.php')
+ 4 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render('form', [], true)
+ 6 APPPATH/Controllers/Home.php(16): view('form')
+ 7 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Home->index()
+ 8 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 9 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-23 18:59:07 --> include(partials/footer): failed to open stream: No such file or directory
+in APPPATH/Views/form.php on line 212.
+ 1 APPPATH/Views/form.php(212): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include(partials/footer): failed to open stream: No such file or directory', 'APPPATH/Views/form.php', 212, [])
+ 2 APPPATH/Views/form.php(212): include()
+ 3 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/form.php')
+ 4 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render('form', [], true)
+ 6 APPPATH/Controllers/Home.php(16): view('form')
+ 7 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Home->index()
+ 8 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 9 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-23 19:00:00 --> finfo_file(/tmp/php5NkYz4): failed to open stream: No such file or directory
+in SYSTEMPATH/Files/File.php on line 114.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'finfo_file(/tmp/php5NkYz4): failed to open stream: No such file or directory', 'SYSTEMPATH/Files/File.php', 114, [...])
+ 2 SYSTEMPATH/Files/File.php(114): finfo_file(resource (file_info), '/tmp/php5NkYz4')
+ 3 SYSTEMPATH/HTTP/Files/UploadedFile.php(302): CodeIgniter\Files\File->getMimeType()
+ 4 SYSTEMPATH/HTTP/Files/UploadedFile.php(291): CodeIgniter\HTTP\Files\UploadedFile->guessExtension()
+ 5 APPPATH/Controllers/Home.php(68): CodeIgniter\HTTP\Files\UploadedFile->getExtension()
+ 6 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Home->submit()
+ 7 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-23 19:00:33 --> finfo_file(/tmp/phpVteRmv): failed to open stream: No such file or directory
+in SYSTEMPATH/Files/File.php on line 114.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'finfo_file(/tmp/phpVteRmv): failed to open stream: No such file or directory', 'SYSTEMPATH/Files/File.php', 114, [...])
+ 2 SYSTEMPATH/Files/File.php(114): finfo_file(resource (file_info), '/tmp/phpVteRmv')
+ 3 SYSTEMPATH/HTTP/Files/UploadedFile.php(302): CodeIgniter\Files\File->getMimeType()
+ 4 SYSTEMPATH/HTTP/Files/UploadedFile.php(291): CodeIgniter\HTTP\Files\UploadedFile->guessExtension()
+ 5 APPPATH/Controllers/Home.php(68): CodeIgniter\HTTP\Files\UploadedFile->getExtension()
+ 6 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Home->submit()
+ 7 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-23 19:02:02 --> finfo_file(/tmp/phpM4X1hx): failed to open stream: No such file or directory
+in SYSTEMPATH/Files/File.php on line 114.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'finfo_file(/tmp/phpM4X1hx): failed to open stream: No such file or directory', 'SYSTEMPATH/Files/File.php', 114, [...])
+ 2 SYSTEMPATH/Files/File.php(114): finfo_file(resource (file_info), '/tmp/phpM4X1hx')
+ 3 SYSTEMPATH/HTTP/Files/UploadedFile.php(302): CodeIgniter\Files\File->getMimeType()
+ 4 SYSTEMPATH/HTTP/Files/UploadedFile.php(291): CodeIgniter\HTTP\Files\UploadedFile->guessExtension()
+ 5 APPPATH/Controllers/Home.php(68): CodeIgniter\HTTP\Files\UploadedFile->getExtension()
+ 6 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Home->submit()
+ 7 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-23 19:23:50 --> Undefined variable: approver
+in APPPATH/Views/mail.php on line 141.
+ 1 APPPATH/Views/mail.php(141): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: approver', 'APPPATH/Views/mail.php', 141, [...])
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/mail.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render('mail', [], true)
+ 5 APPPATH/Controllers/Home.php(112): view('mail', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Home->submit()
+ 7 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-23 19:25:21 --> syntax error, unexpected '?>', expecting ')'
+in APPPATH/Views/mail.php on line 141.
+ 1 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render('mail', [], true)
+ 3 APPPATH/Controllers/Home.php(112): view('mail', [...])
+ 4 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Home->submit()
+ 5 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-23 20:29:03 --> count(): Parameter must be an array or an object that implements Countable
+in APPPATH/Controllers/Home.php on line 106.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'count(): Parameter must be an array or an object that implements Countable', 'APPPATH/Controllers/Home.php', 106, [...])
+ 2 APPPATH/Controllers/Home.php(106): count('elvira@ptbss.com')
+ 3 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Home->submit()
+ 4 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 5 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-23 21:38:01 --> Access level to App\Controllers\Home::$request must be protected (as in class App\Controllers\BaseController) or weaker
+in APPPATH/Controllers/Home.php on line 10.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2022-11-23 21:41:02 --> Undefined variable: message
+in APPPATH/Views/form_output.php on line 21.
+ 1 APPPATH/Views/form_output.php(21): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: message', 'APPPATH/Views/form_output.php', 21, [...])
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/form_output.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render('form_output', [], true)
+ 5 APPPATH/Controllers/Home.php(121): view('form_output', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Home->submit()
+ 7 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-23 22:38:06 --> Call to a member function titlefy() on null
+in APPPATH/Controllers/Home.php on line 51.
+ 1 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Home->submit()
+ 2 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-23 22:39:02 --> Call to a member function titlefy() on null
+in APPPATH/Controllers/Home.php on line 51.
+ 1 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Home->submit()
+ 2 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-23 22:41:24 --> Call to a member function titlefy() on null
+in APPPATH/Controllers/Home.php on line 51.
+ 1 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Home->submit()
+ 2 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-23 22:45:21 --> Call to a member function query() on null
+in APPPATH/Controllers/Home.php on line 89.
+ 1 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Home->submit()
+ 2 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-23 22:47:01 --> Call to a member function titlefy() on null
+in APPPATH/Controllers/Home.php on line 51.
+ 1 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Home->submit()
+ 2 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-23 22:47:41 --> Undefined variable: userModels
+in APPPATH/Controllers/Home.php on line 51.
+ 1 APPPATH/Controllers/Home.php(51): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: userModels', 'APPPATH/Controllers/Home.php', 51, [...])
+ 2 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Home->submit()
+ 3 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-23 22:48:50 --> Undefined variable: request
+in APPPATH/Controllers/Home.php on line 46.
+ 1 APPPATH/Controllers/Home.php(46): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: request', 'APPPATH/Controllers/Home.php', 46, [...])
+ 2 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Home->submit()
+ 3 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-11-23 22:58:01 --> mysqli_sql_exception: Table 'u1606672_bss.submission' doesn't exist in /home/u1606672/public_html/form/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /home/u1606672/public_html/form/system/Database/MySQLi/Connection.php(292): mysqli->query('SELECT * FROM s...', 0)
+#1 /home/u1606672/public_html/form/system/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM s...')
+#2 /home/u1606672/public_html/form/system/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM s...')
+#3 /home/u1606672/public_html/form/app/Controllers/Home.php(150): CodeIgniter\Database\BaseConnection->query('SELECT * FROM s...')
+#4 /home/u1606672/public_html/form/system/CodeIgniter.php(927): App\Controllers\Home->approve()
+#5 /home/u1606672/public_html/form/system/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 /home/u1606672/public_html/form/system/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /home/u1606672/public_html/form/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-11-23 22:58:01 --> Table 'u1606672_bss.submission' doesn't exist
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 292.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(292): mysqli->query('SELECT * FROM submission WHERE submission = \'GS-1-23-2022\'', 0)
+ 2 SYSTEMPATH/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM submission WHERE submission = \'GS-1-23-2022\'')
+ 3 SYSTEMPATH/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM submission WHERE submission = \'GS-1-23-2022\'')
+ 4 APPPATH/Controllers/Home.php(150): CodeIgniter\Database\BaseConnection->query('SELECT * FROM submission WHERE submission = \'GS-1-23-2022\'')
+ 5 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Home->approve()
+ 6 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 7 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-23 22:58:25 --> Class 'email' not found
+in SYSTEMPATH/Database/BaseResult.php on line 134.
+ 1 SYSTEMPATH/Database/BaseResult.php(106): CodeIgniter\Database\BaseResult->getCustomResultObject('email')
+ 2 APPPATH/Controllers/Home.php(172): CodeIgniter\Database\BaseResult->getResult('email')
+ 3 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Home->approve()
+ 4 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 5 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-23 23:05:18 --> Undefined property: CodeIgniter\Database\MySQLi\Result::$row
+in APPPATH/Controllers/Home.php on line 172.
+ 1 APPPATH/Controllers/Home.php(172): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined property: CodeIgniter\\Database\\MySQLi\\Result::$row', 'APPPATH/Controllers/Home.php', 172, [...])
+ 2 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Home->approve()
+ 3 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-23 23:06:01 --> Call to undefined method CodeIgniter\Database\MySQLi\Result::row()
+in APPPATH/Controllers/Home.php on line 172.
+ 1 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Home->approve()
+ 2 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-23 23:08:42 --> Call to undefined method CodeIgniter\Database\MySQLi\Result::row()
+in APPPATH/Controllers/Home.php on line 172.
+ 1 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Home->approve()
+ 2 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-23 23:12:13 --> Undefined variable: query
+in APPPATH/Controllers/Home.php on line 172.
+ 1 APPPATH/Controllers/Home.php(172): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: query', 'APPPATH/Controllers/Home.php', 172, [...])
+ 2 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Home->approve()
+ 3 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-23 23:12:31 --> Call to undefined method CodeIgniter\Database\MySQLi\Result::result()
+in APPPATH/Controllers/Home.php on line 172.
+ 1 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Home->approve()
+ 2 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-23 23:13:16 --> Call to undefined method CodeIgniter\Database\MySQLi\Result::result()
+in APPPATH/Controllers/Home.php on line 172.
+ 1 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Home->approve()
+ 2 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-23 23:14:09 --> Call to undefined method CodeIgniter\Database\MySQLi\Result::num_rows()
+in APPPATH/Controllers/Home.php on line 172.
+ 1 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Home->approve()
+ 2 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-23 23:20:37 --> Undefined property: stdClass::$customerName
+in APPPATH/Controllers/Home.php on line 179.
+ 1 APPPATH/Controllers/Home.php(179): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined property: stdClass::$customerName', 'APPPATH/Controllers/Home.php', 179, [...])
+ 2 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Home->approve()
+ 3 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-23 23:21:38 --> Undefined property: stdClass::$total
+in APPPATH/Controllers/Home.php on line 182.
+ 1 APPPATH/Controllers/Home.php(182): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined property: stdClass::$total', 'APPPATH/Controllers/Home.php', 182, [...])
+ 2 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Home->approve()
+ 3 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-23 23:25:42 --> Cannot use object of type stdClass as array
+in APPPATH/Views/mail.php on line 85.
+ 1 SYSTEMPATH/View/View.php(213): include()
+ 2 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render('mail', [], true)
+ 4 APPPATH/Models/Mail_sender.php(52): view('mail', [...])
+ 5 APPPATH/Controllers/Home.php(199): App\Models\Mail_sender->sendToApplicant('lukman.khakim@students.amikom.ac.id', 'Applicant', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Home->approve()
+ 7 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-23 23:26:12 --> Undefined variable: query
+in APPPATH/Controllers/Home.php on line 170.
+ 1 APPPATH/Controllers/Home.php(170): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: query', 'APPPATH/Controllers/Home.php', 170, [...])
+ 2 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Home->approve()
+ 3 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-23 23:26:15 --> Undefined variable: query
+in APPPATH/Controllers/Home.php on line 170.
+ 1 APPPATH/Controllers/Home.php(170): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: query', 'APPPATH/Controllers/Home.php', 170, [...])
+ 2 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Home->approve()
+ 3 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-23 23:30:43 --> Undefined variable: sender
+in APPPATH/Views/mail.php on line 8.
+ 1 APPPATH/Views/mail.php(8): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: sender', 'APPPATH/Views/mail.php', 8, [...])
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/mail.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render('mail', [], true)
+ 5 APPPATH/Controllers/Home.php(219): view('mail', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Home->approve()
+ 7 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-23 23:31:13 --> Undefined index: sender
+in APPPATH/Controllers/Home.php on line 218.
+ 1 APPPATH/Controllers/Home.php(218): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: sender', 'APPPATH/Controllers/Home.php', 218, [...])
+ 2 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Home->approve()
+ 3 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-23 23:32:08 --> Cannot use object of type stdClass as array
+in APPPATH/Views/mail.php on line 85.
+ 1 SYSTEMPATH/View/View.php(213): include()
+ 2 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render('mail', [], true)
+ 4 APPPATH/Controllers/Home.php(221): view('mail', [...])
+ 5 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Home->approve()
+ 6 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 7 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-23 23:33:19 --> Undefined variable: total
+in APPPATH/Views/mail.php on line 93.
+ 1 APPPATH/Views/mail.php(93): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: total', 'APPPATH/Views/mail.php', 93, [...])
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/mail.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render('mail', [], true)
+ 5 APPPATH/Controllers/Home.php(221): view('mail', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Home->approve()
+ 7 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-23 23:34:01 --> Undefined variable: hierarchy
+in APPPATH/Views/mail.php on line 146.
+ 1 APPPATH/Views/mail.php(146): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: hierarchy', 'APPPATH/Views/mail.php', 146, [...])
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/mail.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render('mail', [], true)
+ 5 APPPATH/Controllers/Home.php(222): view('mail', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Home->approve()
+ 7 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-23 23:36:10 --> Undefined variable: hierarchy
+in APPPATH/Views/mail.php on line 146.
+ 1 APPPATH/Views/mail.php(146): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: hierarchy', 'APPPATH/Views/mail.php', 146, [...])
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/mail.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render('mail', [], true)
+ 5 APPPATH/Controllers/Home.php(222): view('mail', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Home->approve()
+ 7 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-23 23:36:30 --> Undefined index: file
+in APPPATH/Views/mail.php on line 146.
+ 1 APPPATH/Views/mail.php(146): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: file', 'APPPATH/Views/mail.php', 146, [...])
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/mail.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render('mail', [], true)
+ 5 APPPATH/Controllers/Home.php(223): view('mail', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Home->approve()
+ 7 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-23 23:37:37 --> Undefined index: file
+in APPPATH/Views/mail.php on line 146.
+ 1 APPPATH/Views/mail.php(146): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: file', 'APPPATH/Views/mail.php', 146, [...])
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/mail.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render('mail', [], true)
+ 5 APPPATH/Controllers/Home.php(225): view('mail', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Home->approve()
+ 7 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-23 23:37:39 --> Undefined index: file
+in APPPATH/Views/mail.php on line 146.
+ 1 APPPATH/Views/mail.php(146): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: file', 'APPPATH/Views/mail.php', 146, [...])
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/mail.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render('mail', [], true)
+ 5 APPPATH/Controllers/Home.php(225): view('mail', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Home->approve()
+ 7 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-23 23:37:57 --> Undefined index: file
+in APPPATH/Views/mail.php on line 146.
+ 1 APPPATH/Views/mail.php(146): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: file', 'APPPATH/Views/mail.php', 146, [...])
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/mail.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render('mail', [], true)
+ 5 APPPATH/Controllers/Home.php(225): view('mail', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Home->approve()
+ 7 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-23 23:37:58 --> Undefined index: file
+in APPPATH/Views/mail.php on line 146.
+ 1 APPPATH/Views/mail.php(146): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: file', 'APPPATH/Views/mail.php', 146, [...])
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/mail.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render('mail', [], true)
+ 5 APPPATH/Controllers/Home.php(225): view('mail', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Home->approve()
+ 7 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-11-23 23:53:35 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '?`\0008???<??u??? = '0'' at line 1 in /home/u1606672/public_html/form/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /home/u1606672/public_html/form/system/Database/MySQLi/Connection.php(292): mysqli->query('SELECT * FROM s...', 0)
+#1 /home/u1606672/public_html/form/system/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM s...')
+#2 /home/u1606672/public_html/form/system/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM s...')
+#3 /home/u1606672/public_html/form/app/Controllers/Home.php(140): CodeIgniter\Database\BaseConnection->query('SELECT * FROM s...')
+#4 /home/u1606672/public_html/form/system/CodeIgniter.php(927): App\Controllers\Home->approve()
+#5 /home/u1606672/public_html/form/system/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 /home/u1606672/public_html/form/system/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /home/u1606672/public_html/form/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-11-23 23:53:35 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '?`\0008???<??u??? = '0'' at line 1
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 292.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(292): mysqli->query('SELECT * FROM submissions WHERE submission = \'Ec-4-95-8118\' AND Ÿ`Éúõ<ƒØuýç¥ = \'0\'', 0)
+ 2 SYSTEMPATH/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM submissions WHERE submission = \'Ec-4-95-8118\' AND Ÿ`Éúõ<ƒØuýç¥ = \'0\'')
+ 3 SYSTEMPATH/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM submissions WHERE submission = \'Ec-4-95-8118\' AND Ÿ`Éúõ<ƒØuýç¥ = \'0\'')
+ 4 APPPATH/Controllers/Home.php(140): CodeIgniter\Database\BaseConnection->query('SELECT * FROM submissions WHERE submission = \'Ec-4-95-8118\' AND Ÿ`Éúõ<ƒØuýç¥ = \'0\'')
+ 5 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Home->approve()
+ 6 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 7 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()

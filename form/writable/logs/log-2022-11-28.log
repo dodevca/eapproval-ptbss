@@ -1,0 +1,607 @@
+ERROR - 2022-11-28 00:37:16 --> mysqli_sql_exception: Illegal mix of collations (latin1_swedish_ci,IMPLICIT) and (utf8_general_ci,COERCIBLE) for operation '=' in /home/u1606672/public_html/form/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /home/u1606672/public_html/form/system/Database/MySQLi/Connection.php(292): mysqli->query('SELECT * FROM s...', 0)
+#1 /home/u1606672/public_html/form/system/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM s...')
+#2 /home/u1606672/public_html/form/system/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM s...')
+#3 /home/u1606672/public_html/form/app/Controllers/Home.php(30): CodeIgniter\Database\BaseConnection->query('SELECT * FROM s...')
+#4 /home/u1606672/public_html/form/system/CodeIgniter.php(927): App\Controllers\Home->view()
+#5 /home/u1606672/public_html/form/system/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 /home/u1606672/public_html/form/system/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /home/u1606672/public_html/form/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-11-28 00:37:16 --> Illegal mix of collations (latin1_swedish_ci,IMPLICIT) and (utf8_general_ci,COERCIBLE) for operation '='
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 292.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(292): mysqli->query('SELECT * FROM submissions WHERE submission = \'GS-001-10-2022\' AND email = \'twelvedotio@gmakÛ\'', 0)
+ 2 SYSTEMPATH/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM submissions WHERE submission = \'GS-001-10-2022\' AND email = \'twelvedotio@gmakÛ\'')
+ 3 SYSTEMPATH/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM submissions WHERE submission = \'GS-001-10-2022\' AND email = \'twelvedotio@gmakÛ\'')
+ 4 APPPATH/Controllers/Home.php(30): CodeIgniter\Database\BaseConnection->query('SELECT * FROM submissions WHERE submission = \'GS-001-10-2022\' AND email = \'twelvedotio@gmakÛ\'')
+ 5 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Home->view()
+ 6 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 7 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-28 00:37:56 --> Call to undefined function App\Controllers\show_404()
+in APPPATH/Controllers/Home.php on line 54.
+ 1 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Home->view()
+ 2 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-28 00:38:36 --> Call to undefined function App\Controllers\show_404()
+in APPPATH/Controllers/Home.php on line 54.
+ 1 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Home->view()
+ 2 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-28 00:38:40 --> Call to undefined function App\Controllers\show_404()
+in APPPATH/Controllers/Home.php on line 54.
+ 1 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Home->view()
+ 2 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-28 00:41:39 --> Not Found
+in APPPATH/Controllers/Home.php on line 54.
+ 1 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Home->view()
+ 2 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-28 00:42:18 --> Not Found
+in APPPATH/Controllers/Home.php on line 54.
+ 1 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Home->view()
+ 2 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-28 00:42:24 --> Not Found
+in APPPATH/Controllers/Home.php on line 54.
+ 1 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Home->view()
+ 2 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-28 00:43:12 --> Not Found
+in APPPATH/Controllers/Home.php on line 54.
+ 1 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Home->view()
+ 2 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-28 03:39:08 --> Not Found
+in APPPATH/Controllers/Home.php on line 54.
+ 1 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Home->view()
+ 2 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-28 05:18:23 --> Not Found
+in APPPATH/Controllers/Home.php on line 54.
+ 1 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Home->view()
+ 2 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-11-28 06:24:09 --> mysqli_sql_exception: Illegal mix of collations (latin1_swedish_ci,IMPLICIT) and (utf8_general_ci,COERCIBLE) for operation '=' in /home/u1606672/public_html/form/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /home/u1606672/public_html/form/system/Database/MySQLi/Connection.php(292): mysqli->query('SELECT * FROM s...', 0)
+#1 /home/u1606672/public_html/form/system/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM s...')
+#2 /home/u1606672/public_html/form/system/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM s...')
+#3 /home/u1606672/public_html/form/app/Controllers/Home.php(30): CodeIgniter\Database\BaseConnection->query('SELECT * FROM s...')
+#4 /home/u1606672/public_html/form/system/CodeIgniter.php(927): App\Controllers\Home->view()
+#5 /home/u1606672/public_html/form/system/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 /home/u1606672/public_html/form/system/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /home/u1606672/public_html/form/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-11-28 06:24:09 --> Call to a member function getResult() on bool
+in APPPATH/Controllers/Home.php on line 31.
+ 1 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Home->view()
+ 2 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-28 19:22:41 --> array_sum() expects parameter 1 to be array, null given
+in APPPATH/Controllers/Home.php on line 92.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'array_sum() expects parameter 1 to be array, null given', 'APPPATH/Controllers/Home.php', 92, [...])
+ 2 APPPATH/Controllers/Home.php(92): array_sum(null)
+ 3 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Home->submit()
+ 4 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 5 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-28 19:23:03 --> array_sum() expects parameter 1 to be array, null given
+in APPPATH/Controllers/Home.php on line 92.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'array_sum() expects parameter 1 to be array, null given', 'APPPATH/Controllers/Home.php', 92, [...])
+ 2 APPPATH/Controllers/Home.php(92): array_sum(null)
+ 3 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Home->submit()
+ 4 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 5 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-28 19:24:52 --> Undefined offset: 1
+in APPPATH/Controllers/Home.php on line 102.
+ 1 APPPATH/Controllers/Home.php(102): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offset: 1', 'APPPATH/Controllers/Home.php', 102, [...])
+ 2 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Home->submit()
+ 3 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-28 19:44:37 --> Undefined variable: message
+in APPPATH/Views/form_output.php on line 22.
+ 1 APPPATH/Views/form_output.php(22): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: message', 'APPPATH/Views/form_output.php', 22, [...])
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/form_output.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render('form_output', [], true)
+ 5 APPPATH/Controllers/Home.php(60): view('form_output', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Home->view()
+ 7 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-28 19:47:40 --> Function money_format() is deprecated
+in APPPATH/Views/form_output.php on line 122.
+ 1 APPPATH/Views/form_output.php(122): CodeIgniter\Debug\Exceptions->errorHandler(8192, 'Function money_format() is deprecated', 'APPPATH/Views/form_output.php', 122, [...])
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/form_output.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render('form_output', [], true)
+ 5 APPPATH/Controllers/Home.php(61): view('form_output', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Home->view()
+ 7 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-28 19:48:21 --> Function money_format() is deprecated
+in APPPATH/Views/form_output.php on line 122.
+ 1 APPPATH/Views/form_output.php(122): CodeIgniter\Debug\Exceptions->errorHandler(8192, 'Function money_format() is deprecated', 'APPPATH/Views/form_output.php', 122, [...])
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/form_output.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render('form_output', [], true)
+ 5 APPPATH/Controllers/Home.php(61): view('form_output', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Home->view()
+ 7 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-28 19:52:18 --> Function money_format() is deprecated
+in APPPATH/Views/form_output.php on line 122.
+ 1 APPPATH/Views/form_output.php(122): CodeIgniter\Debug\Exceptions->errorHandler(8192, 'Function money_format() is deprecated', 'APPPATH/Views/form_output.php', 122, [...])
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/form_output.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render('form_output', [], true)
+ 5 APPPATH/Controllers/Home.php(61): view('form_output', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Home->view()
+ 7 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-28 19:54:37 --> Undefined variable: dgfata
+in APPPATH/Controllers/Home.php on line 60.
+ 1 APPPATH/Controllers/Home.php(60): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: dgfata', 'APPPATH/Controllers/Home.php', 60, [...])
+ 2 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Home->view()
+ 3 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-28 19:56:40 --> Function money_format() is deprecated
+in APPPATH/Views/form_output.php on line 122.
+ 1 APPPATH/Views/form_output.php(122): CodeIgniter\Debug\Exceptions->errorHandler(8192, 'Function money_format() is deprecated', 'APPPATH/Views/form_output.php', 122, [...])
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/form_output.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render('form_output', [], true)
+ 5 APPPATH/Controllers/Home.php(61): view('form_output', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Home->view()
+ 7 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-28 19:57:26 --> Function money_format() is deprecated
+in APPPATH/Views/form_output.php on line 122.
+ 1 APPPATH/Views/form_output.php(122): CodeIgniter\Debug\Exceptions->errorHandler(8192, 'Function money_format() is deprecated', 'APPPATH/Views/form_output.php', 122, [...])
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/form_output.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render('form_output', [], true)
+ 5 APPPATH/Controllers/Home.php(61): view('form_output', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Home->view()
+ 7 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-28 19:58:25 --> Function money_format() is deprecated
+in APPPATH/Views/form_output.php on line 122.
+ 1 APPPATH/Views/form_output.php(122): CodeIgniter\Debug\Exceptions->errorHandler(8192, 'Function money_format() is deprecated', 'APPPATH/Views/form_output.php', 122, [...])
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/form_output.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render('form_output', [], true)
+ 5 APPPATH/Controllers/Home.php(61): view('form_output', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Home->view()
+ 7 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-28 19:59:41 --> Not Found
+in APPPATH/Controllers/Home.php on line 55.
+ 1 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Home->view()
+ 2 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-28 20:00:27 --> Not Found
+in APPPATH/Controllers/Home.php on line 55.
+ 1 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Home->view()
+ 2 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-28 20:02:56 --> Function money_format() is deprecated
+in APPPATH/Views/form_output.php on line 122.
+ 1 APPPATH/Views/form_output.php(122): CodeIgniter\Debug\Exceptions->errorHandler(8192, 'Function money_format() is deprecated', 'APPPATH/Views/form_output.php', 122, [...])
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/form_output.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render('form_output', [], true)
+ 5 APPPATH/Controllers/Home.php(61): view('form_output', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Home->view()
+ 7 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-28 20:02:57 --> Function money_format() is deprecated
+in APPPATH/Views/form_output.php on line 122.
+ 1 APPPATH/Views/form_output.php(122): CodeIgniter\Debug\Exceptions->errorHandler(8192, 'Function money_format() is deprecated', 'APPPATH/Views/form_output.php', 122, [...])
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/form_output.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render('form_output', [], true)
+ 5 APPPATH/Controllers/Home.php(61): view('form_output', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Home->view()
+ 7 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-28 20:02:58 --> Function money_format() is deprecated
+in APPPATH/Views/form_output.php on line 122.
+ 1 APPPATH/Views/form_output.php(122): CodeIgniter\Debug\Exceptions->errorHandler(8192, 'Function money_format() is deprecated', 'APPPATH/Views/form_output.php', 122, [...])
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/form_output.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render('form_output', [], true)
+ 5 APPPATH/Controllers/Home.php(61): view('form_output', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Home->view()
+ 7 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-28 20:03:37 --> Function money_format() is deprecated
+in APPPATH/Views/form_output.php on line 122.
+ 1 APPPATH/Views/form_output.php(122): CodeIgniter\Debug\Exceptions->errorHandler(8192, 'Function money_format() is deprecated', 'APPPATH/Views/form_output.php', 122, [...])
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/form_output.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render('form_output', [], true)
+ 5 APPPATH/Controllers/Home.php(61): view('form_output', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Home->view()
+ 7 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-28 20:03:39 --> Function money_format() is deprecated
+in APPPATH/Views/form_output.php on line 122.
+ 1 APPPATH/Views/form_output.php(122): CodeIgniter\Debug\Exceptions->errorHandler(8192, 'Function money_format() is deprecated', 'APPPATH/Views/form_output.php', 122, [...])
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/form_output.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render('form_output', [], true)
+ 5 APPPATH/Controllers/Home.php(61): view('form_output', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Home->view()
+ 7 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-28 20:03:40 --> Function money_format() is deprecated
+in APPPATH/Views/form_output.php on line 122.
+ 1 APPPATH/Views/form_output.php(122): CodeIgniter\Debug\Exceptions->errorHandler(8192, 'Function money_format() is deprecated', 'APPPATH/Views/form_output.php', 122, [...])
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/form_output.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render('form_output', [], true)
+ 5 APPPATH/Controllers/Home.php(61): view('form_output', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Home->view()
+ 7 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-28 20:03:40 --> Function money_format() is deprecated
+in APPPATH/Views/form_output.php on line 122.
+ 1 APPPATH/Views/form_output.php(122): CodeIgniter\Debug\Exceptions->errorHandler(8192, 'Function money_format() is deprecated', 'APPPATH/Views/form_output.php', 122, [...])
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/form_output.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render('form_output', [], true)
+ 5 APPPATH/Controllers/Home.php(61): view('form_output', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Home->view()
+ 7 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-28 20:03:41 --> Function money_format() is deprecated
+in APPPATH/Views/form_output.php on line 122.
+ 1 APPPATH/Views/form_output.php(122): CodeIgniter\Debug\Exceptions->errorHandler(8192, 'Function money_format() is deprecated', 'APPPATH/Views/form_output.php', 122, [...])
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/form_output.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render('form_output', [], true)
+ 5 APPPATH/Controllers/Home.php(61): view('form_output', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Home->view()
+ 7 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-28 20:03:59 --> Function money_format() is deprecated
+in APPPATH/Views/form_output.php on line 122.
+ 1 APPPATH/Views/form_output.php(122): CodeIgniter\Debug\Exceptions->errorHandler(8192, 'Function money_format() is deprecated', 'APPPATH/Views/form_output.php', 122, [...])
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/form_output.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render('form_output', [], true)
+ 5 APPPATH/Controllers/Home.php(61): view('form_output', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Home->view()
+ 7 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-28 20:04:00 --> Function money_format() is deprecated
+in APPPATH/Views/form_output.php on line 122.
+ 1 APPPATH/Views/form_output.php(122): CodeIgniter\Debug\Exceptions->errorHandler(8192, 'Function money_format() is deprecated', 'APPPATH/Views/form_output.php', 122, [...])
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/form_output.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render('form_output', [], true)
+ 5 APPPATH/Controllers/Home.php(61): view('form_output', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Home->view()
+ 7 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-28 20:04:01 --> Function money_format() is deprecated
+in APPPATH/Views/form_output.php on line 122.
+ 1 APPPATH/Views/form_output.php(122): CodeIgniter\Debug\Exceptions->errorHandler(8192, 'Function money_format() is deprecated', 'APPPATH/Views/form_output.php', 122, [...])
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/form_output.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render('form_output', [], true)
+ 5 APPPATH/Controllers/Home.php(61): view('form_output', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Home->view()
+ 7 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-28 20:04:01 --> Function money_format() is deprecated
+in APPPATH/Views/form_output.php on line 122.
+ 1 APPPATH/Views/form_output.php(122): CodeIgniter\Debug\Exceptions->errorHandler(8192, 'Function money_format() is deprecated', 'APPPATH/Views/form_output.php', 122, [...])
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/form_output.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render('form_output', [], true)
+ 5 APPPATH/Controllers/Home.php(61): view('form_output', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Home->view()
+ 7 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-28 20:04:01 --> Function money_format() is deprecated
+in APPPATH/Views/form_output.php on line 122.
+ 1 APPPATH/Views/form_output.php(122): CodeIgniter\Debug\Exceptions->errorHandler(8192, 'Function money_format() is deprecated', 'APPPATH/Views/form_output.php', 122, [...])
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/form_output.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render('form_output', [], true)
+ 5 APPPATH/Controllers/Home.php(61): view('form_output', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Home->view()
+ 7 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-28 20:04:01 --> Function money_format() is deprecated
+in APPPATH/Views/form_output.php on line 122.
+ 1 APPPATH/Views/form_output.php(122): CodeIgniter\Debug\Exceptions->errorHandler(8192, 'Function money_format() is deprecated', 'APPPATH/Views/form_output.php', 122, [...])
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/form_output.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render('form_output', [], true)
+ 5 APPPATH/Controllers/Home.php(61): view('form_output', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Home->view()
+ 7 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-28 20:04:02 --> Function money_format() is deprecated
+in APPPATH/Views/form_output.php on line 122.
+ 1 APPPATH/Views/form_output.php(122): CodeIgniter\Debug\Exceptions->errorHandler(8192, 'Function money_format() is deprecated', 'APPPATH/Views/form_output.php', 122, [...])
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/form_output.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render('form_output', [], true)
+ 5 APPPATH/Controllers/Home.php(61): view('form_output', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Home->view()
+ 7 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-28 20:04:03 --> Function money_format() is deprecated
+in APPPATH/Views/form_output.php on line 122.
+ 1 APPPATH/Views/form_output.php(122): CodeIgniter\Debug\Exceptions->errorHandler(8192, 'Function money_format() is deprecated', 'APPPATH/Views/form_output.php', 122, [...])
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/form_output.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render('form_output', [], true)
+ 5 APPPATH/Controllers/Home.php(61): view('form_output', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Home->view()
+ 7 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-28 20:04:04 --> Function money_format() is deprecated
+in APPPATH/Views/form_output.php on line 122.
+ 1 APPPATH/Views/form_output.php(122): CodeIgniter\Debug\Exceptions->errorHandler(8192, 'Function money_format() is deprecated', 'APPPATH/Views/form_output.php', 122, [...])
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/form_output.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render('form_output', [], true)
+ 5 APPPATH/Controllers/Home.php(61): view('form_output', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Home->view()
+ 7 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-28 20:04:14 --> Function money_format() is deprecated
+in APPPATH/Views/form_output.php on line 122.
+ 1 APPPATH/Views/form_output.php(122): CodeIgniter\Debug\Exceptions->errorHandler(8192, 'Function money_format() is deprecated', 'APPPATH/Views/form_output.php', 122, [...])
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/form_output.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render('form_output', [], true)
+ 5 APPPATH/Controllers/Home.php(61): view('form_output', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Home->view()
+ 7 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-28 20:06:34 --> Function money_format() is deprecated
+in APPPATH/Views/form_output.php on line 122.
+ 1 APPPATH/Views/form_output.php(122): CodeIgniter\Debug\Exceptions->errorHandler(8192, 'Function money_format() is deprecated', 'APPPATH/Views/form_output.php', 122, [...])
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/form_output.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render('form_output', [], true)
+ 5 APPPATH/Controllers/Home.php(61): view('form_output', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Home->view()
+ 7 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-28 20:06:52 --> Function money_format() is deprecated
+in APPPATH/Views/form_output.php on line 122.
+ 1 APPPATH/Views/form_output.php(122): CodeIgniter\Debug\Exceptions->errorHandler(8192, 'Function money_format() is deprecated', 'APPPATH/Views/form_output.php', 122, [...])
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/form_output.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render('form_output', [], true)
+ 5 APPPATH/Controllers/Home.php(61): view('form_output', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Home->view()
+ 7 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-28 20:07:22 --> Function money_format() is deprecated
+in APPPATH/Views/form_output.php on line 122.
+ 1 APPPATH/Views/form_output.php(122): CodeIgniter\Debug\Exceptions->errorHandler(8192, 'Function money_format() is deprecated', 'APPPATH/Views/form_output.php', 122, [...])
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/form_output.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render('form_output', [], true)
+ 5 APPPATH/Controllers/Home.php(61): view('form_output', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Home->view()
+ 7 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-28 20:07:25 --> Function money_format() is deprecated
+in APPPATH/Views/form_output.php on line 122.
+ 1 APPPATH/Views/form_output.php(122): CodeIgniter\Debug\Exceptions->errorHandler(8192, 'Function money_format() is deprecated', 'APPPATH/Views/form_output.php', 122, [...])
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/form_output.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render('form_output', [], true)
+ 5 APPPATH/Controllers/Home.php(61): view('form_output', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Home->view()
+ 7 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-28 20:07:38 --> Function money_format() is deprecated
+in APPPATH/Views/form_output.php on line 122.
+ 1 APPPATH/Views/form_output.php(122): CodeIgniter\Debug\Exceptions->errorHandler(8192, 'Function money_format() is deprecated', 'APPPATH/Views/form_output.php', 122, [...])
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/form_output.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render('form_output', [], true)
+ 5 APPPATH/Controllers/Home.php(61): view('form_output', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Home->view()
+ 7 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-28 20:07:40 --> Function money_format() is deprecated
+in APPPATH/Views/form_output.php on line 122.
+ 1 APPPATH/Views/form_output.php(122): CodeIgniter\Debug\Exceptions->errorHandler(8192, 'Function money_format() is deprecated', 'APPPATH/Views/form_output.php', 122, [...])
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/form_output.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render('form_output', [], true)
+ 5 APPPATH/Controllers/Home.php(61): view('form_output', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Home->view()
+ 7 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-28 20:07:43 --> Function money_format() is deprecated
+in APPPATH/Views/form_output.php on line 122.
+ 1 APPPATH/Views/form_output.php(122): CodeIgniter\Debug\Exceptions->errorHandler(8192, 'Function money_format() is deprecated', 'APPPATH/Views/form_output.php', 122, [...])
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/form_output.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render('form_output', [], true)
+ 5 APPPATH/Controllers/Home.php(61): view('form_output', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Home->view()
+ 7 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-28 20:07:45 --> Function money_format() is deprecated
+in APPPATH/Views/form_output.php on line 122.
+ 1 APPPATH/Views/form_output.php(122): CodeIgniter\Debug\Exceptions->errorHandler(8192, 'Function money_format() is deprecated', 'APPPATH/Views/form_output.php', 122, [...])
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/form_output.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render('form_output', [], true)
+ 5 APPPATH/Controllers/Home.php(61): view('form_output', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Home->view()
+ 7 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-28 20:07:56 --> Function money_format() is deprecated
+in APPPATH/Views/form_output.php on line 122.
+ 1 APPPATH/Views/form_output.php(122): CodeIgniter\Debug\Exceptions->errorHandler(8192, 'Function money_format() is deprecated', 'APPPATH/Views/form_output.php', 122, [...])
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/form_output.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render('form_output', [], true)
+ 5 APPPATH/Controllers/Home.php(61): view('form_output', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Home->view()
+ 7 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-28 20:10:33 --> Function money_format() is deprecated
+in APPPATH/Views/form_output.php on line 122.
+ 1 APPPATH/Views/form_output.php(122): CodeIgniter\Debug\Exceptions->errorHandler(8192, 'Function money_format() is deprecated', 'APPPATH/Views/form_output.php', 122, [...])
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/form_output.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render('form_output', [], true)
+ 5 APPPATH/Controllers/Home.php(61): view('form_output', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Home->view()
+ 7 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-28 20:10:36 --> Function money_format() is deprecated
+in APPPATH/Views/form_output.php on line 122.
+ 1 APPPATH/Views/form_output.php(122): CodeIgniter\Debug\Exceptions->errorHandler(8192, 'Function money_format() is deprecated', 'APPPATH/Views/form_output.php', 122, [...])
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/form_output.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render('form_output', [], true)
+ 5 APPPATH/Controllers/Home.php(61): view('form_output', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Home->view()
+ 7 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-28 20:11:58 --> Function money_format() is deprecated
+in APPPATH/Views/form_output.php on line 122.
+ 1 APPPATH/Views/form_output.php(122): CodeIgniter\Debug\Exceptions->errorHandler(8192, 'Function money_format() is deprecated', 'APPPATH/Views/form_output.php', 122, [...])
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/form_output.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render('form_output', [], true)
+ 5 APPPATH/Controllers/Home.php(61): view('form_output', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Home->view()
+ 7 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-28 20:12:55 --> Function money_format() is deprecated
+in APPPATH/Views/form_output.php on line 129.
+ 1 APPPATH/Views/form_output.php(129): CodeIgniter\Debug\Exceptions->errorHandler(8192, 'Function money_format() is deprecated', 'APPPATH/Views/form_output.php', 129, [...])
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/form_output.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render('form_output', [], true)
+ 5 APPPATH/Controllers/Home.php(61): view('form_output', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Home->view()
+ 7 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-28 20:17:02 --> Undefined variable: sender
+in APPPATH/Views/mail.php on line 9.
+ 1 APPPATH/Views/mail.php(9): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: sender', 'APPPATH/Views/mail.php', 9, [...])
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/mail.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render('mail', [], true)
+ 5 APPPATH/Controllers/Home.php(61): view('mail', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Home->view()
+ 7 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-28 20:17:38 --> Undefined variable: sender
+in APPPATH/Views/mail.php on line 9.
+ 1 APPPATH/Views/mail.php(9): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: sender', 'APPPATH/Views/mail.php', 9, [...])
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/mail.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render('mail', [], true)
+ 5 APPPATH/Controllers/Home.php(61): view('mail', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Home->view()
+ 7 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-28 20:17:52 --> Undefined variable: sender
+in APPPATH/Views/mail.php on line 9.
+ 1 APPPATH/Views/mail.php(9): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: sender', 'APPPATH/Views/mail.php', 9, [...])
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/mail.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render('mail', [], true)
+ 5 APPPATH/Controllers/Home.php(61): view('mail', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Home->view()
+ 7 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-28 20:23:50 --> Undefined variable: sender
+in APPPATH/Views/mail.php on line 9.
+ 1 APPPATH/Views/mail.php(9): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: sender', 'APPPATH/Views/mail.php', 9, [...])
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/mail.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render('mail', [], true)
+ 5 APPPATH/Controllers/Home.php(61): view('mail', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Home->view()
+ 7 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-28 20:27:29 --> Undefined variable: sender
+in APPPATH/Views/mail.php on line 9.
+ 1 APPPATH/Views/mail.php(9): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: sender', 'APPPATH/Views/mail.php', 9, [...])
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/mail.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render('mail', [], true)
+ 5 APPPATH/Controllers/Home.php(61): view('mail', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Home->view()
+ 7 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()

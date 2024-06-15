@@ -1,0 +1,172 @@
+CRITICAL - 2022-12-02 06:47:33 --> count(): Parameter must be an array or an object that implements Countable
+in APPPATH/Views/disapproval.php on line 122.
+ 1 APPPATH/Views/disapproval.php(122): CodeIgniter\Debug\Exceptions->errorHandler(2, 'count(): Parameter must be an array or an object that implements Countable', 'APPPATH/Views/disapproval.php', 122, [...])
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/disapproval.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render('disapproval', [], true)
+ 5 APPPATH/Controllers/Home.php(16): view('disapproval')
+ 6 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Home->index()
+ 7 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-02 07:02:12 --> count(): Parameter must be an array or an object that implements Countable
+in APPPATH/Views/disapproval.php on line 122.
+ 1 APPPATH/Views/disapproval.php(122): CodeIgniter\Debug\Exceptions->errorHandler(2, 'count(): Parameter must be an array or an object that implements Countable', 'APPPATH/Views/disapproval.php', 122, [...])
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/disapproval.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render('disapproval', [], true)
+ 5 APPPATH/Controllers/Home.php(16): view('disapproval')
+ 6 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Home->index()
+ 7 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-02 07:21:13 --> count(): Parameter must be an array or an object that implements Countable
+in APPPATH/Views/disapproval.php on line 135.
+ 1 APPPATH/Views/disapproval.php(135): CodeIgniter\Debug\Exceptions->errorHandler(2, 'count(): Parameter must be an array or an object that implements Countable', 'APPPATH/Views/disapproval.php', 135, [...])
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/disapproval.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render('disapproval', [], true)
+ 5 APPPATH/Controllers/Home.php(16): view('disapproval')
+ 6 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Home->index()
+ 7 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-02 07:21:22 --> count(): Parameter must be an array or an object that implements Countable
+in APPPATH/Views/disapproval.php on line 135.
+ 1 APPPATH/Views/disapproval.php(135): CodeIgniter\Debug\Exceptions->errorHandler(2, 'count(): Parameter must be an array or an object that implements Countable', 'APPPATH/Views/disapproval.php', 135, [...])
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/disapproval.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render('disapproval', [], true)
+ 5 APPPATH/Controllers/Home.php(16): view('disapproval')
+ 6 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Home->index()
+ 7 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-02 07:39:49 --> Cannot use isset() on the result of an expression (you can use "null !== expression" instead)
+in APPPATH/Controllers/Home.php on line 374.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2022-12-02 07:40:08 --> Cannot use isset() on the result of an expression (you can use "null !== expression" instead)
+in APPPATH/Controllers/Home.php on line 374.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2022-12-02 08:07:35 --> Undefined index: submission
+in APPPATH/Views/disapproval.php on line 37.
+ 1 APPPATH/Views/disapproval.php(37): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: submission', 'APPPATH/Views/disapproval.php', 37, [...])
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/disapproval.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render('disapproval', [], true)
+ 5 APPPATH/Controllers/Home.php(408): view('disapproval', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Home->disapprove()
+ 7 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-02 08:10:31 --> Undefined variable: prevApprover
+in APPPATH/Controllers/Home.php on line 449.
+ 1 APPPATH/Controllers/Home.php(449): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: prevApprover', 'APPPATH/Controllers/Home.php', 449, [...])
+ 2 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Home->submitnotes()
+ 3 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-02 08:11:06 --> Undefined variable: hierarchy
+in APPPATH/Controllers/Home.php on line 425.
+ 1 APPPATH/Controllers/Home.php(425): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: hierarchy', 'APPPATH/Controllers/Home.php', 425, [...])
+ 2 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Home->submitnotes()
+ 3 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-02 08:13:00 --> Undefined index: 
+in APPPATH/Controllers/Home.php on line 476.
+ 1 APPPATH/Controllers/Home.php(476): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: ', 'APPPATH/Controllers/Home.php', 476, [...])
+ 2 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Home->submitnotes()
+ 3 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-02 08:14:27 --> Undefined index: 
+in APPPATH/Controllers/Home.php on line 476.
+ 1 APPPATH/Controllers/Home.php(476): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: ', 'APPPATH/Controllers/Home.php', 476, [...])
+ 2 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Home->submitnotes()
+ 3 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-02 08:19:31 --> syntax error, unexpected end of file, expecting function (T_FUNCTION) or const (T_CONST)
+in APPPATH/Controllers/Home.php on line 505.
+ 1 SYSTEMPATH/Autoloader/Autoloader.php(259): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH/Controllers/Home.php')
+ 2 SYSTEMPATH/Autoloader/Autoloader.php(237): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Home')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Home')
+ 4 [internal function]: spl_autoload_call('App\\Controllers\\Home')
+ 5 SYSTEMPATH/CodeIgniter.php(877): class_exists('\\App\\Controllers\\Home', true)
+ 6 SYSTEMPATH/CodeIgniter.php(469): CodeIgniter\CodeIgniter->startController()
+ 7 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-02 08:20:40 --> Undefined index: message
+in APPPATH/Controllers/Home.php on line 490.
+ 1 APPPATH/Controllers/Home.php(490): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: message', 'APPPATH/Controllers/Home.php', 490, [...])
+ 2 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Home->submitnotes()
+ 3 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-02 09:04:58 --> Undefined variable: disapproved
+in APPPATH/Views/disapproval.php on line 37.
+ 1 APPPATH/Views/disapproval.php(37): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: disapproved', 'APPPATH/Views/disapproval.php', 37, [...])
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/disapproval.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render('disapproval', [], true)
+ 5 APPPATH/Controllers/Home.php(408): view('disapproval', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Home->disapprove()
+ 7 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-02 09:09:59 --> Undefined variable: disapproved
+in APPPATH/Views/disapproval.php on line 37.
+ 1 APPPATH/Views/disapproval.php(37): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: disapproved', 'APPPATH/Views/disapproval.php', 37, [...])
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/disapproval.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render('disapproval', [], true)
+ 5 APPPATH/Controllers/Home.php(408): view('disapproval', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Home->disapprove()
+ 7 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-02 09:11:20 --> Undefined variable: disapproved
+in APPPATH/Views/disapproval.php on line 37.
+ 1 APPPATH/Views/disapproval.php(37): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: disapproved', 'APPPATH/Views/disapproval.php', 37, [...])
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/disapproval.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render('disapproval', [], true)
+ 5 APPPATH/Controllers/Home.php(408): view('disapproval', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Home->disapprove()
+ 7 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-02 09:11:44 --> Undefined variable: disapproved
+in APPPATH/Views/disapproval.php on line 37.
+ 1 APPPATH/Views/disapproval.php(37): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: disapproved', 'APPPATH/Views/disapproval.php', 37, [...])
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/disapproval.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render('disapproval', [], true)
+ 5 APPPATH/Controllers/Home.php(408): view('disapproval', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Home->disapprove()
+ 7 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-02 09:14:57 --> Undefined variable: disapproved
+in APPPATH/Views/disapproval.php on line 37.
+ 1 APPPATH/Views/disapproval.php(37): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: disapproved', 'APPPATH/Views/disapproval.php', 37, [...])
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/disapproval.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render('disapproval', [], true)
+ 5 APPPATH/Controllers/Home.php(408): view('disapproval', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Home->disapprove()
+ 7 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-02 09:14:59 --> Undefined variable: disapproved
+in APPPATH/Views/disapproval.php on line 37.
+ 1 APPPATH/Views/disapproval.php(37): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: disapproved', 'APPPATH/Views/disapproval.php', 37, [...])
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/disapproval.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render('disapproval', [], true)
+ 5 APPPATH/Controllers/Home.php(408): view('disapproval', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Home->disapprove()
+ 7 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()

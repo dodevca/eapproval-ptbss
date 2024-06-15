@@ -1,0 +1,78 @@
+CRITICAL - 2023-01-02 03:58:29 --> Undefined variable: results
+in APPPATH/Controllers/Home.php on line 815.
+ 1 APPPATH/Controllers/Home.php(815): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: results', 'APPPATH/Controllers/Home.php', 815, [...])
+ 2 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Home->query()
+ 3 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-02 03:58:30 --> Undefined variable: results
+in APPPATH/Controllers/Home.php on line 815.
+ 1 APPPATH/Controllers/Home.php(815): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: results', 'APPPATH/Controllers/Home.php', 815, [...])
+ 2 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Home->query()
+ 3 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-02 03:58:47 --> Trying to get property 'description' of non-object
+in APPPATH/Controllers/Home.php on line 815.
+ 1 APPPATH/Controllers/Home.php(815): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'description\' of non-object', 'APPPATH/Controllers/Home.php', 815, [...])
+ 2 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Home->query()
+ 3 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-02 03:58:48 --> Trying to get property 'description' of non-object
+in APPPATH/Controllers/Home.php on line 815.
+ 1 APPPATH/Controllers/Home.php(815): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'description\' of non-object', 'APPPATH/Controllers/Home.php', 815, [...])
+ 2 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Home->query()
+ 3 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-02 03:59:28 --> Undefined variable: key
+in APPPATH/Controllers/Home.php on line 815.
+ 1 APPPATH/Controllers/Home.php(815): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: key', 'APPPATH/Controllers/Home.php', 815, [...])
+ 2 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Home->query()
+ 3 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-02 03:59:28 --> Undefined variable: key
+in APPPATH/Controllers/Home.php on line 815.
+ 1 APPPATH/Controllers/Home.php(815): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: key', 'APPPATH/Controllers/Home.php', 815, [...])
+ 2 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Home->query()
+ 3 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-02 03:59:29 --> Undefined variable: key
+in APPPATH/Controllers/Home.php on line 815.
+ 1 APPPATH/Controllers/Home.php(815): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: key', 'APPPATH/Controllers/Home.php', 815, [...])
+ 2 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Home->query()
+ 3 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-02 03:59:30 --> Undefined variable: key
+in APPPATH/Controllers/Home.php on line 815.
+ 1 APPPATH/Controllers/Home.php(815): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: key', 'APPPATH/Controllers/Home.php', 815, [...])
+ 2 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Home->query()
+ 3 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-02 03:59:30 --> Undefined variable: key
+in APPPATH/Controllers/Home.php on line 815.
+ 1 APPPATH/Controllers/Home.php(815): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: key', 'APPPATH/Controllers/Home.php', 815, [...])
+ 2 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Home->query()
+ 3 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-02 04:15:35 --> Cannot use [] for reading
+in APPPATH/Controllers/Home.php on line 810.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-01-02 04:15:36 --> Cannot use [] for reading
+in APPPATH/Controllers/Home.php on line 810.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-01-02 13:42:41 --> checkdnsrr(): Host cannot be empty
+in APPPATH/Models/User_models.php on line 48.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'checkdnsrr(): Host cannot be empty', 'APPPATH/Models/User_models.php', 48, [...])
+ 2 APPPATH/Models/User_models.php(48): checkdnsrr('ROOTPATH/public', 'MX')
+ 3 APPPATH/Controllers/Home.php(38): App\Models\User_models->validEmail(null)
+ 4 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Home->authEmail()
+ 5 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
